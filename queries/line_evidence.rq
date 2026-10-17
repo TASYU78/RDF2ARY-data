@@ -1,0 +1,39 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdf2ary: <https://w3id.org/rdf2ary/nary#>
+
+SELECT ?line ?annotationId ?source ?selectorType ?startOffset ?endOffset ?x ?y ?width ?height ?startTime ?endTime ?startFrame ?endFrame ?frameRate ?frameIndexBase
+WHERE {
+  ?annotation dcterms:identifier ?annotationId ;
+              rdf2ary:hasAssertion ?assertion ;
+              rdf2ary:hasTarget ?target .
+  ?assertion rdf:object ?line .
+  ?target rdf2ary:hasSource ?source ;
+          rdf2ary:hasSelector ?selector .
+  {
+    ?selector a rdf2ary:TextPositionSelector ;
+              rdf2ary:startOffset ?startOffset ; rdf2ary:endOffset ?endOffset .
+    BIND(rdf2ary:TextPositionSelector AS ?selectorType)
+  } UNION {
+    ?selector a rdf2ary:ImageRegionSelector ;
+              rdf2ary:x ?x ; rdf2ary:y ?y ;
+              rdf2ary:width ?width ; rdf2ary:height ?height .
+    BIND(rdf2ary:ImageRegionSelector AS ?selectorType)
+  } UNION {
+    ?selector a rdf2ary:TemporalSegmentSelector ;
+              rdf2ary:startTime ?startTime ; rdf2ary:endTime ?endTime .
+    OPTIONAL { ?selector rdf2ary:startFrame ?startFrame ; rdf2ary:endFrame ?endFrame . }
+    BIND(rdf2ary:TemporalSegmentSelector AS ?selectorType)
+  } UNION {
+    ?selector a rdf2ary:VideoSceneSelector ;
+              rdf2ary:hasSpatialComponent ?spatial ; rdf2ary:hasTemporalComponent ?temporal .
+    ?spatial rdf2ary:x ?x ; rdf2ary:y ?y ; rdf2ary:width ?width ; rdf2ary:height ?height .
+    ?temporal rdf2ary:startTime ?startTime ; rdf2ary:startFrame ?startFrame ;
+              rdf2ary:frameRate ?frameRate ; rdf2ary:frameIndexBase ?frameIndexBase .
+    OPTIONAL { ?temporal rdf2ary:endTime ?endTime . }
+    OPTIONAL { ?temporal rdf2ary:endFrame ?endFrame . }
+    BIND(rdf2ary:VideoSceneSelector AS ?selectorType)
+  }
+  FILTER(STRSTARTS(STR(?line), "urn:rdf2ary:baima:line:"))
+}
+ORDER BY ?line ?source ?annotationId

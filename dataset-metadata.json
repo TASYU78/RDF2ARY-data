@@ -1,0 +1,18 @@
+{
+  "title": "RDF2ARY: Multimodal Annotation Data, RDF Graphs and Validation Results for a Classical Chinese Poetry Case",
+  "version": "1.0.0",
+  "creators": [
+    "Yanjie Huang",
+    "Tao Chen"
+  ],
+  "repository": "https://github.com/TASYU78/RDF2ARY-data",
+  "doi": null,
+  "license": null,
+  "related_manuscript": "Unified Semantic Storage and Graph Construction for Multimodal Annotations: A Case Study of Classical Chinese Poetry",
+  "source_code_included": false,
+  "original_media_binaries_included": false,
+  "record_count": 22,
+  "base_graph_triples": 608,
+  "annotation_core_triples": 606,
+  "access_enriched_graph_triples": 630
+}

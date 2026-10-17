@@ -1,0 +1,263 @@
+{
+  "checked_at": "2026-10-08T02:52:56.663453+00:00",
+  "all_passed": true,
+  "document_count": 25,
+  "page_annotation_counts": {
+    "web-annotation": 17,
+    "iiif-image": 5
+  },
+  "documents": [
+    {
+      "url": "http://127.0.0.1:8081/manifests/baima-pian-annotated.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "8f26fa9174a4570c3c881b63219f3f27586791b38b4953f0ccd9bb4019c50e24",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/web-annotation/page.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "dafae58467b37fbc4420c55c44bffe0ba9777a23d4efe6be6f21a14d5dd91000",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-10-11-7e_kYIdWNi-8f3e19e72d.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "28c67be90f6755f94b1e3b0ffa3fe826c4c85d6b0d777557fa050843920f03b3",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-10-11-UdRHeO3EpE-36a2d6e6b3.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "01d242065d11b34ea5be3947a1f298d849a81c182a7afbfad128d0d0618d3fee",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-11-12-tYLFHeFjaT-675ff4ad32.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "beeee88e8c53b69c4c9231d846c8c2d9dfaf7ed1f7a96730ab8f76f4487603f2",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-12-13-oRAo4bw5WK-fe9a02a33f.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "a09b22dd421c9ebd04dc5cbd7de66133e8ddcf6c16efc53ebe37865f9a6473c7",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-25-14-68EgssTfcl-8f3e19e72d.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "fb020b6818a2668f7a257be3f36a3795b7734a9545d38e6b88d32759b839e032",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-25-14-_WdLSMlbxE-fe9a02a33f.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "3bec69d30a2afb461687676487dddb475337268178c76f9f71685728dca46185",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-25-14-foBinZ9l8b-36a2d6e6b3.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "0f726efc22ee706c5d6dce6486171b43494a96862d71efc280e4aa2dbadcc1fe",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-25-14-jdh93sXcPQ-675ff4ad32.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "86f8a922e3c92eca593fe0b91dd4acc2f3d8aca603d14c0897f582a4c6309a16",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-25-14-zxvRUh81yk-675ff4ad32.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "57df97e6ef28478b2dd5be3328cce9a15e1413602321a8c53472001bb5b180a8",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-26-15-lQH4z-36a2d6e6b3.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "b4feb36f3b597085b9f553eaad652fba5f78b6e3ae2ee3deb984a9a33aa230b9",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-26-15-lWkmj-fe9a02a33f.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "63f54eeaa1a59669aa000e4ba8c2b04e61e17900888e356c502c941175775b65",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-26-15-qPP2s-675ff4ad32.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "9b89700995c103e6b36df1e05e9c91cc2ef60ddc51dcc15a73c110a94bbc6942",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-26-15-zCWqU-8f3e19e72d.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "3fbfb0b101d53647e8e6d4af26a8f2cfb8696fe2658bc865cac8993a7fd577ec",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-27-16-63tiG_ZX42-range-0-675ff4ad32.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "c08344ed1676f47e420da28de4a019560abd86edb5b143ffbfa1cd99ff682841",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-27-16-B3uG7QlPPn-range-0-8f3e19e72d.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "0e0098bff6a8243038294e65a8f440aa6f50b39a3b8ea20503c98c7132e85150",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-27-16-b1BY7Iu5hI-range-0-36a2d6e6b3.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "2088608d6008a16d01d2d49e70a835aff0354347345be5df1675787743ffb547",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-27-16-ibU5a11DWa-range-0-fe9a02a33f.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "c2d5fc9a4631b6d91abf1d6bb3070c2e6458c606855999b6e9de46a8c09266ab",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/iiif-image/page.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "8936a8476d343ec7943b90e9396e8123a46fd283d81ef673fab3d0adf6e79fec",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/iiif-image/annotations/ls-25-14-68EgssTfcl-8f3e19e72d.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "9094266924f5aadfb86e83970e8c87a96131dcfd276e9eb6044cf693b38ece7f",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/iiif-image/annotations/ls-25-14-_WdLSMlbxE-fe9a02a33f.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "44b7a8afc28176f43bfc2f626f1b3cbfe6b905dbd59d8126552afe60c5bb04ca",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/iiif-image/annotations/ls-25-14-foBinZ9l8b-36a2d6e6b3.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "833f212c074500d6b36bb79e303cb0da579d2217b66b0f11a6d5db9de7f333a4",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/iiif-image/annotations/ls-25-14-jdh93sXcPQ-675ff4ad32.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "8acf302141c9eb9b05322768ae3aa999770102fc648ff4099a5ecd383194d70b",
+      "matches_local_file": true
+    },
+    {
+      "url": "http://127.0.0.1:8081/manifests/standards/iiif-image/annotations/ls-25-14-zxvRUh81yk-675ff4ad32.json",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "02c59345a9e11cf1b18546d8f1de86607663e337f273f9ea512f731f33816f37",
+      "matches_local_file": true
+    }
+  ],
+  "text_selectors": [
+    {
+      "annotation_id": "ls-10-11-7e_kYIdWNi-8f3e19e72d",
+      "quote": "白马",
+      "matches_http_text": true
+    },
+    {
+      "annotation_id": "ls-10-11-UdRHeO3EpE-36a2d6e6b3",
+      "quote": "白马饰金羁，连翩西北驰。",
+      "matches_http_text": true
+    },
+    {
+      "annotation_id": "ls-11-12-tYLFHeFjaT-675ff4ad32",
+      "quote": "借问谁家子，幽并游侠儿。",
+      "matches_http_text": true
+    },
+    {
+      "annotation_id": "ls-12-13-oRAo4bw5WK-fe9a02a33f",
+      "quote": "少小去乡邑，扬声沙漠垂。",
+      "matches_http_text": true
+    }
+  ],
+  "image_crops": [
+    {
+      "annotation_id": "ls-25-14-68EgssTfcl-8f3e19e72d",
+      "url": "http://127.0.0.1:8081/iiif/3/baima-page-01.png/572,24,33,41/max/0/default.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": [
+        33,
+        41
+      ]
+    },
+    {
+      "annotation_id": "ls-25-14-_WdLSMlbxE-fe9a02a33f",
+      "url": "http://127.0.0.1:8081/iiif/3/baima-page-01.png/514,18,28,206/max/0/default.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": [
+        28,
+        206
+      ]
+    },
+    {
+      "annotation_id": "ls-25-14-foBinZ9l8b-36a2d6e6b3",
+      "url": "http://127.0.0.1:8081/iiif/3/baima-page-01.png/573,18,27,226/max/0/default.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": [
+        27,
+        226
+      ]
+    },
+    {
+      "annotation_id": "ls-25-14-jdh93sXcPQ-675ff4ad32",
+      "url": "http://127.0.0.1:8081/iiif/3/baima-page-01.png/542,20,30,228/max/0/default.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": [
+        30,
+        228
+      ]
+    },
+    {
+      "annotation_id": "ls-25-14-zxvRUh81yk-675ff4ad32",
+      "url": "http://127.0.0.1:8081/iiif/3/baima-page-01.png/540,454,25,24/max/0/default.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": [
+        25,
+        24
+      ]
+    }
+  ],
+  "canvas_painting_preserved": true,
+  "viewer_entry_http": 200,
+  "note": "Audio/video targets retain URNs; playback is outside this HTTP verification."
+}

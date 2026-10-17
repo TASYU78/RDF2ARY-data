@@ -1,0 +1,23 @@
+{
+  "raw_export": "video-project-19.json",
+  "expected_filename": "白马篇视频.mp4",
+  "resource_iri": "urn:rdf2ary:baima:resource:video-01",
+  "resource_label": "白马篇粤语视频",
+  "mapping": {
+    "video_field": "source_uri",
+    "source_label_field": "source_label",
+    "source_language": "yue",
+    "subject_base_iri": "urn:rdf2ary:baima:region:video/",
+    "predicate": "http://purl.org/dc/terms/references",
+    "timeline_from_name": "line",
+    "video_to_name": "video",
+    "frame_rate": 30,
+    "frame_index_base": 1,
+    "end_frame_inclusive": true,
+    "label_mapping": {
+      "bm-line-01": {"kind": "iri", "value": "urn:rdf2ary:baima:line:01"},
+      "bm-line-02": {"kind": "iri", "value": "urn:rdf2ary:baima:line:02"},
+      "bm-line-03": {"kind": "iri", "value": "urn:rdf2ary:baima:line:03"}
+    }
+  }
+}

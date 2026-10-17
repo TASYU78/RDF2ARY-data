@@ -1,0 +1,22 @@
+{
+  "raw_export": "video-project-19-with-scenes.json",
+  "resource_iri": "urn:rdf2ary:baima:resource:video-01",
+  "resource_label": "白马篇粤语视频",
+  "mapping": {
+    "video_field": "source_uri",
+    "source_label_field": "source_label",
+    "source_language": "yue",
+    "subject_base_iri": "urn:rdf2ary:baima:region:video-frame/",
+    "predicate": "http://purl.org/dc/terms/references",
+    "rectangle_from_name": "scene_box",
+    "video_to_name": "video",
+    "frame_rate": 30,
+    "frame_index_base": 0,
+    "label_mapping": {
+      "bm-line-01": {"kind": "iri", "value": "urn:rdf2ary:baima:line:01"},
+      "bm-line-02": {"kind": "iri", "value": "urn:rdf2ary:baima:line:02"},
+      "bm-line-03": {"kind": "iri", "value": "urn:rdf2ary:baima:line:03"},
+      "White horse": {"kind": "iri", "value": "urn:rdf2ary:baima:concept:white-horse"}
+    }
+  }
+}

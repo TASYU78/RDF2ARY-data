@@ -1,0 +1,634 @@
+{
+  "source_sha256": "7d1212e2e06cd2ab43c7fb99b73f9d6a5be7aff8ef0641301bb0a8d210b66dce",
+  "input_sha256": {
+    "outputs/full-canonical-records.json": "84a8a6e4d7dfc15f071dd86084fa7753348c3c9e4a44bdbd0ecafae2ee6592a7",
+    "raw-exports/video-project-19-with-scenes.json": "fd2f201ef5b2f387f73bbeacb4267e73777bfb4e51227aef1c3c95c898107094",
+    "outputs/case-five-modality.ttl": "7d1212e2e06cd2ab43c7fb99b73f9d6a5be7aff8ef0641301bb0a8d210b66dce",
+    "raw-exports/text-project-13-full.json": "20526f01e085047f7cbddb73f80ef26995ae5d79b713d1c328ed18d14c917016",
+    "raw-exports/audio-project-18-full.json": "3a3bf5b6e07f17b82995702c10e65aeedfabfaee2802775875eb172c476a157b",
+    "raw-exports/scene-full.svx.json": "1c336c8611b7ba331cf80508d0d5c489e5f361685c7d2c703f0cf6397916a552",
+    "raw-exports/image-project-17-full.json": "41df9a9980640436811c3206787f6463cd4913f796bd60952f6ca0688ef3f04a"
+  },
+  "record_count": 22,
+  "strict_parse_count": 22,
+  "all_record_fields_match": true,
+  "rebuilt_record_count": 22,
+  "rebuilt_core_triples": 606,
+  "source_triples": 608,
+  "rebuilt_core_shacl_valid": true,
+  "core_graph_isomorphic_after_excluding_domain_links": true,
+  "domain_triples_outside_record_scope": [
+    [
+      "urn:rdf2ary:baima:concept:white-horse",
+      "http://www.w3.org/2000/01/rdf-schema#label",
+      "白马"
+    ],
+    [
+      "urn:rdf2ary:baima:line:01",
+      "http://purl.org/dc/terms/subject",
+      "urn:rdf2ary:baima:concept:white-horse"
+    ]
+  ],
+  "comparison_scope": "Annotation identity, assertion metadata, source, selectors and provenance; source identifiers compared lexically. Independent domain links are outside per-record expressions.",
+  "display_note": "IRI aliases for readability; decimals rounded to six places only in table. Full precision and all envelope fields retained in machine-readable documents.",
+  "record_checks": [
+    {
+      "annotation_id": "ls-10-11-7e_kYIdWNi-8f3e19e72d",
+      "media_type": "text",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:text/7b797bd1c3c67409/0-2-146d79287d4c> dcterms:references <urn:rdf2ary:baima:concept:white-horse>)\n^in(ι char:0 char:2)"
+    },
+    {
+      "annotation_id": "ls-10-11-UdRHeO3EpE-36a2d6e6b3",
+      "media_type": "text",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:text/7b797bd1c3c67409/0-12-300645335154> dcterms:references <urn:rdf2ary:baima:line:01>)\n^in(ι char:0 char:12)"
+    },
+    {
+      "annotation_id": "ls-11-12-tYLFHeFjaT-675ff4ad32",
+      "media_type": "text",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:text/7b797bd1c3c67409/13-25-e2e2c1db9748> dcterms:references <urn:rdf2ary:baima:line:02>)\n^in(ι char:13 char:25)"
+    },
+    {
+      "annotation_id": "ls-12-13-oRAo4bw5WK-fe9a02a33f",
+      "media_type": "text",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:text/7b797bd1c3c67409/26-38-13d4350a0b9f> dcterms:references <urn:rdf2ary:baima:line:03>)\n^in(ι char:26 char:38)"
+    },
+    {
+      "annotation_id": "ls-25-14-68EgssTfcl-8f3e19e72d",
+      "media_type": "image",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:image/25/14/68EgssTfcl> dcterms:references <urn:rdf2ary:baima:concept:white-horse>)\n^in(ω pct:84.33793011112598 pct:4.909090909090909 pct:4.648547328959708 pct:7.999999999999999)"
+    },
+    {
+      "annotation_id": "ls-25-14-_WdLSMlbxE-fe9a02a33f",
+      "media_type": "image",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:image/25/14/_WdLSMlbxE> dcterms:references <urn:rdf2ary:baima:line:03>)\n^in(ω pct:75.84280966062275 pct:3.642987249544627 pct:3.858669263435189 pct:41.34790528233151)"
+    },
+    {
+      "annotation_id": "ls-25-14-foBinZ9l8b-36a2d6e6b3",
+      "media_type": "image",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:image/25/14/foBinZ9l8b> dcterms:references <urn:rdf2ary:baima:line:01>)\n^in(ω pct:84.49130919031204 pct:3.825467792680907 pct:3.858669263435189 pct:45.355191256830594)"
+    },
+    {
+      "annotation_id": "ls-25-14-jdh93sXcPQ-675ff4ad32",
+      "media_type": "image",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:image/25/14/jdh93sXcPQ> dcterms:references <urn:rdf2ary:baima:line:02>)\n^in(ω pct:79.83453648486605 pct:4.189435336976321 pct:4.390899506667623 pct:45.71948998178506)"
+    },
+    {
+      "annotation_id": "ls-25-14-zxvRUh81yk-675ff4ad32",
+      "media_type": "image",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:image/25/14/zxvRUh81yk> dcterms:references <urn:rdf2ary:baima:line:02>)\n^in(ω pct:79.56842136324983 pct:91.62112932604735 pct:3.5925541418189653 pct:4.553734061930783)"
+    },
+    {
+      "annotation_id": "ls-26-15-lQH4z-36a2d6e6b3",
+      "media_type": "audio",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:audio/62df738617e578a5/4.849275428571429-10.910869714285715-ch0> dcterms:references <urn:rdf2ary:baima:line:01>)\n^in(δ sec:4.849275428571429 sec:10.910869714285715)"
+    },
+    {
+      "annotation_id": "ls-26-15-lWkmj-fe9a02a33f",
+      "media_type": "audio",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:audio/62df738617e578a5/17.275543714285714-23.23611142857143-ch0> dcterms:references <urn:rdf2ary:baima:line:03>)\n^in(δ sec:17.275543714285714 sec:23.23611142857143)"
+    },
+    {
+      "annotation_id": "ls-26-15-qPP2s-675ff4ad32",
+      "media_type": "audio",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:audio/62df738617e578a5/11.21394942857143-17.174517142857145-ch0> dcterms:references <urn:rdf2ary:baima:line:02>)\n^in(δ sec:11.21394942857143 sec:17.174517142857145)"
+    },
+    {
+      "annotation_id": "ls-26-15-zCWqU-8f3e19e72d",
+      "media_type": "audio",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:audio/62df738617e578a5/4.933387528473804-5.949354162352454-ch0> dcterms:references <urn:rdf2ary:baima:concept:white-horse>)\n^in(δ sec:4.933387528473804 sec:5.949354162352454)"
+    },
+    {
+      "annotation_id": "ls-27-16-63tiG_ZX42-range-0-675ff4ad32",
+      "media_type": "video",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:video/d49e22493da1484c/f344-485-base1-fps30-inclusive> dcterms:references <urn:rdf2ary:baima:line:02>)\n^in(δ sec:11.433333333333334 sec:16.166666666666668)"
+    },
+    {
+      "annotation_id": "ls-27-16-6nbGb-n_ha-36a2d6e6b3",
+      "media_type": "video",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:video-frame/27/16/6nbGb-n_ha> dcterms:references <urn:rdf2ary:baima:line:01>)\n^in(ω pct:31.5625 pct:21.11111111111111 pct:40.15625 pct:9.444444444444445)\n^in(δ sec:7.033333333333333 _)"
+    },
+    {
+      "annotation_id": "ls-27-16-B3uG7QlPPn-range-0-8f3e19e72d",
+      "media_type": "video",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:video/d49e22493da1484c/f211-230-base1-fps30-inclusive> dcterms:references <urn:rdf2ary:baima:concept:white-horse>)\n^in(δ sec:7 sec:7.666666666666667)"
+    },
+    {
+      "annotation_id": "ls-27-16-b1BY7Iu5hI-range-0-36a2d6e6b3",
+      "media_type": "video",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:video/d49e22493da1484c/f211-344-base1-fps30-inclusive> dcterms:references <urn:rdf2ary:baima:line:01>)\n^in(δ sec:7 sec:11.466666666666667)"
+    },
+    {
+      "annotation_id": "ls-27-16-ibU5a11DWa-range-0-fe9a02a33f",
+      "media_type": "video",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:video/d49e22493da1484c/f495-646-base1-fps30-inclusive> dcterms:references <urn:rdf2ary:baima:line:03>)\n^in(δ sec:16.466666666666665 sec:21.533333333333335)"
+    },
+    {
+      "annotation_id": "ls-27-16-mrc44_-2ot-8f3e19e72d",
+      "media_type": "video",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:video-frame/27/16/mrc44_-2ot> dcterms:references <urn:rdf2ary:baima:concept:white-horse>)\n^in(ω pct:32.5 pct:18.88888888888889 pct:6.875000000000001 pct:11.666666666666666)\n^in(δ sec:7.166666666666667 _)"
+    },
+    {
+      "annotation_id": "ls-27-16-od1oCqkq_c-fe9a02a33f",
+      "media_type": "video",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:video-frame/27/16/od1oCqkq_c> dcterms:references <urn:rdf2ary:baima:line:03>)\n^in(ω pct:31.874999999999996 pct:38.05555555555556 pct:40.46875 pct:5.555555555555555)\n^in(δ sec:16.5 _)"
+    },
+    {
+      "annotation_id": "ls-27-16-xubQJ81XAs-675ff4ad32",
+      "media_type": "video",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:video-frame/27/16/xubQJ81XAs> dcterms:references <urn:rdf2ary:baima:line:02>)\n^in(ω pct:31.874999999999996 pct:31.38888888888889 pct:39.6875 pct:5)\n^in(δ sec:11.466666666666667 _)"
+    },
+    {
+      "annotation_id": "voyager-c6ed31e143aa-Dbjzc2xDKRus-8f3e19e72d",
+      "media_type": "3d",
+      "record_fields_match": true,
+      "core_expression": "(<urn:rdf2ary:baima:region:3d-point/c6ed31e143aac4ca/Dbjzc2xDKRus> dcterms:references <urn:rdf2ary:baima:concept:white-horse>)\n^in(α 28.0470118 83.0050894 -5.0763979 w mm)"
+    }
+  ],
+  "concept_examples": [
+    {
+      "code": "T",
+      "label": "文本",
+      "annotation_id": "ls-10-11-7e_kYIdWNi-8f3e19e72d",
+      "source_file": "raw-exports/text-project-13-full.json",
+      "raw_input": {
+        "task_id": 10,
+        "annotation_id": 11,
+        "result": {
+          "value": {
+            "start": 0,
+            "end": 2,
+            "text": "白马",
+            "labels": [
+              "White horse"
+            ]
+          },
+          "id": "7e_kYIdWNi",
+          "from_name": "line",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        }
+      },
+      "record": {
+        "annotation_id": "ls-10-11-7e_kYIdWNi-8f3e19e72d",
+        "source": {
+          "uri": "urn:rdf2ary:baima:resource:text-view",
+          "media_type": "text",
+          "label": "白马篇固定纯文本视图",
+          "language": "zh-Hans"
+        },
+        "selectors": [
+          {
+            "type": "text_position",
+            "start_offset": 0,
+            "end_offset": 2,
+            "unit": "character"
+          },
+          {
+            "type": "text_quote",
+            "exact": "白马",
+            "prefix": null,
+            "suffix": "饰金羁，连翩西北驰。\n借问谁家子，幽并游",
+            "language": "zh-Hans"
+          }
+        ],
+        "assertion": {
+          "subject": "urn:rdf2ary:baima:region:text/7b797bd1c3c67409/0-2-146d79287d4c",
+          "predicate": "http://purl.org/dc/terms/references",
+          "object": {
+            "kind": "iri",
+            "value": "urn:rdf2ary:baima:concept:white-horse"
+          },
+          "subject_label": null,
+          "subject_description": null,
+          "subject_language": null
+        },
+        "provenance": {
+          "tool": "Label Studio",
+          "project_id": "13",
+          "task_id": "10",
+          "source_annotation_id": "11",
+          "annotator": "1",
+          "created_at": "2026-10-04T08:27:40.913401Z"
+        }
+      },
+      "core_expression": "(<urn:rdf2ary:baima:region:text/7b797bd1c3c67409/0-2-146d79287d4c> dcterms:references <urn:rdf2ary:baima:concept:white-horse>)\n^in(ι char:0 char:2)",
+      "display_expression": "(F_T dcterms:references C)\n^in(ι char:0 char:2)",
+      "raw_locator_matches": true,
+      "expression_record_matches": true
+    },
+    {
+      "code": "I",
+      "label": "图像",
+      "annotation_id": "ls-25-14-68EgssTfcl-8f3e19e72d",
+      "source_file": "raw-exports/image-project-17-full.json",
+      "raw_input": {
+        "task_id": 25,
+        "annotation_id": 14,
+        "result": {
+          "original_width": 679,
+          "original_height": 496,
+          "image_rotation": 0,
+          "value": {
+            "x": 84.33793011112598,
+            "y": 4.909090909090909,
+            "width": 4.648547328959708,
+            "height": 7.999999999999999,
+            "rotation": 0,
+            "rectanglelabels": [
+              "White horse"
+            ]
+          },
+          "id": "68EgssTfcl",
+          "from_name": "line",
+          "to_name": "image",
+          "type": "rectanglelabels",
+          "origin": "manual"
+        }
+      },
+      "record": {
+        "annotation_id": "ls-25-14-68EgssTfcl-8f3e19e72d",
+        "source": {
+          "uri": "urn:rdf2ary:baima:resource:image-01",
+          "media_type": "image",
+          "label": "白马篇图像",
+          "language": null
+        },
+        "selectors": [
+          {
+            "type": "image_region",
+            "x": 84.33793011112598,
+            "y": 4.909090909090909,
+            "width": 4.648547328959708,
+            "height": 7.999999999999999,
+            "coordinate_system": "percentage"
+          }
+        ],
+        "assertion": {
+          "subject": "urn:rdf2ary:baima:region:image/25/14/68EgssTfcl",
+          "predicate": "http://purl.org/dc/terms/references",
+          "object": {
+            "kind": "iri",
+            "value": "urn:rdf2ary:baima:concept:white-horse"
+          },
+          "subject_label": null,
+          "subject_description": null,
+          "subject_language": null
+        },
+        "provenance": {
+          "tool": "Label Studio",
+          "project_id": "17",
+          "task_id": "25",
+          "source_annotation_id": "14",
+          "annotator": "1",
+          "created_at": "2026-10-04T08:32:10.946824Z"
+        }
+      },
+      "core_expression": "(<urn:rdf2ary:baima:region:image/25/14/68EgssTfcl> dcterms:references <urn:rdf2ary:baima:concept:white-horse>)\n^in(ω pct:84.33793011112598 pct:4.909090909090909 pct:4.648547328959708 pct:7.999999999999999)",
+      "display_expression": "(F_I dcterms:references C)\n^in(ω pct:84.33793 pct:4.909091 pct:4.648547 pct:8)",
+      "raw_locator_matches": true,
+      "expression_record_matches": true
+    },
+    {
+      "code": "A",
+      "label": "音频",
+      "annotation_id": "ls-26-15-zCWqU-8f3e19e72d",
+      "source_file": "raw-exports/audio-project-18-full.json",
+      "raw_input": {
+        "task_id": 26,
+        "annotation_id": 15,
+        "result": {
+          "original_length": 88.39825,
+          "value": {
+            "start": 4.933387528473804,
+            "end": 5.949354162352454,
+            "channel": 0,
+            "labels": [
+              "White horse"
+            ]
+          },
+          "id": "zCWqU",
+          "from_name": "line",
+          "to_name": "audio",
+          "type": "labels",
+          "origin": "manual"
+        }
+      },
+      "record": {
+        "annotation_id": "ls-26-15-zCWqU-8f3e19e72d",
+        "source": {
+          "uri": "urn:rdf2ary:baima:resource:audio-01",
+          "media_type": "audio",
+          "label": "白马篇普通话朗读",
+          "language": "zh-CN"
+        },
+        "selectors": [
+          {
+            "type": "temporal_segment",
+            "start_time": 4.933387528473804,
+            "end_time": 5.949354162352454,
+            "original_start_timecode": null,
+            "original_end_timecode": null,
+            "timecode_format": null,
+            "channel_index": 0,
+            "start_frame": null,
+            "end_frame": null,
+            "frame_rate": null,
+            "frame_index_base": null,
+            "end_frame_inclusive": null,
+            "unit": "second"
+          }
+        ],
+        "assertion": {
+          "subject": "urn:rdf2ary:baima:region:audio/62df738617e578a5/4.933387528473804-5.949354162352454-ch0",
+          "predicate": "http://purl.org/dc/terms/references",
+          "object": {
+            "kind": "iri",
+            "value": "urn:rdf2ary:baima:concept:white-horse"
+          },
+          "subject_label": null,
+          "subject_description": null,
+          "subject_language": null
+        },
+        "provenance": {
+          "tool": "Label Studio",
+          "project_id": "18",
+          "task_id": "26",
+          "source_annotation_id": "15",
+          "annotator": "1",
+          "created_at": "2026-10-04T09:03:03.803866Z"
+        }
+      },
+      "core_expression": "(<urn:rdf2ary:baima:region:audio/62df738617e578a5/4.933387528473804-5.949354162352454-ch0> dcterms:references <urn:rdf2ary:baima:concept:white-horse>)\n^in(δ sec:4.933387528473804 sec:5.949354162352454)",
+      "display_expression": "(F_A dcterms:references C)\n^in(δ sec:4.933388 sec:5.949354)",
+      "raw_locator_matches": true,
+      "expression_record_matches": true
+    },
+    {
+      "code": "Vt",
+      "label": "视频时间段",
+      "annotation_id": "ls-27-16-B3uG7QlPPn-range-0-8f3e19e72d",
+      "source_file": "raw-exports/video-project-19-with-scenes.json",
+      "raw_input": {
+        "task_id": 27,
+        "annotation_id": 16,
+        "result": {
+          "value": {
+            "ranges": [
+              {
+                "start": 211,
+                "end": 230
+              }
+            ],
+            "timelinelabels": [
+              "White horse"
+            ]
+          },
+          "id": "B3uG7QlPPn",
+          "from_name": "line",
+          "to_name": "video",
+          "type": "timelinelabels",
+          "origin": "manual"
+        }
+      },
+      "record": {
+        "annotation_id": "ls-27-16-B3uG7QlPPn-range-0-8f3e19e72d",
+        "source": {
+          "uri": "urn:rdf2ary:baima:resource:video-01",
+          "media_type": "video",
+          "label": "白马篇粤语视频",
+          "language": "yue"
+        },
+        "selectors": [
+          {
+            "type": "temporal_segment",
+            "start_time": 7.0,
+            "end_time": 7.666666666666667,
+            "original_start_timecode": null,
+            "original_end_timecode": null,
+            "timecode_format": null,
+            "channel_index": null,
+            "start_frame": 211,
+            "end_frame": 230,
+            "frame_rate": 30.0,
+            "frame_index_base": 1,
+            "end_frame_inclusive": true,
+            "unit": "second"
+          }
+        ],
+        "assertion": {
+          "subject": "urn:rdf2ary:baima:region:video/d49e22493da1484c/f211-230-base1-fps30-inclusive",
+          "predicate": "http://purl.org/dc/terms/references",
+          "object": {
+            "kind": "iri",
+            "value": "urn:rdf2ary:baima:concept:white-horse"
+          },
+          "subject_label": null,
+          "subject_description": null,
+          "subject_language": null
+        },
+        "provenance": {
+          "tool": "Label Studio",
+          "project_id": "19",
+          "task_id": "27",
+          "source_annotation_id": "16",
+          "annotator": "1",
+          "created_at": "2026-10-04T09:10:43.905902Z"
+        }
+      },
+      "core_expression": "(<urn:rdf2ary:baima:region:video/d49e22493da1484c/f211-230-base1-fps30-inclusive> dcterms:references <urn:rdf2ary:baima:concept:white-horse>)\n^in(δ sec:7 sec:7.666666666666667)",
+      "display_expression": "(F_Vt dcterms:references C)\n^in(δ sec:7 sec:7.666667)",
+      "raw_locator_matches": true,
+      "expression_record_matches": true
+    },
+    {
+      "code": "Vr",
+      "label": "视频区域",
+      "annotation_id": "ls-27-16-mrc44_-2ot-8f3e19e72d",
+      "source_file": "raw-exports/video-project-19-with-scenes.json",
+      "raw_input": {
+        "task_id": 27,
+        "annotation_id": 16,
+        "result": {
+          "value": {
+            "framesCount": 2589,
+            "duration": 86.285351,
+            "sequence": [
+              {
+                "frame": 215,
+                "enabled": true,
+                "rotation": 0,
+                "x": 32.5,
+                "y": 18.88888888888889,
+                "width": 6.875000000000001,
+                "height": 11.666666666666666,
+                "time": 7.166666666666667
+              }
+            ],
+            "labels": [
+              "White horse"
+            ]
+          },
+          "id": "mrc44_-2ot",
+          "from_name": "scene_box",
+          "to_name": "video",
+          "type": "videorectangle",
+          "origin": "manual"
+        }
+      },
+      "record": {
+        "annotation_id": "ls-27-16-mrc44_-2ot-8f3e19e72d",
+        "source": {
+          "uri": "urn:rdf2ary:baima:resource:video-01",
+          "media_type": "video",
+          "label": "白马篇粤语视频",
+          "language": "yue"
+        },
+        "selectors": [
+          {
+            "type": "video_scene",
+            "spatial": {
+              "type": "image_region",
+              "x": 32.5,
+              "y": 18.88888888888889,
+              "width": 6.875000000000001,
+              "height": 11.666666666666666,
+              "coordinate_system": "percentage"
+            },
+            "temporal": {
+              "type": "temporal_segment",
+              "start_time": 7.166666666666667,
+              "end_time": null,
+              "original_start_timecode": null,
+              "original_end_timecode": null,
+              "timecode_format": null,
+              "channel_index": null,
+              "start_frame": 215,
+              "end_frame": null,
+              "frame_rate": 30.0,
+              "frame_index_base": 0,
+              "end_frame_inclusive": null,
+              "unit": "second"
+            }
+          }
+        ],
+        "assertion": {
+          "subject": "urn:rdf2ary:baima:region:video-frame/27/16/mrc44_-2ot",
+          "predicate": "http://purl.org/dc/terms/references",
+          "object": {
+            "kind": "iri",
+            "value": "urn:rdf2ary:baima:concept:white-horse"
+          },
+          "subject_label": null,
+          "subject_description": null,
+          "subject_language": null
+        },
+        "provenance": {
+          "tool": "Label Studio",
+          "project_id": "19",
+          "task_id": "27",
+          "source_annotation_id": "16",
+          "annotator": "1",
+          "created_at": "2026-10-04T09:10:43.905902Z"
+        }
+      },
+      "core_expression": "(<urn:rdf2ary:baima:region:video-frame/27/16/mrc44_-2ot> dcterms:references <urn:rdf2ary:baima:concept:white-horse>)\n^in(ω pct:32.5 pct:18.88888888888889 pct:6.875000000000001 pct:11.666666666666666)\n^in(δ sec:7.166666666666667 _)",
+      "display_expression": "(F_Vr dcterms:references C)\n^in(ω pct:32.5 pct:18.888889 pct:6.875 pct:11.666667)\n^in(δ sec:7.166667 _)",
+      "raw_locator_matches": true,
+      "expression_record_matches": true
+    },
+    {
+      "code": "D",
+      "label": "三维模型",
+      "annotation_id": "voyager-c6ed31e143aa-Dbjzc2xDKRus-8f3e19e72d",
+      "source_file": "raw-exports/scene-full.svx.json",
+      "raw_input": {
+        "annotation": {
+          "id": "Dbjzc2xDKRus",
+          "titles": {
+            "EN": "White Horse"
+          },
+          "leads": {
+            "EN": ""
+          },
+          "marker": "White Horse",
+          "position": [
+            28.0470118,
+            83.0050894,
+            -5.0763979
+          ],
+          "direction": [
+            0.0039191,
+            0.0352719,
+            -0.9993701
+          ],
+          "scale": 3.4544837
+        },
+        "scene_unit": "mm"
+      },
+      "record": {
+        "annotation_id": "voyager-c6ed31e143aa-Dbjzc2xDKRus-8f3e19e72d",
+        "source": {
+          "uri": "urn:rdf2ary:baima:resource:horse-3d-demo",
+          "media_type": "3d",
+          "label": "白马三维示范模型",
+          "language": null
+        },
+        "selectors": [
+          {
+            "type": "spatial_point",
+            "x": 28.0470118,
+            "y": 83.0050894,
+            "z": -5.0763979,
+            "coordinate_system": "world",
+            "unit": "mm"
+          }
+        ],
+        "assertion": {
+          "subject": "urn:rdf2ary:baima:region:3d-point/c6ed31e143aac4ca/Dbjzc2xDKRus",
+          "predicate": "http://purl.org/dc/terms/references",
+          "object": {
+            "kind": "iri",
+            "value": "urn:rdf2ary:baima:concept:white-horse"
+          },
+          "subject_label": "White Horse",
+          "subject_description": null,
+          "subject_language": "EN"
+        },
+        "provenance": {
+          "tool": "Smithsonian Voyager Story",
+          "project_id": null,
+          "task_id": "白马模型.glb",
+          "source_annotation_id": "Dbjzc2xDKRus",
+          "annotator": null,
+          "created_at": null
+        }
+      },
+      "core_expression": "(<urn:rdf2ary:baima:region:3d-point/c6ed31e143aac4ca/Dbjzc2xDKRus> dcterms:references <urn:rdf2ary:baima:concept:white-horse>)\n^in(α 28.0470118 83.0050894 -5.0763979 w mm)",
+      "display_expression": "(F_D dcterms:references C)\n^in(α 28.047012 83.005089 -5.076398 w mm)",
+      "raw_locator_matches": true,
+      "expression_record_matches": true
+    }
+  ]
+}

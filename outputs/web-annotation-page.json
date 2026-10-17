@@ -1,0 +1,639 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    {
+      "rdf2ary": "https://w3id.org/rdf2ary/nary#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "dcterms": "http://purl.org/dc/terms/"
+    }
+  ],
+  "id": "http://127.0.0.1:8081/manifests/standards/web-annotation/page.json",
+  "type": "AnnotationPage",
+  "items": [
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-10-11-7e_kYIdWNi-8f3e19e72d.json",
+      "type": "Annotation",
+      "motivation": "describing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:text/7b797bd1c3c67409/0-2-146d79287d4c http://purl.org/dc/terms/references urn:rdf2ary:baima:concept:white-horse"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "http://127.0.0.1:8081/tei/baima_plain.txt",
+        "selector": [
+          {
+            "type": "TextPositionSelector",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "白马",
+            "suffix": "饰金羁，连翩西北驰。\n借问谁家子，幽并游"
+          }
+        ]
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-10-11-7e_kYIdWNi-8f3e19e72d"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:text/7b797bd1c3c67409/0-2-146d79287d4c"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:concept:white-horse"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-10-11-7e_kYIdWNi-8f3e19e72d\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:concept:white-horse\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:text/7b797bd1c3c67409/0-2-146d79287d4c\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T08:27:40.913401Z\", \"project_id\": \"13\", \"source_annotation_id\": \"11\", \"task_id\": \"10\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"end_offset\": 2, \"start_offset\": 0, \"type\": \"text_position\", \"unit\": \"character\"}, {\"exact\": \"白马\", \"language\": \"zh-Hans\", \"prefix\": null, \"suffix\": \"饰金羁，连翩西北驰。\\n借问谁家子，幽并游\", \"type\": \"text_quote\"}], \"source\": {\"label\": \"白马篇固定纯文本视图\", \"language\": \"zh-Hans\", \"media_type\": \"text\", \"uri\": \"urn:rdf2ary:baima:resource:text-view\"}}"
+    },
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-10-11-UdRHeO3EpE-36a2d6e6b3.json",
+      "type": "Annotation",
+      "motivation": "describing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:text/7b797bd1c3c67409/0-12-300645335154 http://purl.org/dc/terms/references urn:rdf2ary:baima:line:01"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "http://127.0.0.1:8081/tei/baima_plain.txt",
+        "selector": [
+          {
+            "type": "TextPositionSelector",
+            "start": 0,
+            "end": 12
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "白马饰金羁，连翩西北驰。",
+            "suffix": "\n借问谁家子，幽并游侠儿。\n少小去乡邑，"
+          }
+        ]
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-10-11-UdRHeO3EpE-36a2d6e6b3"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:text/7b797bd1c3c67409/0-12-300645335154"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:line:01"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-10-11-UdRHeO3EpE-36a2d6e6b3\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:line:01\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:text/7b797bd1c3c67409/0-12-300645335154\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T08:27:40.913401Z\", \"project_id\": \"13\", \"source_annotation_id\": \"11\", \"task_id\": \"10\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"end_offset\": 12, \"start_offset\": 0, \"type\": \"text_position\", \"unit\": \"character\"}, {\"exact\": \"白马饰金羁，连翩西北驰。\", \"language\": \"zh-Hans\", \"prefix\": null, \"suffix\": \"\\n借问谁家子，幽并游侠儿。\\n少小去乡邑，\", \"type\": \"text_quote\"}], \"source\": {\"label\": \"白马篇固定纯文本视图\", \"language\": \"zh-Hans\", \"media_type\": \"text\", \"uri\": \"urn:rdf2ary:baima:resource:text-view\"}}"
+    },
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-11-12-tYLFHeFjaT-675ff4ad32.json",
+      "type": "Annotation",
+      "motivation": "describing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:text/7b797bd1c3c67409/13-25-e2e2c1db9748 http://purl.org/dc/terms/references urn:rdf2ary:baima:line:02"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "http://127.0.0.1:8081/tei/baima_plain.txt",
+        "selector": [
+          {
+            "type": "TextPositionSelector",
+            "start": 13,
+            "end": 25
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "借问谁家子，幽并游侠儿。",
+            "prefix": "白马饰金羁，连翩西北驰。\n",
+            "suffix": "\n少小去乡邑，扬声沙漠垂。\n宿昔秉良弓，"
+          }
+        ]
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-11-12-tYLFHeFjaT-675ff4ad32"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:text/7b797bd1c3c67409/13-25-e2e2c1db9748"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:line:02"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-11-12-tYLFHeFjaT-675ff4ad32\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:line:02\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:text/7b797bd1c3c67409/13-25-e2e2c1db9748\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T08:27:43.979701Z\", \"project_id\": \"13\", \"source_annotation_id\": \"12\", \"task_id\": \"11\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"end_offset\": 25, \"start_offset\": 13, \"type\": \"text_position\", \"unit\": \"character\"}, {\"exact\": \"借问谁家子，幽并游侠儿。\", \"language\": \"zh-Hans\", \"prefix\": \"白马饰金羁，连翩西北驰。\\n\", \"suffix\": \"\\n少小去乡邑，扬声沙漠垂。\\n宿昔秉良弓，\", \"type\": \"text_quote\"}], \"source\": {\"label\": \"白马篇固定纯文本视图\", \"language\": \"zh-Hans\", \"media_type\": \"text\", \"uri\": \"urn:rdf2ary:baima:resource:text-view\"}}"
+    },
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-12-13-oRAo4bw5WK-fe9a02a33f.json",
+      "type": "Annotation",
+      "motivation": "describing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:text/7b797bd1c3c67409/26-38-13d4350a0b9f http://purl.org/dc/terms/references urn:rdf2ary:baima:line:03"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "http://127.0.0.1:8081/tei/baima_plain.txt",
+        "selector": [
+          {
+            "type": "TextPositionSelector",
+            "start": 26,
+            "end": 38
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "少小去乡邑，扬声沙漠垂。",
+            "prefix": "连翩西北驰。\n借问谁家子，幽并游侠儿。\n",
+            "suffix": "\n宿昔秉良弓，楛矢何参差。\n控弦破左的，"
+          }
+        ]
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-12-13-oRAo4bw5WK-fe9a02a33f"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:text/7b797bd1c3c67409/26-38-13d4350a0b9f"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:line:03"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-12-13-oRAo4bw5WK-fe9a02a33f\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:line:03\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:text/7b797bd1c3c67409/26-38-13d4350a0b9f\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T08:27:48.411607Z\", \"project_id\": \"13\", \"source_annotation_id\": \"13\", \"task_id\": \"12\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"end_offset\": 38, \"start_offset\": 26, \"type\": \"text_position\", \"unit\": \"character\"}, {\"exact\": \"少小去乡邑，扬声沙漠垂。\", \"language\": \"zh-Hans\", \"prefix\": \"连翩西北驰。\\n借问谁家子，幽并游侠儿。\\n\", \"suffix\": \"\\n宿昔秉良弓，楛矢何参差。\\n控弦破左的，\", \"type\": \"text_quote\"}], \"source\": {\"label\": \"白马篇固定纯文本视图\", \"language\": \"zh-Hans\", \"media_type\": \"text\", \"uri\": \"urn:rdf2ary:baima:resource:text-view\"}}"
+    },
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-25-14-68EgssTfcl-8f3e19e72d.json",
+      "type": "Annotation",
+      "motivation": "describing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:image/25/14/68EgssTfcl http://purl.org/dc/terms/references urn:rdf2ary:baima:concept:white-horse"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "http://127.0.0.1:8081/iiif/3/baima-page-01.png/full/max/0/default.jpg",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=572,24,33,41"
+        }
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-25-14-68EgssTfcl-8f3e19e72d"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:image/25/14/68EgssTfcl"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:concept:white-horse"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-25-14-68EgssTfcl-8f3e19e72d\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:concept:white-horse\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:image/25/14/68EgssTfcl\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T08:32:10.946824Z\", \"project_id\": \"17\", \"source_annotation_id\": \"14\", \"task_id\": \"25\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"coordinate_system\": \"percentage\", \"height\": 7.999999999999999, \"type\": \"image_region\", \"width\": 4.648547328959708, \"x\": 84.33793011112598, \"y\": 4.909090909090909}], \"source\": {\"label\": \"白马篇图像\", \"language\": null, \"media_type\": \"image\", \"uri\": \"urn:rdf2ary:baima:resource:image-01\"}}"
+    },
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-25-14-_WdLSMlbxE-fe9a02a33f.json",
+      "type": "Annotation",
+      "motivation": "describing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:image/25/14/_WdLSMlbxE http://purl.org/dc/terms/references urn:rdf2ary:baima:line:03"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "http://127.0.0.1:8081/iiif/3/baima-page-01.png/full/max/0/default.jpg",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=514,18,28,206"
+        }
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-25-14-_WdLSMlbxE-fe9a02a33f"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:image/25/14/_WdLSMlbxE"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:line:03"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-25-14-_WdLSMlbxE-fe9a02a33f\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:line:03\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:image/25/14/_WdLSMlbxE\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T08:32:10.946824Z\", \"project_id\": \"17\", \"source_annotation_id\": \"14\", \"task_id\": \"25\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"coordinate_system\": \"percentage\", \"height\": 41.34790528233151, \"type\": \"image_region\", \"width\": 3.858669263435189, \"x\": 75.84280966062275, \"y\": 3.642987249544627}], \"source\": {\"label\": \"白马篇图像\", \"language\": null, \"media_type\": \"image\", \"uri\": \"urn:rdf2ary:baima:resource:image-01\"}}"
+    },
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-25-14-foBinZ9l8b-36a2d6e6b3.json",
+      "type": "Annotation",
+      "motivation": "describing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:image/25/14/foBinZ9l8b http://purl.org/dc/terms/references urn:rdf2ary:baima:line:01"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "http://127.0.0.1:8081/iiif/3/baima-page-01.png/full/max/0/default.jpg",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=573,18,27,226"
+        }
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-25-14-foBinZ9l8b-36a2d6e6b3"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:image/25/14/foBinZ9l8b"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:line:01"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-25-14-foBinZ9l8b-36a2d6e6b3\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:line:01\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:image/25/14/foBinZ9l8b\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T08:32:10.946824Z\", \"project_id\": \"17\", \"source_annotation_id\": \"14\", \"task_id\": \"25\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"coordinate_system\": \"percentage\", \"height\": 45.355191256830594, \"type\": \"image_region\", \"width\": 3.858669263435189, \"x\": 84.49130919031204, \"y\": 3.825467792680907}], \"source\": {\"label\": \"白马篇图像\", \"language\": null, \"media_type\": \"image\", \"uri\": \"urn:rdf2ary:baima:resource:image-01\"}}"
+    },
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-25-14-jdh93sXcPQ-675ff4ad32.json",
+      "type": "Annotation",
+      "motivation": "describing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:image/25/14/jdh93sXcPQ http://purl.org/dc/terms/references urn:rdf2ary:baima:line:02"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "http://127.0.0.1:8081/iiif/3/baima-page-01.png/full/max/0/default.jpg",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=542,20,30,228"
+        }
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-25-14-jdh93sXcPQ-675ff4ad32"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:image/25/14/jdh93sXcPQ"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:line:02"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-25-14-jdh93sXcPQ-675ff4ad32\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:line:02\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:image/25/14/jdh93sXcPQ\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T08:32:10.946824Z\", \"project_id\": \"17\", \"source_annotation_id\": \"14\", \"task_id\": \"25\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"coordinate_system\": \"percentage\", \"height\": 45.71948998178506, \"type\": \"image_region\", \"width\": 4.390899506667623, \"x\": 79.83453648486605, \"y\": 4.189435336976321}], \"source\": {\"label\": \"白马篇图像\", \"language\": null, \"media_type\": \"image\", \"uri\": \"urn:rdf2ary:baima:resource:image-01\"}}"
+    },
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-25-14-zxvRUh81yk-675ff4ad32.json",
+      "type": "Annotation",
+      "motivation": "describing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:image/25/14/zxvRUh81yk http://purl.org/dc/terms/references urn:rdf2ary:baima:line:02"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "http://127.0.0.1:8081/iiif/3/baima-page-01.png/full/max/0/default.jpg",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=540,454,25,24"
+        }
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-25-14-zxvRUh81yk-675ff4ad32"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:image/25/14/zxvRUh81yk"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:line:02"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-25-14-zxvRUh81yk-675ff4ad32\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:line:02\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:image/25/14/zxvRUh81yk\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T08:32:10.946824Z\", \"project_id\": \"17\", \"source_annotation_id\": \"14\", \"task_id\": \"25\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"coordinate_system\": \"percentage\", \"height\": 4.553734061930783, \"type\": \"image_region\", \"width\": 3.5925541418189653, \"x\": 79.56842136324983, \"y\": 91.62112932604735}], \"source\": {\"label\": \"白马篇图像\", \"language\": null, \"media_type\": \"image\", \"uri\": \"urn:rdf2ary:baima:resource:image-01\"}}"
+    },
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-26-15-lQH4z-36a2d6e6b3.json",
+      "type": "Annotation",
+      "motivation": "describing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:audio/62df738617e578a5/4.849275428571429-10.910869714285715-ch0 http://purl.org/dc/terms/references urn:rdf2ary:baima:line:01"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "urn:rdf2ary:baima:resource:audio-01",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "t=4.849275428571429,10.910869714285715"
+        }
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-26-15-lQH4z-36a2d6e6b3"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:audio/62df738617e578a5/4.849275428571429-10.910869714285715-ch0"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:line:01"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-26-15-lQH4z-36a2d6e6b3\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:line:01\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:audio/62df738617e578a5/4.849275428571429-10.910869714285715-ch0\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T09:03:03.803866Z\", \"project_id\": \"18\", \"source_annotation_id\": \"15\", \"task_id\": \"26\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"channel_index\": 0, \"end_frame\": null, \"end_frame_inclusive\": null, \"end_time\": 10.910869714285715, \"frame_index_base\": null, \"frame_rate\": null, \"original_end_timecode\": null, \"original_start_timecode\": null, \"start_frame\": null, \"start_time\": 4.849275428571429, \"timecode_format\": null, \"type\": \"temporal_segment\", \"unit\": \"second\"}], \"source\": {\"label\": \"白马篇普通话朗读\", \"language\": \"zh-CN\", \"media_type\": \"audio\", \"uri\": \"urn:rdf2ary:baima:resource:audio-01\"}}"
+    },
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-26-15-lWkmj-fe9a02a33f.json",
+      "type": "Annotation",
+      "motivation": "describing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:audio/62df738617e578a5/17.275543714285714-23.23611142857143-ch0 http://purl.org/dc/terms/references urn:rdf2ary:baima:line:03"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "urn:rdf2ary:baima:resource:audio-01",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "t=17.275543714285714,23.23611142857143"
+        }
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-26-15-lWkmj-fe9a02a33f"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:audio/62df738617e578a5/17.275543714285714-23.23611142857143-ch0"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:line:03"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-26-15-lWkmj-fe9a02a33f\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:line:03\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:audio/62df738617e578a5/17.275543714285714-23.23611142857143-ch0\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T09:03:03.803866Z\", \"project_id\": \"18\", \"source_annotation_id\": \"15\", \"task_id\": \"26\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"channel_index\": 0, \"end_frame\": null, \"end_frame_inclusive\": null, \"end_time\": 23.23611142857143, \"frame_index_base\": null, \"frame_rate\": null, \"original_end_timecode\": null, \"original_start_timecode\": null, \"start_frame\": null, \"start_time\": 17.275543714285714, \"timecode_format\": null, \"type\": \"temporal_segment\", \"unit\": \"second\"}], \"source\": {\"label\": \"白马篇普通话朗读\", \"language\": \"zh-CN\", \"media_type\": \"audio\", \"uri\": \"urn:rdf2ary:baima:resource:audio-01\"}}"
+    },
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-26-15-qPP2s-675ff4ad32.json",
+      "type": "Annotation",
+      "motivation": "describing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:audio/62df738617e578a5/11.21394942857143-17.174517142857145-ch0 http://purl.org/dc/terms/references urn:rdf2ary:baima:line:02"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "urn:rdf2ary:baima:resource:audio-01",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "t=11.21394942857143,17.174517142857145"
+        }
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-26-15-qPP2s-675ff4ad32"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:audio/62df738617e578a5/11.21394942857143-17.174517142857145-ch0"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:line:02"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-26-15-qPP2s-675ff4ad32\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:line:02\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:audio/62df738617e578a5/11.21394942857143-17.174517142857145-ch0\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T09:03:03.803866Z\", \"project_id\": \"18\", \"source_annotation_id\": \"15\", \"task_id\": \"26\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"channel_index\": 0, \"end_frame\": null, \"end_frame_inclusive\": null, \"end_time\": 17.174517142857145, \"frame_index_base\": null, \"frame_rate\": null, \"original_end_timecode\": null, \"original_start_timecode\": null, \"start_frame\": null, \"start_time\": 11.21394942857143, \"timecode_format\": null, \"type\": \"temporal_segment\", \"unit\": \"second\"}], \"source\": {\"label\": \"白马篇普通话朗读\", \"language\": \"zh-CN\", \"media_type\": \"audio\", \"uri\": \"urn:rdf2ary:baima:resource:audio-01\"}}"
+    },
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-26-15-zCWqU-8f3e19e72d.json",
+      "type": "Annotation",
+      "motivation": "describing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:audio/62df738617e578a5/4.933387528473804-5.949354162352454-ch0 http://purl.org/dc/terms/references urn:rdf2ary:baima:concept:white-horse"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "urn:rdf2ary:baima:resource:audio-01",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "t=4.933387528473804,5.949354162352454"
+        }
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-26-15-zCWqU-8f3e19e72d"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:audio/62df738617e578a5/4.933387528473804-5.949354162352454-ch0"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:concept:white-horse"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-26-15-zCWqU-8f3e19e72d\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:concept:white-horse\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:audio/62df738617e578a5/4.933387528473804-5.949354162352454-ch0\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T09:03:03.803866Z\", \"project_id\": \"18\", \"source_annotation_id\": \"15\", \"task_id\": \"26\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"channel_index\": 0, \"end_frame\": null, \"end_frame_inclusive\": null, \"end_time\": 5.949354162352454, \"frame_index_base\": null, \"frame_rate\": null, \"original_end_timecode\": null, \"original_start_timecode\": null, \"start_frame\": null, \"start_time\": 4.933387528473804, \"timecode_format\": null, \"type\": \"temporal_segment\", \"unit\": \"second\"}], \"source\": {\"label\": \"白马篇普通话朗读\", \"language\": \"zh-CN\", \"media_type\": \"audio\", \"uri\": \"urn:rdf2ary:baima:resource:audio-01\"}}"
+    },
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-27-16-63tiG_ZX42-range-0-675ff4ad32.json",
+      "type": "Annotation",
+      "motivation": "describing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:video/d49e22493da1484c/f344-485-base1-fps30-inclusive http://purl.org/dc/terms/references urn:rdf2ary:baima:line:02"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "urn:rdf2ary:baima:resource:video-01",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "t=11.433333333333334,16.166666666666668"
+        }
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-27-16-63tiG_ZX42-range-0-675ff4ad32"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:video/d49e22493da1484c/f344-485-base1-fps30-inclusive"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:line:02"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-27-16-63tiG_ZX42-range-0-675ff4ad32\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:line:02\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:video/d49e22493da1484c/f344-485-base1-fps30-inclusive\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T09:10:43.905902Z\", \"project_id\": \"19\", \"source_annotation_id\": \"16\", \"task_id\": \"27\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"channel_index\": null, \"end_frame\": 485, \"end_frame_inclusive\": true, \"end_time\": 16.166666666666668, \"frame_index_base\": 1, \"frame_rate\": 30.0, \"original_end_timecode\": null, \"original_start_timecode\": null, \"start_frame\": 344, \"start_time\": 11.433333333333334, \"timecode_format\": null, \"type\": \"temporal_segment\", \"unit\": \"second\"}], \"source\": {\"label\": \"白马篇粤语视频\", \"language\": \"yue\", \"media_type\": \"video\", \"uri\": \"urn:rdf2ary:baima:resource:video-01\"}}"
+    },
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-27-16-B3uG7QlPPn-range-0-8f3e19e72d.json",
+      "type": "Annotation",
+      "motivation": "describing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:video/d49e22493da1484c/f211-230-base1-fps30-inclusive http://purl.org/dc/terms/references urn:rdf2ary:baima:concept:white-horse"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "urn:rdf2ary:baima:resource:video-01",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "t=7.0,7.666666666666667"
+        }
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-27-16-B3uG7QlPPn-range-0-8f3e19e72d"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:video/d49e22493da1484c/f211-230-base1-fps30-inclusive"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:concept:white-horse"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-27-16-B3uG7QlPPn-range-0-8f3e19e72d\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:concept:white-horse\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:video/d49e22493da1484c/f211-230-base1-fps30-inclusive\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T09:10:43.905902Z\", \"project_id\": \"19\", \"source_annotation_id\": \"16\", \"task_id\": \"27\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"channel_index\": null, \"end_frame\": 230, \"end_frame_inclusive\": true, \"end_time\": 7.666666666666667, \"frame_index_base\": 1, \"frame_rate\": 30.0, \"original_end_timecode\": null, \"original_start_timecode\": null, \"start_frame\": 211, \"start_time\": 7.0, \"timecode_format\": null, \"type\": \"temporal_segment\", \"unit\": \"second\"}], \"source\": {\"label\": \"白马篇粤语视频\", \"language\": \"yue\", \"media_type\": \"video\", \"uri\": \"urn:rdf2ary:baima:resource:video-01\"}}"
+    },
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-27-16-b1BY7Iu5hI-range-0-36a2d6e6b3.json",
+      "type": "Annotation",
+      "motivation": "describing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:video/d49e22493da1484c/f211-344-base1-fps30-inclusive http://purl.org/dc/terms/references urn:rdf2ary:baima:line:01"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "urn:rdf2ary:baima:resource:video-01",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "t=7.0,11.466666666666667"
+        }
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-27-16-b1BY7Iu5hI-range-0-36a2d6e6b3"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:video/d49e22493da1484c/f211-344-base1-fps30-inclusive"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:line:01"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-27-16-b1BY7Iu5hI-range-0-36a2d6e6b3\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:line:01\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:video/d49e22493da1484c/f211-344-base1-fps30-inclusive\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T09:10:43.905902Z\", \"project_id\": \"19\", \"source_annotation_id\": \"16\", \"task_id\": \"27\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"channel_index\": null, \"end_frame\": 344, \"end_frame_inclusive\": true, \"end_time\": 11.466666666666667, \"frame_index_base\": 1, \"frame_rate\": 30.0, \"original_end_timecode\": null, \"original_start_timecode\": null, \"start_frame\": 211, \"start_time\": 7.0, \"timecode_format\": null, \"type\": \"temporal_segment\", \"unit\": \"second\"}], \"source\": {\"label\": \"白马篇粤语视频\", \"language\": \"yue\", \"media_type\": \"video\", \"uri\": \"urn:rdf2ary:baima:resource:video-01\"}}"
+    },
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/web-annotation/annotations/ls-27-16-ibU5a11DWa-range-0-fe9a02a33f.json",
+      "type": "Annotation",
+      "motivation": "describing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:video/d49e22493da1484c/f495-646-base1-fps30-inclusive http://purl.org/dc/terms/references urn:rdf2ary:baima:line:03"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "urn:rdf2ary:baima:resource:video-01",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "t=16.466666666666665,21.533333333333335"
+        }
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-27-16-ibU5a11DWa-range-0-fe9a02a33f"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:video/d49e22493da1484c/f495-646-base1-fps30-inclusive"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:line:03"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-27-16-ibU5a11DWa-range-0-fe9a02a33f\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:line:03\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:video/d49e22493da1484c/f495-646-base1-fps30-inclusive\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T09:10:43.905902Z\", \"project_id\": \"19\", \"source_annotation_id\": \"16\", \"task_id\": \"27\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"channel_index\": null, \"end_frame\": 646, \"end_frame_inclusive\": true, \"end_time\": 21.533333333333335, \"frame_index_base\": 1, \"frame_rate\": 30.0, \"original_end_timecode\": null, \"original_start_timecode\": null, \"start_frame\": 495, \"start_time\": 16.466666666666665, \"timecode_format\": null, \"type\": \"temporal_segment\", \"unit\": \"second\"}], \"source\": {\"label\": \"白马篇粤语视频\", \"language\": \"yue\", \"media_type\": \"video\", \"uri\": \"urn:rdf2ary:baima:resource:video-01\"}}"
+    }
+  ]
+}

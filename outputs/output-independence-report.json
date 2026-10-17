@@ -1,0 +1,108 @@
+{
+  "scope": "Dependency and binding-change check on existing output profiles; not three-system comparison, new-format implementation, network access or cost measurement.",
+  "input_sha256": {
+    "outputs/case-five-modality.ttl": "7d1212e2e06cd2ab43c7fb99b73f9d6a5be7aff8ef0641301bb0a8d210b66dce",
+    "iiif/manifests/baima-pian.json": "f0244b075324e8c3d4c660f6475cd8967865274ff2e1de7fb45ea8a42dc9816e",
+    "outputs/web-annotation-page.json": "dafae58467b37fbc4420c55c44bffe0ba9777a23d4efe6be6f21a14d5dd91000",
+    "outputs/iiif-image-page.json": "8936a8476d343ec7943b90e9396e8123a46fd283d81ef673fab3d0adf6e79fec"
+  },
+  "frozen_rdf_record_count": 22,
+  "profiles": {
+    "web-annotation": {
+      "input_records": 22,
+      "exported_records": 17,
+      "unsupported_records": 5,
+      "existing_page_matches": true,
+      "file_io_attempts": 0,
+      "platform_adapter_calls": 0,
+      "observed_functions": {
+        "rdf2ary_api.n2ary_rdf._float": 75,
+        "rdf2ary_api.n2ary_rdf._image_selector": 9,
+        "rdf2ary_api.n2ary_rdf._int": 56,
+        "rdf2ary_api.n2ary_rdf._one": 583,
+        "rdf2ary_api.n2ary_rdf._provenance": 22,
+        "rdf2ary_api.n2ary_rdf._selector": 26,
+        "rdf2ary_api.n2ary_rdf._temporal_selector": 12,
+        "rdf2ary_api.n2ary_rdf._text": 88,
+        "rdf2ary_api.n2ary_rdf.annotations_from_graph": 1,
+        "rdf2ary_api.standard_exports.<genexpr>": 25,
+        "rdf2ary_api.standard_exports.check_urls": 22,
+        "rdf2ary_api.standard_exports.export_annotations": 1,
+        "rdf2ary_api.standard_exports.fragment": 13,
+        "rdf2ary_api.standard_exports.pixel_region": 5,
+        "rdf2ary_api.standard_exports.standard_selector": 21
+      }
+    },
+    "iiif-image": {
+      "input_records": 22,
+      "exported_records": 5,
+      "unsupported_records": 17,
+      "existing_page_matches": true,
+      "file_io_attempts": 0,
+      "platform_adapter_calls": 0,
+      "observed_functions": {
+        "rdf2ary_api.n2ary_rdf._float": 75,
+        "rdf2ary_api.n2ary_rdf._image_selector": 9,
+        "rdf2ary_api.n2ary_rdf._int": 56,
+        "rdf2ary_api.n2ary_rdf._one": 583,
+        "rdf2ary_api.n2ary_rdf._provenance": 22,
+        "rdf2ary_api.n2ary_rdf._selector": 26,
+        "rdf2ary_api.n2ary_rdf._temporal_selector": 12,
+        "rdf2ary_api.n2ary_rdf._text": 88,
+        "rdf2ary_api.n2ary_rdf.annotations_from_graph": 1,
+        "rdf2ary_api.standard_exports.<genexpr>": 25,
+        "rdf2ary_api.standard_exports.check_urls": 22,
+        "rdf2ary_api.standard_exports.export_annotations": 1,
+        "rdf2ary_api.standard_exports.fragment": 5,
+        "rdf2ary_api.standard_exports.pixel_region": 5,
+        "rdf2ary_api.standard_exports.standard_selector": 5
+      }
+    }
+  },
+  "shared_image_records": {
+    "count": 5,
+    "same_canonical_snapshots": true,
+    "same_structured_assertions": true,
+    "same_native_pixel_selectors": true
+  },
+  "binding_change": {
+    "profile": "iiif-image",
+    "exported_records": 5,
+    "changed_inputs": [
+      "base_url",
+      "image canvas_id"
+    ],
+    "unchanged_inputs": [
+      "saved RDF",
+      "image dimensions"
+    ],
+    "changed_item_fields": [
+      "id",
+      "target.source"
+    ],
+    "canonical_records_unchanged": true,
+    "structured_assertions_unchanged": true,
+    "native_pixel_selectors_unchanged": true,
+    "http_requests_made": 0,
+    "file_io_attempts": 0,
+    "platform_adapter_calls": 0,
+    "observed_functions": {
+      "rdf2ary_api.n2ary_rdf._float": 75,
+      "rdf2ary_api.n2ary_rdf._image_selector": 9,
+      "rdf2ary_api.n2ary_rdf._int": 56,
+      "rdf2ary_api.n2ary_rdf._one": 583,
+      "rdf2ary_api.n2ary_rdf._provenance": 22,
+      "rdf2ary_api.n2ary_rdf._selector": 26,
+      "rdf2ary_api.n2ary_rdf._temporal_selector": 12,
+      "rdf2ary_api.n2ary_rdf._text": 88,
+      "rdf2ary_api.n2ary_rdf.annotations_from_graph": 1,
+      "rdf2ary_api.standard_exports.<genexpr>": 25,
+      "rdf2ary_api.standard_exports.check_urls": 22,
+      "rdf2ary_api.standard_exports.export_annotations": 1,
+      "rdf2ary_api.standard_exports.fragment": 5,
+      "rdf2ary_api.standard_exports.pixel_region": 5,
+      "rdf2ary_api.standard_exports.standard_selector": 5
+    }
+  },
+  "original_inputs_unchanged": true
+}

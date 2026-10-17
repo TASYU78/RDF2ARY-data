@@ -1,0 +1,18 @@
+{
+  "raw_export": "image-project-17.json",
+  "expected_filename": "白马篇图像.png",
+  "resource_iri": "urn:rdf2ary:baima:resource:image-01",
+  "resource_label": "白马篇图像",
+  "mapping": {
+    "source_field": "source_uri",
+    "source_label_field": "source_label",
+    "subject_base_iri": "urn:rdf2ary:baima:region:image/",
+    "predicate": "http://purl.org/dc/terms/references",
+    "rectangle_from_name": "line",
+    "label_mapping": {
+      "bm-line-01": {"kind": "iri", "value": "urn:rdf2ary:baima:line:01"},
+      "bm-line-02": {"kind": "iri", "value": "urn:rdf2ary:baima:line:02"},
+      "bm-line-03": {"kind": "iri", "value": "urn:rdf2ary:baima:line:03"}
+    }
+  }
+}

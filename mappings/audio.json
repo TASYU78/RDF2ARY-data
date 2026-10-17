@@ -1,0 +1,20 @@
+{
+  "raw_export": "audio-project-18.json",
+  "expected_filename": "白马篇音频.mp3",
+  "resource_iri": "urn:rdf2ary:baima:resource:audio-01",
+  "resource_label": "白马篇普通话朗读",
+  "mapping": {
+    "audio_field": "source_uri",
+    "source_label_field": "source_label",
+    "source_language": "zh-CN",
+    "subject_base_iri": "urn:rdf2ary:baima:region:audio/",
+    "predicate": "http://purl.org/dc/terms/references",
+    "labels_from_name": "line",
+    "audio_to_name": "audio",
+    "label_mapping": {
+      "bm-line-01": {"kind": "iri", "value": "urn:rdf2ary:baima:line:01"},
+      "bm-line-02": {"kind": "iri", "value": "urn:rdf2ary:baima:line:02"},
+      "bm-line-03": {"kind": "iri", "value": "urn:rdf2ary:baima:line:03"}
+    }
+  }
+}

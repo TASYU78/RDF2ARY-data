@@ -1,0 +1,22 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf2ary: <https://w3id.org/rdf2ary/nary#>
+
+SELECT ?annotationId ?subject ?predicate ?object ?source ?selectorType ?x ?y ?width ?height ?provenanceId ?createdAt
+WHERE {
+  ?annotation dcterms:identifier ?annotationId ;
+              rdf2ary:hasAssertion ?assertion ;
+              rdf2ary:hasTarget ?target ;
+              prov:wasDerivedFrom ?provenance .
+  ?assertion rdf:subject ?subject ;
+             rdf:predicate ?predicate ;
+             rdf:object ?object .
+  ?target rdf2ary:hasSource ?source ;
+          rdf2ary:hasSelector ?selector .
+  ?selector rdf:type ?selectorType .
+  OPTIONAL { ?selector rdf2ary:x ?x ; rdf2ary:y ?y ; rdf2ary:width ?width ; rdf2ary:height ?height . }
+  ?provenance dcterms:identifier ?provenanceId .
+  OPTIONAL { ?provenance prov:generatedAtTime ?createdAt . }
+  FILTER(?annotationId = "ls-25-14-foBinZ9l8b-36a2d6e6b3")
+}

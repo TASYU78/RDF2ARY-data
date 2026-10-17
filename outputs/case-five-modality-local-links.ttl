@@ -1,0 +1,802 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdf2ary: <https://w3id.org/rdf2ary/nary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-10-11-7e_kYIdWNi-8f3e19e72d> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-10-11-7e_kYIdWNi-8f3e19e72d" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-10-11-7e_kYIdWNi-8f3e19e72d> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-10-11-7e_kYIdWNi-8f3e19e72d> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-10-11-7e_kYIdWNi-8f3e19e72d> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-10-11-UdRHeO3EpE-36a2d6e6b3> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-10-11-UdRHeO3EpE-36a2d6e6b3" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-10-11-UdRHeO3EpE-36a2d6e6b3> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-10-11-UdRHeO3EpE-36a2d6e6b3> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-10-11-UdRHeO3EpE-36a2d6e6b3> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-11-12-tYLFHeFjaT-675ff4ad32> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-11-12-tYLFHeFjaT-675ff4ad32" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-11-12-tYLFHeFjaT-675ff4ad32> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-11-12-tYLFHeFjaT-675ff4ad32> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-11-12-tYLFHeFjaT-675ff4ad32> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-12-13-oRAo4bw5WK-fe9a02a33f> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-12-13-oRAo4bw5WK-fe9a02a33f" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-12-13-oRAo4bw5WK-fe9a02a33f> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-12-13-oRAo4bw5WK-fe9a02a33f> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-12-13-oRAo4bw5WK-fe9a02a33f> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-25-14-68EgssTfcl-8f3e19e72d> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-25-14-68EgssTfcl-8f3e19e72d" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-25-14-68EgssTfcl-8f3e19e72d> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-25-14-68EgssTfcl-8f3e19e72d> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-25-14-68EgssTfcl-8f3e19e72d> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-25-14-_WdLSMlbxE-fe9a02a33f> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-25-14-_WdLSMlbxE-fe9a02a33f" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-25-14-_WdLSMlbxE-fe9a02a33f> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-25-14-_WdLSMlbxE-fe9a02a33f> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-25-14-_WdLSMlbxE-fe9a02a33f> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-25-14-foBinZ9l8b-36a2d6e6b3> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-25-14-foBinZ9l8b-36a2d6e6b3" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-25-14-foBinZ9l8b-36a2d6e6b3> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-25-14-foBinZ9l8b-36a2d6e6b3> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-25-14-foBinZ9l8b-36a2d6e6b3> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-25-14-jdh93sXcPQ-675ff4ad32> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-25-14-jdh93sXcPQ-675ff4ad32" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-25-14-jdh93sXcPQ-675ff4ad32> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-25-14-jdh93sXcPQ-675ff4ad32> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-25-14-jdh93sXcPQ-675ff4ad32> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-25-14-zxvRUh81yk-675ff4ad32> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-25-14-zxvRUh81yk-675ff4ad32" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-25-14-zxvRUh81yk-675ff4ad32> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-25-14-zxvRUh81yk-675ff4ad32> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-25-14-zxvRUh81yk-675ff4ad32> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-26-15-lQH4z-36a2d6e6b3> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-26-15-lQH4z-36a2d6e6b3" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-26-15-lQH4z-36a2d6e6b3> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-26-15-lQH4z-36a2d6e6b3> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-26-15-lQH4z-36a2d6e6b3> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-26-15-lWkmj-fe9a02a33f> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-26-15-lWkmj-fe9a02a33f" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-26-15-lWkmj-fe9a02a33f> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-26-15-lWkmj-fe9a02a33f> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-26-15-lWkmj-fe9a02a33f> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-26-15-qPP2s-675ff4ad32> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-26-15-qPP2s-675ff4ad32" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-26-15-qPP2s-675ff4ad32> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-26-15-qPP2s-675ff4ad32> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-26-15-qPP2s-675ff4ad32> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-26-15-zCWqU-8f3e19e72d> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-26-15-zCWqU-8f3e19e72d" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-26-15-zCWqU-8f3e19e72d> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-26-15-zCWqU-8f3e19e72d> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-26-15-zCWqU-8f3e19e72d> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-27-16-63tiG_ZX42-range-0-675ff4ad32> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-27-16-63tiG_ZX42-range-0-675ff4ad32" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-27-16-63tiG_ZX42-range-0-675ff4ad32> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-27-16-63tiG_ZX42-range-0-675ff4ad32> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-27-16-63tiG_ZX42-range-0-675ff4ad32> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-27-16-6nbGb-n_ha-36a2d6e6b3> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-27-16-6nbGb-n_ha-36a2d6e6b3" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-27-16-6nbGb-n_ha-36a2d6e6b3> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-27-16-6nbGb-n_ha-36a2d6e6b3> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-27-16-6nbGb-n_ha-36a2d6e6b3> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-27-16-B3uG7QlPPn-range-0-8f3e19e72d> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-27-16-B3uG7QlPPn-range-0-8f3e19e72d" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-27-16-B3uG7QlPPn-range-0-8f3e19e72d> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-27-16-B3uG7QlPPn-range-0-8f3e19e72d> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-27-16-B3uG7QlPPn-range-0-8f3e19e72d> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-27-16-b1BY7Iu5hI-range-0-36a2d6e6b3> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-27-16-b1BY7Iu5hI-range-0-36a2d6e6b3" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-27-16-b1BY7Iu5hI-range-0-36a2d6e6b3> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-27-16-b1BY7Iu5hI-range-0-36a2d6e6b3> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-27-16-b1BY7Iu5hI-range-0-36a2d6e6b3> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-27-16-ibU5a11DWa-range-0-fe9a02a33f> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-27-16-ibU5a11DWa-range-0-fe9a02a33f" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-27-16-ibU5a11DWa-range-0-fe9a02a33f> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-27-16-ibU5a11DWa-range-0-fe9a02a33f> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-27-16-ibU5a11DWa-range-0-fe9a02a33f> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-27-16-mrc44_-2ot-8f3e19e72d> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-27-16-mrc44_-2ot-8f3e19e72d" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-27-16-mrc44_-2ot-8f3e19e72d> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-27-16-mrc44_-2ot-8f3e19e72d> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-27-16-mrc44_-2ot-8f3e19e72d> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-27-16-od1oCqkq_c-fe9a02a33f> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-27-16-od1oCqkq_c-fe9a02a33f" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-27-16-od1oCqkq_c-fe9a02a33f> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-27-16-od1oCqkq_c-fe9a02a33f> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-27-16-od1oCqkq_c-fe9a02a33f> .
+
+<https://w3id.org/rdf2ary/instance/annotation/ls-27-16-xubQJ81XAs-675ff4ad32> a rdf2ary:Annotation ;
+    dcterms:identifier "ls-27-16-xubQJ81XAs-675ff4ad32" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/ls-27-16-xubQJ81XAs-675ff4ad32> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/ls-27-16-xubQJ81XAs-675ff4ad32> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/ls-27-16-xubQJ81XAs-675ff4ad32> .
+
+<https://w3id.org/rdf2ary/instance/annotation/voyager-c6ed31e143aa-Dbjzc2xDKRus-8f3e19e72d> a rdf2ary:Annotation ;
+    dcterms:identifier "voyager-c6ed31e143aa-Dbjzc2xDKRus-8f3e19e72d" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/voyager-c6ed31e143aa-Dbjzc2xDKRus-8f3e19e72d> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/voyager-c6ed31e143aa-Dbjzc2xDKRus-8f3e19e72d> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/voyager-c6ed31e143aa-Dbjzc2xDKRus-8f3e19e72d> .
+
+<urn:rdf2ary:baima:resource:tei-demo> rdfs:seeAlso <http://127.0.0.1:8081/tei/baima_demo.tei.xml> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-10-11-7e_kYIdWNi-8f3e19e72d> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:concept:white-horse> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:text/7b797bd1c3c67409/0-2-146d79287d4c> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-10-11-UdRHeO3EpE-36a2d6e6b3> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:line:01> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:text/7b797bd1c3c67409/0-12-300645335154> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-11-12-tYLFHeFjaT-675ff4ad32> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:line:02> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:text/7b797bd1c3c67409/13-25-e2e2c1db9748> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-12-13-oRAo4bw5WK-fe9a02a33f> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:line:03> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:text/7b797bd1c3c67409/26-38-13d4350a0b9f> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-25-14-68EgssTfcl-8f3e19e72d> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:concept:white-horse> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:image/25/14/68EgssTfcl> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-25-14-_WdLSMlbxE-fe9a02a33f> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:line:03> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:image/25/14/_WdLSMlbxE> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-25-14-foBinZ9l8b-36a2d6e6b3> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:line:01> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:image/25/14/foBinZ9l8b> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-25-14-jdh93sXcPQ-675ff4ad32> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:line:02> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:image/25/14/jdh93sXcPQ> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-25-14-zxvRUh81yk-675ff4ad32> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:line:02> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:image/25/14/zxvRUh81yk> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-26-15-lQH4z-36a2d6e6b3> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:line:01> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:audio/62df738617e578a5/4.849275428571429-10.910869714285715-ch0> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-26-15-lWkmj-fe9a02a33f> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:line:03> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:audio/62df738617e578a5/17.275543714285714-23.23611142857143-ch0> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-26-15-qPP2s-675ff4ad32> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:line:02> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:audio/62df738617e578a5/11.21394942857143-17.174517142857145-ch0> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-26-15-zCWqU-8f3e19e72d> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:concept:white-horse> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:audio/62df738617e578a5/4.933387528473804-5.949354162352454-ch0> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-27-16-63tiG_ZX42-range-0-675ff4ad32> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:line:02> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:video/d49e22493da1484c/f344-485-base1-fps30-inclusive> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-27-16-6nbGb-n_ha-36a2d6e6b3> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:line:01> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:video-frame/27/16/6nbGb-n_ha> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-27-16-B3uG7QlPPn-range-0-8f3e19e72d> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:concept:white-horse> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:video/d49e22493da1484c/f211-230-base1-fps30-inclusive> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-27-16-b1BY7Iu5hI-range-0-36a2d6e6b3> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:line:01> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:video/d49e22493da1484c/f211-344-base1-fps30-inclusive> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-27-16-ibU5a11DWa-range-0-fe9a02a33f> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:line:03> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:video/d49e22493da1484c/f495-646-base1-fps30-inclusive> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-27-16-mrc44_-2ot-8f3e19e72d> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:concept:white-horse> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:video-frame/27/16/mrc44_-2ot> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-27-16-od1oCqkq_c-fe9a02a33f> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:line:03> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:video-frame/27/16/od1oCqkq_c> .
+
+<https://w3id.org/rdf2ary/instance/assertion/ls-27-16-xubQJ81XAs-675ff4ad32> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:line:02> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:video-frame/27/16/xubQJ81XAs> .
+
+<https://w3id.org/rdf2ary/instance/assertion/voyager-c6ed31e143aa-Dbjzc2xDKRus-8f3e19e72d> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:concept:white-horse> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:baima:region:3d-point/c6ed31e143aac4ca/Dbjzc2xDKRus> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-10-11-7e_kYIdWNi-8f3e19e72d> a prov:Entity ;
+    dcterms:identifier "Label Studio:13:10:11" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T08:27:40.913401+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-10-11-UdRHeO3EpE-36a2d6e6b3> a prov:Entity ;
+    dcterms:identifier "Label Studio:13:10:11" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T08:27:40.913401+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-11-12-tYLFHeFjaT-675ff4ad32> a prov:Entity ;
+    dcterms:identifier "Label Studio:13:11:12" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T08:27:43.979701+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-12-13-oRAo4bw5WK-fe9a02a33f> a prov:Entity ;
+    dcterms:identifier "Label Studio:13:12:13" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T08:27:48.411607+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-25-14-68EgssTfcl-8f3e19e72d> a prov:Entity ;
+    dcterms:identifier "Label Studio:17:25:14" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T08:32:10.946824+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-25-14-_WdLSMlbxE-fe9a02a33f> a prov:Entity ;
+    dcterms:identifier "Label Studio:17:25:14" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T08:32:10.946824+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-25-14-foBinZ9l8b-36a2d6e6b3> a prov:Entity ;
+    dcterms:identifier "Label Studio:17:25:14" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T08:32:10.946824+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-25-14-jdh93sXcPQ-675ff4ad32> a prov:Entity ;
+    dcterms:identifier "Label Studio:17:25:14" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T08:32:10.946824+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-25-14-zxvRUh81yk-675ff4ad32> a prov:Entity ;
+    dcterms:identifier "Label Studio:17:25:14" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T08:32:10.946824+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-26-15-lQH4z-36a2d6e6b3> a prov:Entity ;
+    dcterms:identifier "Label Studio:18:26:15" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T09:03:03.803866+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-26-15-lWkmj-fe9a02a33f> a prov:Entity ;
+    dcterms:identifier "Label Studio:18:26:15" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T09:03:03.803866+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-26-15-qPP2s-675ff4ad32> a prov:Entity ;
+    dcterms:identifier "Label Studio:18:26:15" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T09:03:03.803866+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-26-15-zCWqU-8f3e19e72d> a prov:Entity ;
+    dcterms:identifier "Label Studio:18:26:15" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T09:03:03.803866+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-27-16-63tiG_ZX42-range-0-675ff4ad32> a prov:Entity ;
+    dcterms:identifier "Label Studio:19:27:16" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T09:10:43.905902+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-27-16-6nbGb-n_ha-36a2d6e6b3> a prov:Entity ;
+    dcterms:identifier "Label Studio:19:27:16" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T09:10:43.905902+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-27-16-B3uG7QlPPn-range-0-8f3e19e72d> a prov:Entity ;
+    dcterms:identifier "Label Studio:19:27:16" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T09:10:43.905902+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-27-16-b1BY7Iu5hI-range-0-36a2d6e6b3> a prov:Entity ;
+    dcterms:identifier "Label Studio:19:27:16" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T09:10:43.905902+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-27-16-ibU5a11DWa-range-0-fe9a02a33f> a prov:Entity ;
+    dcterms:identifier "Label Studio:19:27:16" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T09:10:43.905902+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-27-16-mrc44_-2ot-8f3e19e72d> a prov:Entity ;
+    dcterms:identifier "Label Studio:19:27:16" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T09:10:43.905902+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-27-16-od1oCqkq_c-fe9a02a33f> a prov:Entity ;
+    dcterms:identifier "Label Studio:19:27:16" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T09:10:43.905902+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/ls-27-16-xubQJ81XAs-675ff4ad32> a prov:Entity ;
+    dcterms:identifier "Label Studio:19:27:16" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T09:10:43.905902+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/provenance/voyager-c6ed31e143aa-Dbjzc2xDKRus-8f3e19e72d> a prov:Entity ;
+    dcterms:identifier "Smithsonian Voyager Story::白马模型.glb:Dbjzc2xDKRus" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Smithsonian%20Voyager%20Story> .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-10-11-7e_kYIdWNi-8f3e19e72d/1> a rdf2ary:TextPositionSelector ;
+    rdf2ary:endOffset "2"^^xsd:nonNegativeInteger ;
+    rdf2ary:hasOffsetUnit rdf2ary:CharacterOffset ;
+    rdf2ary:startOffset "0"^^xsd:nonNegativeInteger .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-10-11-7e_kYIdWNi-8f3e19e72d/2> a rdf2ary:TextQuoteSelector ;
+    rdf2ary:exactText "白马"@zh-Hans ;
+    rdf2ary:suffixText """饰金羁，连翩西北驰。
+借问谁家子，幽并游"""@zh-Hans .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-10-11-UdRHeO3EpE-36a2d6e6b3/1> a rdf2ary:TextPositionSelector ;
+    rdf2ary:endOffset "12"^^xsd:nonNegativeInteger ;
+    rdf2ary:hasOffsetUnit rdf2ary:CharacterOffset ;
+    rdf2ary:startOffset "0"^^xsd:nonNegativeInteger .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-10-11-UdRHeO3EpE-36a2d6e6b3/2> a rdf2ary:TextQuoteSelector ;
+    rdf2ary:exactText "白马饰金羁，连翩西北驰。"@zh-Hans ;
+    rdf2ary:suffixText """
+借问谁家子，幽并游侠儿。
+少小去乡邑，"""@zh-Hans .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-11-12-tYLFHeFjaT-675ff4ad32/1> a rdf2ary:TextPositionSelector ;
+    rdf2ary:endOffset "25"^^xsd:nonNegativeInteger ;
+    rdf2ary:hasOffsetUnit rdf2ary:CharacterOffset ;
+    rdf2ary:startOffset "13"^^xsd:nonNegativeInteger .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-11-12-tYLFHeFjaT-675ff4ad32/2> a rdf2ary:TextQuoteSelector ;
+    rdf2ary:exactText "借问谁家子，幽并游侠儿。"@zh-Hans ;
+    rdf2ary:prefixText """白马饰金羁，连翩西北驰。
+"""@zh-Hans ;
+    rdf2ary:suffixText """
+少小去乡邑，扬声沙漠垂。
+宿昔秉良弓，"""@zh-Hans .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-12-13-oRAo4bw5WK-fe9a02a33f/1> a rdf2ary:TextPositionSelector ;
+    rdf2ary:endOffset "38"^^xsd:nonNegativeInteger ;
+    rdf2ary:hasOffsetUnit rdf2ary:CharacterOffset ;
+    rdf2ary:startOffset "26"^^xsd:nonNegativeInteger .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-12-13-oRAo4bw5WK-fe9a02a33f/2> a rdf2ary:TextQuoteSelector ;
+    rdf2ary:exactText "少小去乡邑，扬声沙漠垂。"@zh-Hans ;
+    rdf2ary:prefixText """连翩西北驰。
+借问谁家子，幽并游侠儿。
+"""@zh-Hans ;
+    rdf2ary:suffixText """
+宿昔秉良弓，楛矢何参差。
+控弦破左的，"""@zh-Hans .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-25-14-68EgssTfcl-8f3e19e72d/1> a rdf2ary:ImageRegionSelector ;
+    rdf2ary:hasCoordinateSystem rdf2ary:ImagePercentageSpace ;
+    rdf2ary:hasCoordinateUnit rdf2ary:PercentageCoordinate ;
+    rdf2ary:height 7.999999999999999 ;
+    rdf2ary:width 4.648547328959708 ;
+    rdf2ary:x 84.33793011112598 ;
+    rdf2ary:y 4.909090909090909 .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-25-14-_WdLSMlbxE-fe9a02a33f/1> a rdf2ary:ImageRegionSelector ;
+    rdf2ary:hasCoordinateSystem rdf2ary:ImagePercentageSpace ;
+    rdf2ary:hasCoordinateUnit rdf2ary:PercentageCoordinate ;
+    rdf2ary:height 41.34790528233151 ;
+    rdf2ary:width 3.858669263435189 ;
+    rdf2ary:x 75.84280966062275 ;
+    rdf2ary:y 3.642987249544627 .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-25-14-foBinZ9l8b-36a2d6e6b3/1> a rdf2ary:ImageRegionSelector ;
+    rdf2ary:hasCoordinateSystem rdf2ary:ImagePercentageSpace ;
+    rdf2ary:hasCoordinateUnit rdf2ary:PercentageCoordinate ;
+    rdf2ary:height 45.355191256830594 ;
+    rdf2ary:width 3.858669263435189 ;
+    rdf2ary:x 84.49130919031204 ;
+    rdf2ary:y 3.825467792680907 .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-25-14-jdh93sXcPQ-675ff4ad32/1> a rdf2ary:ImageRegionSelector ;
+    rdf2ary:hasCoordinateSystem rdf2ary:ImagePercentageSpace ;
+    rdf2ary:hasCoordinateUnit rdf2ary:PercentageCoordinate ;
+    rdf2ary:height 45.71948998178506 ;
+    rdf2ary:width 4.390899506667623 ;
+    rdf2ary:x 79.83453648486605 ;
+    rdf2ary:y 4.189435336976321 .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-25-14-zxvRUh81yk-675ff4ad32/1> a rdf2ary:ImageRegionSelector ;
+    rdf2ary:hasCoordinateSystem rdf2ary:ImagePercentageSpace ;
+    rdf2ary:hasCoordinateUnit rdf2ary:PercentageCoordinate ;
+    rdf2ary:height 4.553734061930783 ;
+    rdf2ary:width 3.5925541418189653 ;
+    rdf2ary:x 79.56842136324983 ;
+    rdf2ary:y 91.62112932604735 .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-26-15-lQH4z-36a2d6e6b3/1> a rdf2ary:TemporalSegmentSelector ;
+    rdf2ary:channelIndex "0"^^xsd:nonNegativeInteger ;
+    rdf2ary:endTime 10.910869714285715 ;
+    rdf2ary:hasCoordinateUnit rdf2ary:SecondUnit ;
+    rdf2ary:startTime 4.849275428571429 .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-26-15-lWkmj-fe9a02a33f/1> a rdf2ary:TemporalSegmentSelector ;
+    rdf2ary:channelIndex "0"^^xsd:nonNegativeInteger ;
+    rdf2ary:endTime 23.23611142857143 ;
+    rdf2ary:hasCoordinateUnit rdf2ary:SecondUnit ;
+    rdf2ary:startTime 17.275543714285714 .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-26-15-qPP2s-675ff4ad32/1> a rdf2ary:TemporalSegmentSelector ;
+    rdf2ary:channelIndex "0"^^xsd:nonNegativeInteger ;
+    rdf2ary:endTime 17.174517142857145 ;
+    rdf2ary:hasCoordinateUnit rdf2ary:SecondUnit ;
+    rdf2ary:startTime 11.21394942857143 .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-26-15-zCWqU-8f3e19e72d/1> a rdf2ary:TemporalSegmentSelector ;
+    rdf2ary:channelIndex "0"^^xsd:nonNegativeInteger ;
+    rdf2ary:endTime 5.949354162352454 ;
+    rdf2ary:hasCoordinateUnit rdf2ary:SecondUnit ;
+    rdf2ary:startTime 4.933387528473804 .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-27-16-63tiG_ZX42-range-0-675ff4ad32/1> a rdf2ary:TemporalSegmentSelector ;
+    rdf2ary:endFrame "485"^^xsd:nonNegativeInteger ;
+    rdf2ary:endFrameInclusive true ;
+    rdf2ary:endTime 16.166666666666668 ;
+    rdf2ary:frameIndexBase "1"^^xsd:nonNegativeInteger ;
+    rdf2ary:frameRate 30.0 ;
+    rdf2ary:hasCoordinateUnit rdf2ary:SecondUnit ;
+    rdf2ary:startFrame "344"^^xsd:nonNegativeInteger ;
+    rdf2ary:startTime 11.433333333333334 .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-27-16-6nbGb-n_ha-36a2d6e6b3/1> a rdf2ary:VideoSceneSelector ;
+    rdf2ary:hasSpatialComponent <https://w3id.org/rdf2ary/instance/selector/ls-27-16-6nbGb-n_ha-36a2d6e6b3/1/spatial> ;
+    rdf2ary:hasTemporalComponent <https://w3id.org/rdf2ary/instance/selector/ls-27-16-6nbGb-n_ha-36a2d6e6b3/1/temporal> .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-27-16-6nbGb-n_ha-36a2d6e6b3/1/spatial> a rdf2ary:ImageRegionSelector ;
+    rdf2ary:hasCoordinateSystem rdf2ary:ImagePercentageSpace ;
+    rdf2ary:hasCoordinateUnit rdf2ary:PercentageCoordinate ;
+    rdf2ary:height 9.444444444444445 ;
+    rdf2ary:width 40.15625 ;
+    rdf2ary:x 31.5625 ;
+    rdf2ary:y 21.11111111111111 .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-27-16-6nbGb-n_ha-36a2d6e6b3/1/temporal> a rdf2ary:TemporalSegmentSelector ;
+    rdf2ary:frameIndexBase "0"^^xsd:nonNegativeInteger ;
+    rdf2ary:frameRate 30.0 ;
+    rdf2ary:hasCoordinateUnit rdf2ary:SecondUnit ;
+    rdf2ary:startFrame "211"^^xsd:nonNegativeInteger ;
+    rdf2ary:startTime 7.033333333333333 .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-27-16-B3uG7QlPPn-range-0-8f3e19e72d/1> a rdf2ary:TemporalSegmentSelector ;
+    rdf2ary:endFrame "230"^^xsd:nonNegativeInteger ;
+    rdf2ary:endFrameInclusive true ;
+    rdf2ary:endTime 7.666666666666667 ;
+    rdf2ary:frameIndexBase "1"^^xsd:nonNegativeInteger ;
+    rdf2ary:frameRate 30.0 ;
+    rdf2ary:hasCoordinateUnit rdf2ary:SecondUnit ;
+    rdf2ary:startFrame "211"^^xsd:nonNegativeInteger ;
+    rdf2ary:startTime 7.0 .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-27-16-b1BY7Iu5hI-range-0-36a2d6e6b3/1> a rdf2ary:TemporalSegmentSelector ;
+    rdf2ary:endFrame "344"^^xsd:nonNegativeInteger ;
+    rdf2ary:endFrameInclusive true ;
+    rdf2ary:endTime 11.466666666666667 ;
+    rdf2ary:frameIndexBase "1"^^xsd:nonNegativeInteger ;
+    rdf2ary:frameRate 30.0 ;
+    rdf2ary:hasCoordinateUnit rdf2ary:SecondUnit ;
+    rdf2ary:startFrame "211"^^xsd:nonNegativeInteger ;
+    rdf2ary:startTime 7.0 .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-27-16-ibU5a11DWa-range-0-fe9a02a33f/1> a rdf2ary:TemporalSegmentSelector ;
+    rdf2ary:endFrame "646"^^xsd:nonNegativeInteger ;
+    rdf2ary:endFrameInclusive true ;
+    rdf2ary:endTime 21.533333333333335 ;
+    rdf2ary:frameIndexBase "1"^^xsd:nonNegativeInteger ;
+    rdf2ary:frameRate 30.0 ;
+    rdf2ary:hasCoordinateUnit rdf2ary:SecondUnit ;
+    rdf2ary:startFrame "495"^^xsd:nonNegativeInteger ;
+    rdf2ary:startTime 16.466666666666665 .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-27-16-mrc44_-2ot-8f3e19e72d/1> a rdf2ary:VideoSceneSelector ;
+    rdf2ary:hasSpatialComponent <https://w3id.org/rdf2ary/instance/selector/ls-27-16-mrc44_-2ot-8f3e19e72d/1/spatial> ;
+    rdf2ary:hasTemporalComponent <https://w3id.org/rdf2ary/instance/selector/ls-27-16-mrc44_-2ot-8f3e19e72d/1/temporal> .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-27-16-mrc44_-2ot-8f3e19e72d/1/spatial> a rdf2ary:ImageRegionSelector ;
+    rdf2ary:hasCoordinateSystem rdf2ary:ImagePercentageSpace ;
+    rdf2ary:hasCoordinateUnit rdf2ary:PercentageCoordinate ;
+    rdf2ary:height 11.666666666666666 ;
+    rdf2ary:width 6.875000000000001 ;
+    rdf2ary:x 32.5 ;
+    rdf2ary:y 18.88888888888889 .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-27-16-mrc44_-2ot-8f3e19e72d/1/temporal> a rdf2ary:TemporalSegmentSelector ;
+    rdf2ary:frameIndexBase "0"^^xsd:nonNegativeInteger ;
+    rdf2ary:frameRate 30.0 ;
+    rdf2ary:hasCoordinateUnit rdf2ary:SecondUnit ;
+    rdf2ary:startFrame "215"^^xsd:nonNegativeInteger ;
+    rdf2ary:startTime 7.166666666666667 .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-27-16-od1oCqkq_c-fe9a02a33f/1> a rdf2ary:VideoSceneSelector ;
+    rdf2ary:hasSpatialComponent <https://w3id.org/rdf2ary/instance/selector/ls-27-16-od1oCqkq_c-fe9a02a33f/1/spatial> ;
+    rdf2ary:hasTemporalComponent <https://w3id.org/rdf2ary/instance/selector/ls-27-16-od1oCqkq_c-fe9a02a33f/1/temporal> .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-27-16-od1oCqkq_c-fe9a02a33f/1/spatial> a rdf2ary:ImageRegionSelector ;
+    rdf2ary:hasCoordinateSystem rdf2ary:ImagePercentageSpace ;
+    rdf2ary:hasCoordinateUnit rdf2ary:PercentageCoordinate ;
+    rdf2ary:height 5.555555555555555 ;
+    rdf2ary:width 40.46875 ;
+    rdf2ary:x 31.874999999999996 ;
+    rdf2ary:y 38.05555555555556 .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-27-16-od1oCqkq_c-fe9a02a33f/1/temporal> a rdf2ary:TemporalSegmentSelector ;
+    rdf2ary:frameIndexBase "0"^^xsd:nonNegativeInteger ;
+    rdf2ary:frameRate 30.0 ;
+    rdf2ary:hasCoordinateUnit rdf2ary:SecondUnit ;
+    rdf2ary:startFrame "495"^^xsd:nonNegativeInteger ;
+    rdf2ary:startTime 16.5 .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-27-16-xubQJ81XAs-675ff4ad32/1> a rdf2ary:VideoSceneSelector ;
+    rdf2ary:hasSpatialComponent <https://w3id.org/rdf2ary/instance/selector/ls-27-16-xubQJ81XAs-675ff4ad32/1/spatial> ;
+    rdf2ary:hasTemporalComponent <https://w3id.org/rdf2ary/instance/selector/ls-27-16-xubQJ81XAs-675ff4ad32/1/temporal> .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-27-16-xubQJ81XAs-675ff4ad32/1/spatial> a rdf2ary:ImageRegionSelector ;
+    rdf2ary:hasCoordinateSystem rdf2ary:ImagePercentageSpace ;
+    rdf2ary:hasCoordinateUnit rdf2ary:PercentageCoordinate ;
+    rdf2ary:height 5.0 ;
+    rdf2ary:width 39.6875 ;
+    rdf2ary:x 31.874999999999996 ;
+    rdf2ary:y 31.38888888888889 .
+
+<https://w3id.org/rdf2ary/instance/selector/ls-27-16-xubQJ81XAs-675ff4ad32/1/temporal> a rdf2ary:TemporalSegmentSelector ;
+    rdf2ary:frameIndexBase "0"^^xsd:nonNegativeInteger ;
+    rdf2ary:frameRate 30.0 ;
+    rdf2ary:hasCoordinateUnit rdf2ary:SecondUnit ;
+    rdf2ary:startFrame "344"^^xsd:nonNegativeInteger ;
+    rdf2ary:startTime 11.466666666666667 .
+
+<https://w3id.org/rdf2ary/instance/selector/voyager-c6ed31e143aa-Dbjzc2xDKRus-8f3e19e72d/1> a rdf2ary:SpatialPointSelector ;
+    rdf2ary:hasCoordinateSystem rdf2ary:WorldCoordinateSpace ;
+    rdf2ary:hasCoordinateUnit rdf2ary:MillimetreUnit ;
+    rdf2ary:x 28.0470118 ;
+    rdf2ary:y 83.0050894 ;
+    rdf2ary:z -5.0763979 .
+
+<https://w3id.org/rdf2ary/instance/software/Smithsonian%20Voyager%20Story> a prov:SoftwareAgent ;
+    rdfs:label "Smithsonian Voyager Story" .
+
+<https://w3id.org/rdf2ary/instance/target/ls-10-11-7e_kYIdWNi-8f3e19e72d> a rdf2ary:AnnotationTarget ;
+    rdfs:seeAlso <http://127.0.0.1:8081/tei/baima_demo.tei.xml#bm-line-01>,
+        <http://127.0.0.1:8081/tei/view.html?line=bm-line-01&start=0&end=2> ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-10-11-7e_kYIdWNi-8f3e19e72d/1>,
+        <https://w3id.org/rdf2ary/instance/selector/ls-10-11-7e_kYIdWNi-8f3e19e72d/2> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:text-view> .
+
+<https://w3id.org/rdf2ary/instance/target/ls-10-11-UdRHeO3EpE-36a2d6e6b3> a rdf2ary:AnnotationTarget ;
+    rdfs:seeAlso <http://127.0.0.1:8081/tei/baima_demo.tei.xml#bm-line-01>,
+        <http://127.0.0.1:8081/tei/view.html?line=bm-line-01&start=0&end=12> ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-10-11-UdRHeO3EpE-36a2d6e6b3/1>,
+        <https://w3id.org/rdf2ary/instance/selector/ls-10-11-UdRHeO3EpE-36a2d6e6b3/2> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:text-view> .
+
+<https://w3id.org/rdf2ary/instance/target/ls-11-12-tYLFHeFjaT-675ff4ad32> a rdf2ary:AnnotationTarget ;
+    rdfs:seeAlso <http://127.0.0.1:8081/tei/baima_demo.tei.xml#bm-line-02>,
+        <http://127.0.0.1:8081/tei/view.html?line=bm-line-02&start=0&end=12> ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-11-12-tYLFHeFjaT-675ff4ad32/1>,
+        <https://w3id.org/rdf2ary/instance/selector/ls-11-12-tYLFHeFjaT-675ff4ad32/2> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:text-view> .
+
+<https://w3id.org/rdf2ary/instance/target/ls-12-13-oRAo4bw5WK-fe9a02a33f> a rdf2ary:AnnotationTarget ;
+    rdfs:seeAlso <http://127.0.0.1:8081/tei/baima_demo.tei.xml#bm-line-03>,
+        <http://127.0.0.1:8081/tei/view.html?line=bm-line-03&start=0&end=12> ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-12-13-oRAo4bw5WK-fe9a02a33f/1>,
+        <https://w3id.org/rdf2ary/instance/selector/ls-12-13-oRAo4bw5WK-fe9a02a33f/2> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:text-view> .
+
+<https://w3id.org/rdf2ary/instance/target/ls-25-14-68EgssTfcl-8f3e19e72d> a rdf2ary:AnnotationTarget ;
+    rdfs:seeAlso <http://127.0.0.1:8081/iiif/3/baima-page-01.png/572,24,33,41/max/0/default.jpg>,
+        <http://127.0.0.1:8081/manifests/baima-pian/canvas/1#xywh=572,24,33,41> ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-25-14-68EgssTfcl-8f3e19e72d/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:image-01> .
+
+<https://w3id.org/rdf2ary/instance/target/ls-25-14-_WdLSMlbxE-fe9a02a33f> a rdf2ary:AnnotationTarget ;
+    rdfs:seeAlso <http://127.0.0.1:8081/iiif/3/baima-page-01.png/514,18,28,206/max/0/default.jpg>,
+        <http://127.0.0.1:8081/manifests/baima-pian/canvas/1#xywh=514,18,28,206> ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-25-14-_WdLSMlbxE-fe9a02a33f/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:image-01> .
+
+<https://w3id.org/rdf2ary/instance/target/ls-25-14-foBinZ9l8b-36a2d6e6b3> a rdf2ary:AnnotationTarget ;
+    rdfs:seeAlso <http://127.0.0.1:8081/iiif/3/baima-page-01.png/573,18,27,226/max/0/default.jpg>,
+        <http://127.0.0.1:8081/manifests/baima-pian/canvas/1#xywh=573,18,27,226> ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-25-14-foBinZ9l8b-36a2d6e6b3/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:image-01> .
+
+<https://w3id.org/rdf2ary/instance/target/ls-25-14-jdh93sXcPQ-675ff4ad32> a rdf2ary:AnnotationTarget ;
+    rdfs:seeAlso <http://127.0.0.1:8081/iiif/3/baima-page-01.png/542,20,30,228/max/0/default.jpg>,
+        <http://127.0.0.1:8081/manifests/baima-pian/canvas/1#xywh=542,20,30,228> ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-25-14-jdh93sXcPQ-675ff4ad32/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:image-01> .
+
+<https://w3id.org/rdf2ary/instance/target/ls-25-14-zxvRUh81yk-675ff4ad32> a rdf2ary:AnnotationTarget ;
+    rdfs:seeAlso <http://127.0.0.1:8081/iiif/3/baima-page-01.png/540,454,25,24/max/0/default.jpg>,
+        <http://127.0.0.1:8081/manifests/baima-pian/canvas/1#xywh=540,454,25,24> ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-25-14-zxvRUh81yk-675ff4ad32/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:image-01> .
+
+<https://w3id.org/rdf2ary/instance/target/ls-26-15-lQH4z-36a2d6e6b3> a rdf2ary:AnnotationTarget ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-26-15-lQH4z-36a2d6e6b3/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:audio-01> .
+
+<https://w3id.org/rdf2ary/instance/target/ls-26-15-lWkmj-fe9a02a33f> a rdf2ary:AnnotationTarget ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-26-15-lWkmj-fe9a02a33f/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:audio-01> .
+
+<https://w3id.org/rdf2ary/instance/target/ls-26-15-qPP2s-675ff4ad32> a rdf2ary:AnnotationTarget ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-26-15-qPP2s-675ff4ad32/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:audio-01> .
+
+<https://w3id.org/rdf2ary/instance/target/ls-26-15-zCWqU-8f3e19e72d> a rdf2ary:AnnotationTarget ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-26-15-zCWqU-8f3e19e72d/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:audio-01> .
+
+<https://w3id.org/rdf2ary/instance/target/ls-27-16-63tiG_ZX42-range-0-675ff4ad32> a rdf2ary:AnnotationTarget ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-27-16-63tiG_ZX42-range-0-675ff4ad32/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:video-01> .
+
+<https://w3id.org/rdf2ary/instance/target/ls-27-16-6nbGb-n_ha-36a2d6e6b3> a rdf2ary:AnnotationTarget ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-27-16-6nbGb-n_ha-36a2d6e6b3/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:video-01> .
+
+<https://w3id.org/rdf2ary/instance/target/ls-27-16-B3uG7QlPPn-range-0-8f3e19e72d> a rdf2ary:AnnotationTarget ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-27-16-B3uG7QlPPn-range-0-8f3e19e72d/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:video-01> .
+
+<https://w3id.org/rdf2ary/instance/target/ls-27-16-b1BY7Iu5hI-range-0-36a2d6e6b3> a rdf2ary:AnnotationTarget ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-27-16-b1BY7Iu5hI-range-0-36a2d6e6b3/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:video-01> .
+
+<https://w3id.org/rdf2ary/instance/target/ls-27-16-ibU5a11DWa-range-0-fe9a02a33f> a rdf2ary:AnnotationTarget ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-27-16-ibU5a11DWa-range-0-fe9a02a33f/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:video-01> .
+
+<https://w3id.org/rdf2ary/instance/target/ls-27-16-mrc44_-2ot-8f3e19e72d> a rdf2ary:AnnotationTarget ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-27-16-mrc44_-2ot-8f3e19e72d/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:video-01> .
+
+<https://w3id.org/rdf2ary/instance/target/ls-27-16-od1oCqkq_c-fe9a02a33f> a rdf2ary:AnnotationTarget ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-27-16-od1oCqkq_c-fe9a02a33f/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:video-01> .
+
+<https://w3id.org/rdf2ary/instance/target/ls-27-16-xubQJ81XAs-675ff4ad32> a rdf2ary:AnnotationTarget ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/ls-27-16-xubQJ81XAs-675ff4ad32/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:video-01> .
+
+<https://w3id.org/rdf2ary/instance/target/voyager-c6ed31e143aa-Dbjzc2xDKRus-8f3e19e72d> a rdf2ary:AnnotationTarget ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/voyager-c6ed31e143aa-Dbjzc2xDKRus-8f3e19e72d/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:horse-3d-demo> .
+
+<urn:rdf2ary:baima:region:3d-point/c6ed31e143aac4ca/Dbjzc2xDKRus> rdfs:label "White Horse"@EN ;
+    dcterms:references <urn:rdf2ary:baima:concept:white-horse> .
+
+<urn:rdf2ary:baima:region:audio/62df738617e578a5/11.21394942857143-17.174517142857145-ch0> dcterms:references <urn:rdf2ary:baima:line:02> .
+
+<urn:rdf2ary:baima:region:audio/62df738617e578a5/17.275543714285714-23.23611142857143-ch0> dcterms:references <urn:rdf2ary:baima:line:03> .
+
+<urn:rdf2ary:baima:region:audio/62df738617e578a5/4.849275428571429-10.910869714285715-ch0> dcterms:references <urn:rdf2ary:baima:line:01> .
+
+<urn:rdf2ary:baima:region:audio/62df738617e578a5/4.933387528473804-5.949354162352454-ch0> dcterms:references <urn:rdf2ary:baima:concept:white-horse> .
+
+<urn:rdf2ary:baima:region:image/25/14/68EgssTfcl> dcterms:references <urn:rdf2ary:baima:concept:white-horse> .
+
+<urn:rdf2ary:baima:region:image/25/14/_WdLSMlbxE> dcterms:references <urn:rdf2ary:baima:line:03> .
+
+<urn:rdf2ary:baima:region:image/25/14/foBinZ9l8b> dcterms:references <urn:rdf2ary:baima:line:01> .
+
+<urn:rdf2ary:baima:region:image/25/14/jdh93sXcPQ> dcterms:references <urn:rdf2ary:baima:line:02> .
+
+<urn:rdf2ary:baima:region:image/25/14/zxvRUh81yk> dcterms:references <urn:rdf2ary:baima:line:02> .
+
+<urn:rdf2ary:baima:region:text/7b797bd1c3c67409/0-12-300645335154> dcterms:references <urn:rdf2ary:baima:line:01> .
+
+<urn:rdf2ary:baima:region:text/7b797bd1c3c67409/0-2-146d79287d4c> dcterms:references <urn:rdf2ary:baima:concept:white-horse> .
+
+<urn:rdf2ary:baima:region:text/7b797bd1c3c67409/13-25-e2e2c1db9748> dcterms:references <urn:rdf2ary:baima:line:02> .
+
+<urn:rdf2ary:baima:region:text/7b797bd1c3c67409/26-38-13d4350a0b9f> dcterms:references <urn:rdf2ary:baima:line:03> .
+
+<urn:rdf2ary:baima:region:video-frame/27/16/6nbGb-n_ha> dcterms:references <urn:rdf2ary:baima:line:01> .
+
+<urn:rdf2ary:baima:region:video-frame/27/16/mrc44_-2ot> dcterms:references <urn:rdf2ary:baima:concept:white-horse> .
+
+<urn:rdf2ary:baima:region:video-frame/27/16/od1oCqkq_c> dcterms:references <urn:rdf2ary:baima:line:03> .
+
+<urn:rdf2ary:baima:region:video-frame/27/16/xubQJ81XAs> dcterms:references <urn:rdf2ary:baima:line:02> .
+
+<urn:rdf2ary:baima:region:video/d49e22493da1484c/f211-230-base1-fps30-inclusive> dcterms:references <urn:rdf2ary:baima:concept:white-horse> .
+
+<urn:rdf2ary:baima:region:video/d49e22493da1484c/f211-344-base1-fps30-inclusive> dcterms:references <urn:rdf2ary:baima:line:01> .
+
+<urn:rdf2ary:baima:region:video/d49e22493da1484c/f344-485-base1-fps30-inclusive> dcterms:references <urn:rdf2ary:baima:line:02> .
+
+<urn:rdf2ary:baima:region:video/d49e22493da1484c/f495-646-base1-fps30-inclusive> dcterms:references <urn:rdf2ary:baima:line:03> .
+
+<urn:rdf2ary:baima:resource:horse-3d-demo> a rdf2ary:ThreeDimensionalResource ;
+    rdfs:label "白马三维示范模型" .
+
+<urn:rdf2ary:baima:resource:audio-01> a rdf2ary:AudioResource ;
+    rdfs:label "白马篇普通话朗读"@zh-CN .
+
+<urn:rdf2ary:baima:resource:text-view> a rdf2ary:TextResource ;
+    rdfs:label "白马篇固定纯文本视图"@zh-Hans ;
+    rdfs:seeAlso <http://127.0.0.1:8081/tei/baima_plain.txt> .
+
+<urn:rdf2ary:baima:resource:image-01> a rdf2ary:ImageResource ;
+    rdfs:label "白马篇图像" ;
+    dcterms:isPartOf <http://127.0.0.1:8081/manifests/baima-pian.json> ;
+    rdfs:seeAlso <http://127.0.0.1:8081/iiif/3/baima-page-01.png> .
+
+<urn:rdf2ary:baima:resource:video-01> a rdf2ary:VideoResource ;
+    rdfs:label "白马篇粤语视频"@yue .
+
+<urn:rdf2ary:baima:line:01> dcterms:subject <urn:rdf2ary:baima:concept:white-horse> .
+
+<urn:rdf2ary:baima:concept:white-horse> rdfs:label "白马"@zh .
+
+<https://w3id.org/rdf2ary/instance/agent/1> a prov:Agent ;
+    rdfs:label "1" .
+
+<https://w3id.org/rdf2ary/instance/software/Label%20Studio> a prov:SoftwareAgent ;
+    rdfs:label "Label Studio" .
+

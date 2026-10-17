@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-10-07T06:41:34.405Z",
+  "viewer": "bundled Mirador",
+  "url": "http://127.0.0.1:8081/mirador/annotations.html",
+  "all_passed": true,
+  "annotation_count": 5,
+  "checks": [
+    {
+      "annotation_region": "68EgssTfcl",
+      "menu_selection_active": true,
+      "screenshot": "../figures/iiif-selection-68EgssTfcl.png"
+    },
+    {
+      "annotation_region": "_WdLSMlbxE",
+      "menu_selection_active": true,
+      "screenshot": "../figures/iiif-selection-_WdLSMlbxE.png"
+    },
+    {
+      "annotation_region": "foBinZ9l8b",
+      "menu_selection_active": true,
+      "screenshot": "../figures/iiif-selection-foBinZ9l8b.png"
+    },
+    {
+      "annotation_region": "jdh93sXcPQ",
+      "menu_selection_active": true,
+      "screenshot": "../figures/iiif-selection-jdh93sXcPQ.png"
+    },
+    {
+      "annotation_region": "zxvRUh81yk",
+      "menu_selection_active": true,
+      "screenshot": "../figures/iiif-selection-zxvRUh81yk.png"
+    }
+  ],
+  "highlight_toggle": {
+    "off_button_after_click": "Highlight all",
+    "on_button_after_click": "Highlight none",
+    "selected_annotation_remains_highlighted_when_global_highlight_is_off": true
+  },
+  "overview_screenshot": "../figures/iiif-annotations-mirador.png",
+  "scope": "Observed one local Mirador build: annotation loading, rendered image/regions, five menu selections and global highlight toggle; not a cross-viewer certification.",
+  "browser_error_logs": [],
+  "mirador_bundle_sha256": "33cb2e30bbbd22c5ff135e491c74182858c673367920827111a4bd6d5bbfbaf2",
+  "manifest_sha256": "8f26fa9174a4570c3c881b63219f3f27586791b38b4953f0ccd9bb4019c50e24",
+  "overview_sha256": "4fdbd3a6637c8ba012ae8ec8574f8f5da84d648b695d62ddd330539a44f4e0d6"
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="baima-demo">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>白马篇：案例示范转写</title>
+        <author>曹植</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>本地研究示范文件，尚未公开发行。</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>依据用户提供的本地纯文本文件“白马篇文本.txt”自建；古籍底本和版本尚未核定。</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:lang="zh-Hans">
+    <body>
+      <div type="poem" xml:id="baima-poem">
+        <head>白马篇</head>
+        <lg type="poem">
+          <l xml:id="bm-line-01" n="1">白马饰金羁，连翩西北驰。</l>
+          <l xml:id="bm-line-02" n="2">借问谁家子，幽并游侠儿。</l>
+          <l xml:id="bm-line-03" n="3">少小去乡邑，扬声沙漠垂。</l>
+          <l xml:id="bm-line-04" n="4">宿昔秉良弓，楛矢何参差。</l>
+          <l xml:id="bm-line-05" n="5">控弦破左的，右发摧月支。</l>
+          <l xml:id="bm-line-06" n="6">仰手接飞猱，俯身散马蹄。</l>
+          <l xml:id="bm-line-07" n="7">狡捷过猴猿，勇剽若豹螭。</l>
+          <l xml:id="bm-line-08" n="8">边城多警急，胡虏数迁移。</l>
+          <l xml:id="bm-line-09" n="9">羽檄从北来，厉马登高堤。</l>
+          <l xml:id="bm-line-10" n="10">长驱蹈匈奴，左顾陵鲜卑。</l>
+          <l xml:id="bm-line-11" n="11">弃身锋刃端，性命安可怀？</l>
+          <l xml:id="bm-line-12" n="12">父母且不顾，何言子与妻？</l>
+          <l xml:id="bm-line-13" n="13">名在壮士籍，不得中顾私。</l>
+          <l xml:id="bm-line-14" n="14">捐躯赴国难，视死忽如归。</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

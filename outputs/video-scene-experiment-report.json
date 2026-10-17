@@ -1,0 +1,252 @@
+{
+  "raw_upload_sha256": "fd2f201ef5b2f387f73bbeacb4267e73777bfb4e51227aef1c3c95c898107094",
+  "raw_upload_unchanged": true,
+  "old_timeline_results_unchanged": true,
+  "old_canonical_records_unchanged": 18,
+  "video_result_routing": {
+    "raw_result_count": 12,
+    "timeline_results": 4,
+    "scene_results": 4,
+    "linked_control_results": 4,
+    "linked_controls": [
+      {
+        "task_id": 27,
+        "source_annotation_id": 16,
+        "result_id": "6nbGb-n_ha",
+        "reason": "same region ID, label, sequence and video metadata; not an independent range"
+      },
+      {
+        "task_id": 27,
+        "source_annotation_id": 16,
+        "result_id": "mrc44_-2ot",
+        "reason": "same region ID, label, sequence and video metadata; not an independent range"
+      },
+      {
+        "task_id": 27,
+        "source_annotation_id": 16,
+        "result_id": "xubQJ81XAs",
+        "reason": "same region ID, label, sequence and video metadata; not an independent range"
+      },
+      {
+        "task_id": 27,
+        "source_annotation_id": 16,
+        "result_id": "od1oCqkq_c",
+        "reason": "same region ID, label, sequence and video metadata; not an independent range"
+      }
+    ]
+  },
+  "case_record_count": 22,
+  "modalities": {
+    "text": 4,
+    "image": 5,
+    "audio": 4,
+    "video": 8,
+    "3d": 1
+  },
+  "graphs": {
+    "case-five-modality.ttl": {
+      "triple_count": 608,
+      "shacl_valid": true,
+      "reloaded": true
+    },
+    "case-five-modality-iiif.ttl": {
+      "triple_count": 620,
+      "shacl_valid": true,
+      "reloaded": true
+    },
+    "case-five-modality-local-links.ttl": {
+      "triple_count": 630,
+      "shacl_valid": true,
+      "reloaded": true
+    }
+  },
+  "field_comparison_matches": 22,
+  "recovered_records_match": 22,
+  "provenance_comparison_note": "Provenance project/task/source IDs compared as lexical identifiers; RDF decoder returns strings. Locator values, units, boundaries and coordinate systems are compared without this normalization.",
+  "queries": {
+    "line_evidence": 16,
+    "concept_evidence": 6,
+    "annotation_detail": 1
+  },
+  "line_distribution": {
+    "urn:rdf2ary:baima:line:01": 5,
+    "urn:rdf2ary:baima:line:02": 6,
+    "urn:rdf2ary:baima:line:03": 5
+  },
+  "concept_resource_count": 5,
+  "video_scenes": [
+    {
+      "annotation_id": "ls-27-16-6nbGb-n_ha-36a2d6e6b3",
+      "object_iri": "urn:rdf2ary:baima:line:01",
+      "selector": {
+        "type": "video_scene",
+        "spatial": {
+          "type": "image_region",
+          "x": 31.5625,
+          "y": 21.11111111111111,
+          "width": 40.15625,
+          "height": 9.444444444444445,
+          "coordinate_system": "percentage"
+        },
+        "temporal": {
+          "type": "temporal_segment",
+          "start_time": 7.033333333333333,
+          "end_time": null,
+          "original_start_timecode": null,
+          "original_end_timecode": null,
+          "timecode_format": null,
+          "channel_index": null,
+          "start_frame": 211,
+          "end_frame": null,
+          "frame_rate": 30.0,
+          "frame_index_base": 0,
+          "end_frame_inclusive": null,
+          "unit": "second"
+        }
+      },
+      "recovered_fields_match": true
+    },
+    {
+      "annotation_id": "ls-27-16-mrc44_-2ot-8f3e19e72d",
+      "object_iri": "urn:rdf2ary:baima:concept:white-horse",
+      "selector": {
+        "type": "video_scene",
+        "spatial": {
+          "type": "image_region",
+          "x": 32.5,
+          "y": 18.88888888888889,
+          "width": 6.875000000000001,
+          "height": 11.666666666666666,
+          "coordinate_system": "percentage"
+        },
+        "temporal": {
+          "type": "temporal_segment",
+          "start_time": 7.166666666666667,
+          "end_time": null,
+          "original_start_timecode": null,
+          "original_end_timecode": null,
+          "timecode_format": null,
+          "channel_index": null,
+          "start_frame": 215,
+          "end_frame": null,
+          "frame_rate": 30.0,
+          "frame_index_base": 0,
+          "end_frame_inclusive": null,
+          "unit": "second"
+        }
+      },
+      "recovered_fields_match": true
+    },
+    {
+      "annotation_id": "ls-27-16-xubQJ81XAs-675ff4ad32",
+      "object_iri": "urn:rdf2ary:baima:line:02",
+      "selector": {
+        "type": "video_scene",
+        "spatial": {
+          "type": "image_region",
+          "x": 31.874999999999996,
+          "y": 31.38888888888889,
+          "width": 39.6875,
+          "height": 5.0,
+          "coordinate_system": "percentage"
+        },
+        "temporal": {
+          "type": "temporal_segment",
+          "start_time": 11.466666666666667,
+          "end_time": null,
+          "original_start_timecode": null,
+          "original_end_timecode": null,
+          "timecode_format": null,
+          "channel_index": null,
+          "start_frame": 344,
+          "end_frame": null,
+          "frame_rate": 30.0,
+          "frame_index_base": 0,
+          "end_frame_inclusive": null,
+          "unit": "second"
+        }
+      },
+      "recovered_fields_match": true
+    },
+    {
+      "annotation_id": "ls-27-16-od1oCqkq_c-fe9a02a33f",
+      "object_iri": "urn:rdf2ary:baima:line:03",
+      "selector": {
+        "type": "video_scene",
+        "spatial": {
+          "type": "image_region",
+          "x": 31.874999999999996,
+          "y": 38.05555555555556,
+          "width": 40.46875,
+          "height": 5.555555555555555,
+          "coordinate_system": "percentage"
+        },
+        "temporal": {
+          "type": "temporal_segment",
+          "start_time": 16.5,
+          "end_time": null,
+          "original_start_timecode": null,
+          "original_end_timecode": null,
+          "timecode_format": null,
+          "channel_index": null,
+          "start_frame": 495,
+          "end_frame": null,
+          "frame_rate": 30.0,
+          "frame_index_base": 0,
+          "end_frame_inclusive": null,
+          "unit": "second"
+        }
+      },
+      "recovered_fields_match": true
+    }
+  ],
+  "positive_fixtures": 23,
+  "negative_fixtures": 6,
+  "api_tests": {
+    "tests": 127,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "standard_exports": {
+    "web-annotation": {
+      "input_count": 22,
+      "exported_count": 17,
+      "unsupported_count": 5
+    },
+    "iiif-image": {
+      "input_count": 22,
+      "exported_count": 5,
+      "unsupported_count": 17
+    }
+  },
+  "http_document_count": 25,
+  "viewer_evidence_reuse": {
+    "original_checked_at": "2026-10-07T06:41:34.405Z",
+    "manifest_sha256_matches": true,
+    "iiif_page_unchanged": true,
+    "fresh_browser_run": false,
+    "scope": "Prior local Mirador interaction evidence retained for identical manifest and annotation page."
+  },
+  "video_media": {
+    "type": "vide",
+    "timescale": 15360,
+    "duration_ticks": 1323008,
+    "duration_seconds": 86.13333333333334,
+    "sample_count": 2584,
+    "sample_timing_entries": [
+      [
+        2584,
+        512
+      ]
+    ],
+    "sample_frame_rates": [
+      30.0
+    ],
+    "width": 640.0,
+    "height": 360.0
+  },
+  "export_metadata_note": "Label Studio framesCount=2589 is an estimate using duration=86.285351 (audio/container duration); actual video track has 2584 samples at 30 fps. All selected frames are within the video track.",
+  "content_review_complete": false,
+  "scope": "Four actual single-frame video regions supplement the 18-record case. Constructed locator fixtures are separate. No new browser interaction, video playback or independent content blind review is claimed."
+}

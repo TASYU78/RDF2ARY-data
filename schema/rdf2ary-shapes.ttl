@@ -1,0 +1,89 @@
+@prefix rdf2ary: <https://w3id.org/rdf2ary/nary#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+rdf2ary:AnnotationShape
+    a sh:NodeShape ;
+    sh:targetClass rdf2ary:Annotation ;
+    sh:property [
+        sh:path rdf2ary:hasAssertion ;
+        sh:class rdf2ary:SemanticAssertion ;
+        sh:minCount 1 ; sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path rdf2ary:hasTarget ;
+        sh:class rdf2ary:AnnotationTarget ;
+        sh:minCount 1 ; sh:maxCount 1
+    ] .
+
+rdf2ary:SemanticAssertionShape
+    a sh:NodeShape ;
+    sh:targetClass rdf2ary:SemanticAssertion ;
+    sh:property [ sh:path rdf:subject ; sh:nodeKind sh:IRI ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path rdf:predicate ; sh:nodeKind sh:IRI ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path rdf:object ; sh:minCount 1 ; sh:maxCount 1 ] .
+
+rdf2ary:AnnotationTargetShape
+    a sh:NodeShape ;
+    sh:targetClass rdf2ary:AnnotationTarget ;
+    sh:property [
+        sh:path rdf2ary:hasSource ;
+        sh:class rdf2ary:MediaResource ;
+        sh:minCount 1 ; sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path rdf2ary:hasSelector ;
+        sh:class rdf2ary:Selector ;
+        sh:minCount 1
+    ] .
+
+rdf2ary:TextPositionSelectorShape
+    a sh:NodeShape ;
+    sh:targetClass rdf2ary:TextPositionSelector ;
+    sh:property [ sh:path rdf2ary:startOffset ; sh:datatype xsd:nonNegativeInteger ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path rdf2ary:endOffset ; sh:datatype xsd:nonNegativeInteger ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path rdf2ary:hasOffsetUnit ; sh:hasValue rdf2ary:CharacterOffset ; sh:minCount 1 ; sh:maxCount 1 ] .
+
+rdf2ary:TextQuoteSelectorShape
+    a sh:NodeShape ;
+    sh:targetClass rdf2ary:TextQuoteSelector ;
+    sh:property [ sh:path rdf2ary:exactText ; sh:minCount 1 ; sh:maxCount 1 ; sh:minLength 1 ] .
+
+rdf2ary:ImageRegionSelectorShape
+    a sh:NodeShape ;
+    sh:targetClass rdf2ary:ImageRegionSelector ;
+    sh:property [ sh:path rdf2ary:x ; sh:datatype xsd:decimal ; sh:minCount 1 ; sh:maxCount 1 ; sh:minInclusive 0 ] ;
+    sh:property [ sh:path rdf2ary:y ; sh:datatype xsd:decimal ; sh:minCount 1 ; sh:maxCount 1 ; sh:minInclusive 0 ] ;
+    sh:property [ sh:path rdf2ary:width ; sh:datatype xsd:decimal ; sh:minCount 1 ; sh:maxCount 1 ; sh:minExclusive 0 ] ;
+    sh:property [ sh:path rdf2ary:height ; sh:datatype xsd:decimal ; sh:minCount 1 ; sh:maxCount 1 ; sh:minExclusive 0 ] ;
+    sh:property [ sh:path rdf2ary:hasCoordinateSystem ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path rdf2ary:hasCoordinateUnit ; sh:minCount 1 ; sh:maxCount 1 ] .
+
+rdf2ary:TemporalSegmentSelectorShape
+    a sh:NodeShape ;
+    sh:targetClass rdf2ary:TemporalSegmentSelector ;
+    sh:property [ sh:path rdf2ary:startTime ; sh:datatype xsd:decimal ; sh:minCount 1 ; sh:maxCount 1 ; sh:minInclusive 0 ] ;
+    sh:property [ sh:path rdf2ary:endTime ; sh:datatype xsd:decimal ; sh:maxCount 1 ; sh:minInclusive 0 ] ;
+    sh:property [ sh:path rdf2ary:channelIndex ; sh:datatype xsd:nonNegativeInteger ; sh:maxCount 1 ; sh:minInclusive 0 ] ;
+    sh:property [ sh:path rdf2ary:startFrame ; sh:datatype xsd:nonNegativeInteger ; sh:maxCount 1 ; sh:minInclusive 0 ] ;
+    sh:property [ sh:path rdf2ary:endFrame ; sh:datatype xsd:nonNegativeInteger ; sh:maxCount 1 ; sh:minInclusive 0 ] ;
+    sh:property [ sh:path rdf2ary:frameRate ; sh:datatype xsd:decimal ; sh:maxCount 1 ; sh:minExclusive 0 ] ;
+    sh:property [ sh:path rdf2ary:frameIndexBase ; sh:datatype xsd:nonNegativeInteger ; sh:maxCount 1 ; sh:minInclusive 0 ; sh:maxInclusive 1 ] ;
+    sh:property [ sh:path rdf2ary:endFrameInclusive ; sh:datatype xsd:boolean ; sh:maxCount 1 ] ;
+    sh:property [ sh:path rdf2ary:hasCoordinateUnit ; sh:hasValue rdf2ary:SecondUnit ; sh:minCount 1 ; sh:maxCount 1 ] .
+
+rdf2ary:SpatialPointSelectorShape
+    a sh:NodeShape ;
+    sh:targetClass rdf2ary:SpatialPointSelector ;
+    sh:property [ sh:path rdf2ary:x ; sh:datatype xsd:decimal ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path rdf2ary:y ; sh:datatype xsd:decimal ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path rdf2ary:z ; sh:datatype xsd:decimal ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path rdf2ary:hasCoordinateSystem ; sh:minCount 1 ; sh:maxCount 1 ; sh:in (rdf2ary:WorldCoordinateSpace rdf2ary:ModelCoordinateSpace) ] ;
+    sh:property [ sh:path rdf2ary:hasCoordinateUnit ; sh:minCount 1 ; sh:maxCount 1 ; sh:in (rdf2ary:MillimetreUnit rdf2ary:CentimetreUnit rdf2ary:MetreUnit) ] .
+
+rdf2ary:VideoSceneSelectorShape
+    a sh:NodeShape ;
+    sh:targetClass rdf2ary:VideoSceneSelector ;
+    sh:property [ sh:path rdf2ary:hasSpatialComponent ; sh:class rdf2ary:ImageRegionSelector ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path rdf2ary:hasTemporalComponent ; sh:class rdf2ary:TemporalSegmentSelector ; sh:minCount 1 ; sh:maxCount 1 ] .

@@ -1,0 +1,55 @@
+@n2ary "1.0"
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+@prefix dcterms: <http://purl.org/dc/terms/>
+@prefix prov: <http://www.w3.org/ns/prov#>
+@prefix rdf2ary: <https://w3id.org/rdf2ary/nary#>
+
+@id "ls-10-11-7e_kYIdWNi-8f3e19e72d"
+@source {"label": "白马篇固定纯文本视图", "language": "zh-Hans", "media_type": "text", "uri": "urn:rdf2ary:baima:resource:text-view"}
+@provenance {"annotator": "1", "created_at": "2026-10-04T08:27:40.913401Z", "project_id": "13", "source_annotation_id": "11", "task_id": "10", "tool": "Label Studio"}
+@extensions [{"exact": "白马", "language": "zh-Hans", "prefix": null, "suffix": "饰金羁，连翩西北驰。\n借问谁家子，幽并游", "type": "text_quote"}]
+(<urn:rdf2ary:baima:region:text/7b797bd1c3c67409/0-2-146d79287d4c> dcterms:references <urn:rdf2ary:baima:concept:white-horse>)
+^in(ι char:0 char:2)
+---
+
+@id "ls-25-14-68EgssTfcl-8f3e19e72d"
+@source {"label": "白马篇图像", "language": null, "media_type": "image", "uri": "urn:rdf2ary:baima:resource:image-01"}
+@provenance {"annotator": "1", "created_at": "2026-10-04T08:32:10.946824Z", "project_id": "17", "source_annotation_id": "14", "task_id": "25", "tool": "Label Studio"}
+(<urn:rdf2ary:baima:region:image/25/14/68EgssTfcl> dcterms:references <urn:rdf2ary:baima:concept:white-horse>)
+^in(ω pct:84.33793011112598 pct:4.909090909090909 pct:4.648547328959708 pct:7.999999999999999)
+---
+
+@id "ls-26-15-zCWqU-8f3e19e72d"
+@source {"label": "白马篇普通话朗读", "language": "zh-CN", "media_type": "audio", "uri": "urn:rdf2ary:baima:resource:audio-01"}
+@provenance {"annotator": "1", "created_at": "2026-10-04T09:03:03.803866Z", "project_id": "18", "source_annotation_id": "15", "task_id": "26", "tool": "Label Studio"}
+@extensions [{"channel_index": 0, "end_frame": null, "end_frame_inclusive": null, "end_time": 5.949354162352454, "frame_index_base": null, "frame_rate": null, "original_end_timecode": null, "original_start_timecode": null, "start_frame": null, "start_time": 4.933387528473804, "timecode_format": null, "type": "temporal_segment", "unit": "second"}]
+(<urn:rdf2ary:baima:region:audio/62df738617e578a5/4.933387528473804-5.949354162352454-ch0> dcterms:references <urn:rdf2ary:baima:concept:white-horse>)
+^in(δ sec:4.933387528473804 sec:5.949354162352454)
+---
+
+@id "ls-27-16-B3uG7QlPPn-range-0-8f3e19e72d"
+@source {"label": "白马篇粤语视频", "language": "yue", "media_type": "video", "uri": "urn:rdf2ary:baima:resource:video-01"}
+@provenance {"annotator": "1", "created_at": "2026-10-04T09:10:43.905902Z", "project_id": "19", "source_annotation_id": "16", "task_id": "27", "tool": "Label Studio"}
+@extensions [{"channel_index": null, "end_frame": 230, "end_frame_inclusive": true, "end_time": 7.666666666666667, "frame_index_base": 1, "frame_rate": 30.0, "original_end_timecode": null, "original_start_timecode": null, "start_frame": 211, "start_time": 7.0, "timecode_format": null, "type": "temporal_segment", "unit": "second"}]
+(<urn:rdf2ary:baima:region:video/d49e22493da1484c/f211-230-base1-fps30-inclusive> dcterms:references <urn:rdf2ary:baima:concept:white-horse>)
+^in(δ sec:7 sec:7.666666666666667)
+---
+
+@id "ls-27-16-mrc44_-2ot-8f3e19e72d"
+@source {"label": "白马篇粤语视频", "language": "yue", "media_type": "video", "uri": "urn:rdf2ary:baima:resource:video-01"}
+@provenance {"annotator": "1", "created_at": "2026-10-04T09:10:43.905902Z", "project_id": "19", "source_annotation_id": "16", "task_id": "27", "tool": "Label Studio"}
+@extensions [{"channel_index": null, "end_frame": null, "end_frame_inclusive": null, "end_time": null, "frame_index_base": 0, "frame_rate": 30.0, "original_end_timecode": null, "original_start_timecode": null, "start_frame": 215, "start_time": 7.166666666666667, "timecode_format": null, "type": "video_scene_temporal", "unit": "second"}]
+(<urn:rdf2ary:baima:region:video-frame/27/16/mrc44_-2ot> dcterms:references <urn:rdf2ary:baima:concept:white-horse>)
+^in(ω pct:32.5 pct:18.88888888888889 pct:6.875000000000001 pct:11.666666666666666)
+^in(δ sec:7.166666666666667 _)
+---
+
+@id "voyager-c6ed31e143aa-Dbjzc2xDKRus-8f3e19e72d"
+@source {"label": "白马三维示范模型", "language": null, "media_type": "3d", "uri": "urn:rdf2ary:baima:resource:horse-3d-demo"}
+@provenance {"annotator": null, "created_at": null, "project_id": null, "source_annotation_id": "Dbjzc2xDKRus", "task_id": "白马模型.glb", "tool": "Smithsonian Voyager Story"}
+@assertion-meta {"subject_label": "White Horse", "subject_language": "EN"}
+(<urn:rdf2ary:baima:region:3d-point/c6ed31e143aac4ca/Dbjzc2xDKRus> dcterms:references <urn:rdf2ary:baima:concept:white-horse>)
+^in(α 28.0470118 83.0050894 -5.0763979 w mm)
+---

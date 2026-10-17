@@ -1,0 +1,236 @@
+{
+  "line_evidence": [
+    {
+      "line": "urn:rdf2ary:baima:line:01",
+      "annotationId": "ls-26-15-lQH4z-36a2d6e6b3",
+      "source": "urn:rdf2ary:baima:resource:audio-01",
+      "selectorType": "https://w3id.org/rdf2ary/nary#TemporalSegmentSelector",
+      "startTime": "4.849275428571429",
+      "endTime": "10.910869714285715"
+    },
+    {
+      "line": "urn:rdf2ary:baima:line:01",
+      "annotationId": "ls-25-14-foBinZ9l8b-36a2d6e6b3",
+      "source": "urn:rdf2ary:baima:resource:image-01",
+      "selectorType": "https://w3id.org/rdf2ary/nary#ImageRegionSelector",
+      "x": "84.49130919031204",
+      "y": "3.825467792680907",
+      "width": "3.858669263435189",
+      "height": "45.355191256830594"
+    },
+    {
+      "line": "urn:rdf2ary:baima:line:01",
+      "annotationId": "ls-10-11-UdRHeO3EpE-36a2d6e6b3",
+      "source": "urn:rdf2ary:baima:resource:text-view",
+      "selectorType": "https://w3id.org/rdf2ary/nary#TextPositionSelector",
+      "startOffset": "0",
+      "endOffset": "12"
+    },
+    {
+      "line": "urn:rdf2ary:baima:line:01",
+      "annotationId": "ls-27-16-6nbGb-n_ha-36a2d6e6b3",
+      "source": "urn:rdf2ary:baima:resource:video-01",
+      "selectorType": "https://w3id.org/rdf2ary/nary#VideoSceneSelector",
+      "x": "31.5625",
+      "y": "21.11111111111111",
+      "width": "40.15625",
+      "height": "9.444444444444445",
+      "startTime": "7.033333333333333",
+      "startFrame": "211",
+      "frameRate": "30.0",
+      "frameIndexBase": "0"
+    },
+    {
+      "line": "urn:rdf2ary:baima:line:01",
+      "annotationId": "ls-27-16-b1BY7Iu5hI-range-0-36a2d6e6b3",
+      "source": "urn:rdf2ary:baima:resource:video-01",
+      "selectorType": "https://w3id.org/rdf2ary/nary#TemporalSegmentSelector",
+      "startTime": "7.0",
+      "endTime": "11.466666666666667",
+      "startFrame": "211",
+      "endFrame": "344"
+    },
+    {
+      "line": "urn:rdf2ary:baima:line:02",
+      "annotationId": "ls-26-15-qPP2s-675ff4ad32",
+      "source": "urn:rdf2ary:baima:resource:audio-01",
+      "selectorType": "https://w3id.org/rdf2ary/nary#TemporalSegmentSelector",
+      "startTime": "11.21394942857143",
+      "endTime": "17.174517142857145"
+    },
+    {
+      "line": "urn:rdf2ary:baima:line:02",
+      "annotationId": "ls-25-14-jdh93sXcPQ-675ff4ad32",
+      "source": "urn:rdf2ary:baima:resource:image-01",
+      "selectorType": "https://w3id.org/rdf2ary/nary#ImageRegionSelector",
+      "x": "79.83453648486605",
+      "y": "4.189435336976321",
+      "width": "4.390899506667623",
+      "height": "45.71948998178506"
+    },
+    {
+      "line": "urn:rdf2ary:baima:line:02",
+      "annotationId": "ls-25-14-zxvRUh81yk-675ff4ad32",
+      "source": "urn:rdf2ary:baima:resource:image-01",
+      "selectorType": "https://w3id.org/rdf2ary/nary#ImageRegionSelector",
+      "x": "79.56842136324983",
+      "y": "91.62112932604735",
+      "width": "3.5925541418189653",
+      "height": "4.553734061930783"
+    },
+    {
+      "line": "urn:rdf2ary:baima:line:02",
+      "annotationId": "ls-11-12-tYLFHeFjaT-675ff4ad32",
+      "source": "urn:rdf2ary:baima:resource:text-view",
+      "selectorType": "https://w3id.org/rdf2ary/nary#TextPositionSelector",
+      "startOffset": "13",
+      "endOffset": "25"
+    },
+    {
+      "line": "urn:rdf2ary:baima:line:02",
+      "annotationId": "ls-27-16-63tiG_ZX42-range-0-675ff4ad32",
+      "source": "urn:rdf2ary:baima:resource:video-01",
+      "selectorType": "https://w3id.org/rdf2ary/nary#TemporalSegmentSelector",
+      "startTime": "11.433333333333334",
+      "endTime": "16.166666666666668",
+      "startFrame": "344",
+      "endFrame": "485"
+    },
+    {
+      "line": "urn:rdf2ary:baima:line:02",
+      "annotationId": "ls-27-16-xubQJ81XAs-675ff4ad32",
+      "source": "urn:rdf2ary:baima:resource:video-01",
+      "selectorType": "https://w3id.org/rdf2ary/nary#VideoSceneSelector",
+      "x": "31.874999999999996",
+      "y": "31.38888888888889",
+      "width": "39.6875",
+      "height": "5.0",
+      "startTime": "11.466666666666667",
+      "startFrame": "344",
+      "frameRate": "30.0",
+      "frameIndexBase": "0"
+    },
+    {
+      "line": "urn:rdf2ary:baima:line:03",
+      "annotationId": "ls-26-15-lWkmj-fe9a02a33f",
+      "source": "urn:rdf2ary:baima:resource:audio-01",
+      "selectorType": "https://w3id.org/rdf2ary/nary#TemporalSegmentSelector",
+      "startTime": "17.275543714285714",
+      "endTime": "23.23611142857143"
+    },
+    {
+      "line": "urn:rdf2ary:baima:line:03",
+      "annotationId": "ls-25-14-_WdLSMlbxE-fe9a02a33f",
+      "source": "urn:rdf2ary:baima:resource:image-01",
+      "selectorType": "https://w3id.org/rdf2ary/nary#ImageRegionSelector",
+      "x": "75.84280966062275",
+      "y": "3.642987249544627",
+      "width": "3.858669263435189",
+      "height": "41.34790528233151"
+    },
+    {
+      "line": "urn:rdf2ary:baima:line:03",
+      "annotationId": "ls-12-13-oRAo4bw5WK-fe9a02a33f",
+      "source": "urn:rdf2ary:baima:resource:text-view",
+      "selectorType": "https://w3id.org/rdf2ary/nary#TextPositionSelector",
+      "startOffset": "26",
+      "endOffset": "38"
+    },
+    {
+      "line": "urn:rdf2ary:baima:line:03",
+      "annotationId": "ls-27-16-ibU5a11DWa-range-0-fe9a02a33f",
+      "source": "urn:rdf2ary:baima:resource:video-01",
+      "selectorType": "https://w3id.org/rdf2ary/nary#TemporalSegmentSelector",
+      "startTime": "16.466666666666665",
+      "endTime": "21.533333333333335",
+      "startFrame": "495",
+      "endFrame": "646"
+    },
+    {
+      "line": "urn:rdf2ary:baima:line:03",
+      "annotationId": "ls-27-16-od1oCqkq_c-fe9a02a33f",
+      "source": "urn:rdf2ary:baima:resource:video-01",
+      "selectorType": "https://w3id.org/rdf2ary/nary#VideoSceneSelector",
+      "x": "31.874999999999996",
+      "y": "38.05555555555556",
+      "width": "40.46875",
+      "height": "5.555555555555555",
+      "startTime": "16.5",
+      "startFrame": "495",
+      "frameRate": "30.0",
+      "frameIndexBase": "0"
+    }
+  ],
+  "concept_evidence": [
+    {
+      "annotationId": "ls-26-15-zCWqU-8f3e19e72d",
+      "source": "urn:rdf2ary:baima:resource:audio-01",
+      "selectorType": "https://w3id.org/rdf2ary/nary#TemporalSegmentSelector",
+      "startTime": "4.933387528473804",
+      "endTime": "5.949354162352454"
+    },
+    {
+      "annotationId": "voyager-c6ed31e143aa-Dbjzc2xDKRus-8f3e19e72d",
+      "source": "urn:rdf2ary:baima:resource:horse-3d-demo",
+      "selectorType": "https://w3id.org/rdf2ary/nary#SpatialPointSelector",
+      "x": "28.0470118",
+      "y": "83.0050894",
+      "z": "-5.0763979",
+      "unit": "https://w3id.org/rdf2ary/nary#MillimetreUnit"
+    },
+    {
+      "annotationId": "ls-25-14-68EgssTfcl-8f3e19e72d",
+      "source": "urn:rdf2ary:baima:resource:image-01",
+      "selectorType": "https://w3id.org/rdf2ary/nary#ImageRegionSelector",
+      "x": "84.33793011112598",
+      "y": "4.909090909090909",
+      "width": "4.648547328959708",
+      "height": "7.999999999999999"
+    },
+    {
+      "annotationId": "ls-10-11-7e_kYIdWNi-8f3e19e72d",
+      "source": "urn:rdf2ary:baima:resource:text-view",
+      "selectorType": "https://w3id.org/rdf2ary/nary#TextPositionSelector",
+      "startOffset": "0",
+      "endOffset": "2"
+    },
+    {
+      "annotationId": "ls-27-16-B3uG7QlPPn-range-0-8f3e19e72d",
+      "source": "urn:rdf2ary:baima:resource:video-01",
+      "selectorType": "https://w3id.org/rdf2ary/nary#TemporalSegmentSelector",
+      "startTime": "7.0",
+      "endTime": "7.666666666666667",
+      "startFrame": "211",
+      "endFrame": "230"
+    },
+    {
+      "annotationId": "ls-27-16-mrc44_-2ot-8f3e19e72d",
+      "source": "urn:rdf2ary:baima:resource:video-01",
+      "selectorType": "https://w3id.org/rdf2ary/nary#VideoSceneSelector",
+      "x": "32.5",
+      "y": "18.88888888888889",
+      "width": "6.875000000000001",
+      "height": "11.666666666666666",
+      "startTime": "7.166666666666667",
+      "startFrame": "215",
+      "frameRate": "30.0",
+      "frameIndexBase": "0"
+    }
+  ],
+  "annotation_detail": [
+    {
+      "annotationId": "ls-25-14-foBinZ9l8b-36a2d6e6b3",
+      "subject": "urn:rdf2ary:baima:region:image/25/14/foBinZ9l8b",
+      "predicate": "http://purl.org/dc/terms/references",
+      "object": "urn:rdf2ary:baima:line:01",
+      "source": "urn:rdf2ary:baima:resource:image-01",
+      "selectorType": "https://w3id.org/rdf2ary/nary#ImageRegionSelector",
+      "x": "84.49130919031204",
+      "y": "3.825467792680907",
+      "width": "3.858669263435189",
+      "height": "45.355191256830594",
+      "provenanceId": "Label Studio:17:25:14",
+      "createdAt": "2026-10-04T08:32:10.946824+00:00"
+    }
+  ]
+}

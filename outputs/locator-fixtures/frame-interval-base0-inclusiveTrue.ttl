@@ -1,0 +1,49 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdf2ary: <https://w3id.org/rdf2ary/nary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/rdf2ary/instance/annotation/locator-check-frame-interval-base0-inclusiveTrue> a rdf2ary:Annotation ;
+    dcterms:identifier "locator-check-frame-interval-base0-inclusiveTrue" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/locator-check-frame-interval-base0-inclusiveTrue> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/locator-check-frame-interval-base0-inclusiveTrue> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/locator-check-frame-interval-base0-inclusiveTrue> .
+
+<https://w3id.org/rdf2ary/instance/agent/1> a prov:Agent ;
+    rdfs:label "1" .
+
+<https://w3id.org/rdf2ary/instance/assertion/locator-check-frame-interval-base0-inclusiveTrue> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:line:03> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:verification:frame-interval-base0-inclusiveTrue> .
+
+<https://w3id.org/rdf2ary/instance/provenance/locator-check-frame-interval-base0-inclusiveTrue> a prov:Entity ;
+    dcterms:identifier "Label Studio:19:27:16" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T09:10:43.905902+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/selector/locator-check-frame-interval-base0-inclusiveTrue/1> a rdf2ary:TemporalSegmentSelector ;
+    rdf2ary:endFrame "90"^^xsd:nonNegativeInteger ;
+    rdf2ary:endFrameInclusive true ;
+    rdf2ary:endTime 3.033333333333333 ;
+    rdf2ary:frameIndexBase "0"^^xsd:nonNegativeInteger ;
+    rdf2ary:frameRate 30.0 ;
+    rdf2ary:hasCoordinateUnit rdf2ary:SecondUnit ;
+    rdf2ary:startFrame "60"^^xsd:nonNegativeInteger ;
+    rdf2ary:startTime 2.0 .
+
+<https://w3id.org/rdf2ary/instance/software/Label%20Studio> a prov:SoftwareAgent ;
+    rdfs:label "Label Studio" .
+
+<https://w3id.org/rdf2ary/instance/target/locator-check-frame-interval-base0-inclusiveTrue> a rdf2ary:AnnotationTarget ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/locator-check-frame-interval-base0-inclusiveTrue/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:video-01> .
+
+<urn:rdf2ary:baima:resource:video-01> a rdf2ary:VideoResource ;
+    rdfs:label "白马篇粤语视频"@yue .
+
+<urn:rdf2ary:verification:frame-interval-base0-inclusiveTrue> dcterms:references <urn:rdf2ary:baima:line:03> .
+

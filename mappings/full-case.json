@@ -1,0 +1,35 @@
+{
+  "concept_label": "White horse",
+  "concept_iri": "urn:rdf2ary:baima:concept:white-horse",
+  "concept_line_iri": "urn:rdf2ary:baima:line:01",
+  "exports": {
+    "text": {"file": "text-project-13-full.json", "expected_regions": 4},
+    "image": {"file": "image-project-17-full.json", "expected_regions": 5},
+    "audio": {"file": "audio-project-18-full.json", "expected_regions": 4},
+    "video": {"file": "video-project-19-with-scenes.json", "expected_regions": 4}
+  },
+  "video_scene": {"file": "video-project-19-with-scenes.json", "expected_regions": 4, "expected_linked_controls": 4},
+  "query_counts": {"line_evidence": 16, "concept_evidence": 6, "annotation_detail": 1},
+  "voyager": {
+    "file": "scene-full.svx.json",
+    "model_file": "白马模型.glb",
+    "semantic_labels_by_annotation_id": {
+      "Dbjzc2xDKRus": {"marker": "White Horse", "title": "White Horse", "label": "White horse"}
+    },
+    "mapping": {
+      "resource_mapping": {
+        "白马模型.glb": {
+          "uri": "urn:rdf2ary:baima:resource:horse-3d-demo",
+          "label": "白马三维示范模型"
+        }
+      },
+      "subject_base_iri": "urn:rdf2ary:baima:region:3d-point/",
+      "predicate": "http://purl.org/dc/terms/references",
+      "label_mapping": {
+        "White horse": {"kind": "iri", "value": "urn:rdf2ary:baima:concept:white-horse"}
+      },
+      "preferred_language": "EN",
+      "tool": "Smithsonian Voyager Story"
+    }
+  }
+}

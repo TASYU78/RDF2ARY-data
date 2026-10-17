@@ -1,0 +1,73 @@
+{
+  "tei_url": "http://127.0.0.1:8081/tei/baima_demo.tei.xml",
+  "fixed_text_url": "http://127.0.0.1:8081/tei/baima_plain.txt",
+  "tei_sha256": "7c290a990003feb133e0845e75ad64ecf76b13aa8f414dfb884dec609fae9feb",
+  "fixed_text_sha256": "c061b32324092b32cdf0b3782284e36f67d3b051407024d5385cf18ea61a75b8",
+  "tei_line_count": 14,
+  "verified_text_annotations": 4,
+  "previous_triples": 620,
+  "linked_triples": 630,
+  "shacl_conforms": true,
+  "checks": [
+    {
+      "annotation_id": "ls-10-11-UdRHeO3EpE-36a2d6e6b3",
+      "quote": "白马饰金羁，连翩西北驰。",
+      "fixed_view_offsets": [
+        0,
+        12
+      ],
+      "tei_line_id": "bm-line-01",
+      "tei_line_offsets": [
+        0,
+        12
+      ],
+      "tei_xml_fragment": "http://127.0.0.1:8081/tei/baima_demo.tei.xml#bm-line-01",
+      "tei_viewer_url": "http://127.0.0.1:8081/tei/view.html?line=bm-line-01&start=0&end=12"
+    },
+    {
+      "annotation_id": "ls-10-11-7e_kYIdWNi-8f3e19e72d",
+      "quote": "白马",
+      "fixed_view_offsets": [
+        0,
+        2
+      ],
+      "tei_line_id": "bm-line-01",
+      "tei_line_offsets": [
+        0,
+        2
+      ],
+      "tei_xml_fragment": "http://127.0.0.1:8081/tei/baima_demo.tei.xml#bm-line-01",
+      "tei_viewer_url": "http://127.0.0.1:8081/tei/view.html?line=bm-line-01&start=0&end=2"
+    },
+    {
+      "annotation_id": "ls-11-12-tYLFHeFjaT-675ff4ad32",
+      "quote": "借问谁家子，幽并游侠儿。",
+      "fixed_view_offsets": [
+        13,
+        25
+      ],
+      "tei_line_id": "bm-line-02",
+      "tei_line_offsets": [
+        0,
+        12
+      ],
+      "tei_xml_fragment": "http://127.0.0.1:8081/tei/baima_demo.tei.xml#bm-line-02",
+      "tei_viewer_url": "http://127.0.0.1:8081/tei/view.html?line=bm-line-02&start=0&end=12"
+    },
+    {
+      "annotation_id": "ls-12-13-oRAo4bw5WK-fe9a02a33f",
+      "quote": "少小去乡邑，扬声沙漠垂。",
+      "fixed_view_offsets": [
+        26,
+        38
+      ],
+      "tei_line_id": "bm-line-03",
+      "tei_line_offsets": [
+        0,
+        12
+      ],
+      "tei_xml_fragment": "http://127.0.0.1:8081/tei/baima_demo.tei.xml#bm-line-03",
+      "tei_viewer_url": "http://127.0.0.1:8081/tei/view.html?line=bm-line-03&start=0&end=12"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "type": "vide",
+    "timescale": 15360,
+    "duration_ticks": 1323008,
+    "duration_seconds": 86.13333333333334,
+    "sample_count": 2584,
+    "sample_timing_entries": [
+      [
+        2584,
+        512
+      ]
+    ],
+    "sample_frame_rates": [
+      30.0
+    ],
+    "width": 640.0,
+    "height": 360.0
+  },
+  {
+    "type": "soun",
+    "timescale": 22050,
+    "duration_ticks": 1902592,
+    "duration_seconds": 86.2853514739229
+  }
+]

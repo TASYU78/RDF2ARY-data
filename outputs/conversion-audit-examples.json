@@ -1,0 +1,538 @@
+{
+  "scope": "Retrospective source inspection independent of platform adapters; saved-RDF recovery is a separate consistency check. Not blind content truth.",
+  "example_count": 4,
+  "display_note": "Coordinates and seconds rounded to three decimals only in the table.",
+  "input_sha256": {
+    "mappings/text.json": "7e89e0f7af6f5747b9b263f13e572cbf02f0e5773bbd1d9bc839e3320b5c80cd",
+    "mappings/video-scenes.json": "76475225127d503c157e6bfaed525eed3c2c813089f8665d144ee5be3cf8df00",
+    "materials/text/baima_plain.txt": "c061b32324092b32cdf0b3782284e36f67d3b051407024d5385cf18ea61a75b8",
+    "outputs/case-five-modality.ttl": "7d1212e2e06cd2ab43c7fb99b73f9d6a5be7aff8ef0641301bb0a8d210b66dce",
+    "outputs/full-canonical-records.json": "84a8a6e4d7dfc15f071dd86084fa7753348c3c9e4a44bdbd0ecafae2ee6592a7",
+    "outputs/video-media-probe.json": "fcdf4d354b40bf3908c34358cffe9d667051d3b909e67c8fad5855be1a98acd1",
+    "raw-exports/image-project-17-full.json": "41df9a9980640436811c3206787f6463cd4913f796bd60952f6ca0688ef3f04a",
+    "raw-exports/scene-full.svx.json": "1c336c8611b7ba331cf80508d0d5c489e5f361685c7d2c703f0cf6397916a552",
+    "raw-exports/text-project-13-full.json": "20526f01e085047f7cbddb73f80ef26995ae5d79b713d1c328ed18d14c917016",
+    "raw-exports/video-project-19-with-scenes.json": "fd2f201ef5b2f387f73bbeacb4267e73777bfb4e51227aef1c3c95c898107094"
+  },
+  "examples": [
+    {
+      "case": "第二句文本",
+      "source_file": "raw-exports/text-project-13-full.json",
+      "source_json_pointer": "/1/annotations/0/result/0",
+      "raw_input": {
+        "task_id": 11,
+        "annotation_id": 12,
+        "result": {
+          "value": {
+            "start": 0,
+            "end": 12,
+            "text": "借问谁家子，幽并游侠儿。",
+            "labels": [
+              "bm-line-02"
+            ]
+          },
+          "id": "tYLFHeFjaT",
+          "from_name": "line",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        "task_text": "借问谁家子，幽并游侠儿。",
+        "line_mapping": {
+          "line_id": "bm-line-02",
+          "text": "借问谁家子，幽并游侠儿。",
+          "base_offset": 13
+        }
+      },
+      "interpretation_rule": "Add fixed-view line base offset to task-local offsets; verify exact quote.",
+      "source_derived_expected_selector": {
+        "type": "text_position",
+        "start_offset": 13,
+        "end_offset": 25,
+        "unit": "character"
+      },
+      "canonical_record": {
+        "annotation_id": "ls-11-12-tYLFHeFjaT-675ff4ad32",
+        "source": {
+          "uri": "urn:rdf2ary:baima:resource:text-view",
+          "media_type": "text",
+          "label": "白马篇固定纯文本视图",
+          "language": "zh-Hans"
+        },
+        "selectors": [
+          {
+            "type": "text_position",
+            "start_offset": 13,
+            "end_offset": 25,
+            "unit": "character"
+          },
+          {
+            "type": "text_quote",
+            "exact": "借问谁家子，幽并游侠儿。",
+            "prefix": "白马饰金羁，连翩西北驰。\n",
+            "suffix": "\n少小去乡邑，扬声沙漠垂。\n宿昔秉良弓，",
+            "language": "zh-Hans"
+          }
+        ],
+        "assertion": {
+          "subject": "urn:rdf2ary:baima:region:text/7b797bd1c3c67409/13-25-e2e2c1db9748",
+          "predicate": "http://purl.org/dc/terms/references",
+          "object": {
+            "kind": "iri",
+            "value": "urn:rdf2ary:baima:line:02"
+          },
+          "subject_label": null,
+          "subject_description": null,
+          "subject_language": null
+        },
+        "provenance": {
+          "tool": "Label Studio",
+          "project_id": 13,
+          "task_id": 11,
+          "source_annotation_id": 12,
+          "annotator": "1",
+          "created_at": "2026-10-04T08:27:43.979701Z"
+        }
+      },
+      "recovered_record": {
+        "annotation_id": "ls-11-12-tYLFHeFjaT-675ff4ad32",
+        "source": {
+          "uri": "urn:rdf2ary:baima:resource:text-view",
+          "media_type": "text",
+          "label": "白马篇固定纯文本视图",
+          "language": "zh-Hans"
+        },
+        "selectors": [
+          {
+            "type": "text_position",
+            "start_offset": 13,
+            "end_offset": 25,
+            "unit": "character"
+          },
+          {
+            "type": "text_quote",
+            "exact": "借问谁家子，幽并游侠儿。",
+            "prefix": "白马饰金羁，连翩西北驰。\n",
+            "suffix": "\n少小去乡邑，扬声沙漠垂。\n宿昔秉良弓，",
+            "language": "zh-Hans"
+          }
+        ],
+        "assertion": {
+          "subject": "urn:rdf2ary:baima:region:text/7b797bd1c3c67409/13-25-e2e2c1db9748",
+          "predicate": "http://purl.org/dc/terms/references",
+          "object": {
+            "kind": "iri",
+            "value": "urn:rdf2ary:baima:line:02"
+          },
+          "subject_label": null,
+          "subject_description": null,
+          "subject_language": null
+        },
+        "provenance": {
+          "tool": "Label Studio",
+          "project_id": "13",
+          "task_id": "11",
+          "source_annotation_id": "12",
+          "annotator": "1",
+          "created_at": "2026-10-04T08:27:43.979701Z"
+        }
+      },
+      "source_locator_matches": true,
+      "saved_graph_record_matches": true,
+      "text_quote_and_context_match": true
+    },
+    {
+      "case": "第一句图像",
+      "source_file": "raw-exports/image-project-17-full.json",
+      "source_json_pointer": "/0/annotations/0/result/0",
+      "raw_input": {
+        "original_width": 679,
+        "original_height": 496,
+        "image_rotation": 0,
+        "value": {
+          "x": 84.49130919031204,
+          "y": 3.825467792680907,
+          "width": 3.858669263435189,
+          "height": 45.355191256830594,
+          "rotation": 0,
+          "rectanglelabels": [
+            "bm-line-01"
+          ]
+        },
+        "id": "foBinZ9l8b",
+        "from_name": "line",
+        "to_name": "image",
+        "type": "rectanglelabels",
+        "origin": "manual"
+      },
+      "interpretation_rule": "Keep percentage rectangle and coordinate-system declaration.",
+      "source_derived_expected_selector": {
+        "type": "image_region",
+        "x": 84.49130919031204,
+        "y": 3.825467792680907,
+        "width": 3.858669263435189,
+        "height": 45.355191256830594,
+        "coordinate_system": "percentage"
+      },
+      "canonical_record": {
+        "annotation_id": "ls-25-14-foBinZ9l8b-36a2d6e6b3",
+        "source": {
+          "uri": "urn:rdf2ary:baima:resource:image-01",
+          "media_type": "image",
+          "label": "白马篇图像",
+          "language": null
+        },
+        "selectors": [
+          {
+            "type": "image_region",
+            "x": 84.49130919031204,
+            "y": 3.825467792680907,
+            "width": 3.858669263435189,
+            "height": 45.355191256830594,
+            "coordinate_system": "percentage"
+          }
+        ],
+        "assertion": {
+          "subject": "urn:rdf2ary:baima:region:image/25/14/foBinZ9l8b",
+          "predicate": "http://purl.org/dc/terms/references",
+          "object": {
+            "kind": "iri",
+            "value": "urn:rdf2ary:baima:line:01"
+          },
+          "subject_label": null,
+          "subject_description": null,
+          "subject_language": null
+        },
+        "provenance": {
+          "tool": "Label Studio",
+          "project_id": 17,
+          "task_id": 25,
+          "source_annotation_id": 14,
+          "annotator": "1",
+          "created_at": "2026-10-04T08:32:10.946824Z"
+        }
+      },
+      "recovered_record": {
+        "annotation_id": "ls-25-14-foBinZ9l8b-36a2d6e6b3",
+        "source": {
+          "uri": "urn:rdf2ary:baima:resource:image-01",
+          "media_type": "image",
+          "label": "白马篇图像",
+          "language": null
+        },
+        "selectors": [
+          {
+            "type": "image_region",
+            "x": 84.49130919031204,
+            "y": 3.825467792680907,
+            "width": 3.858669263435189,
+            "height": 45.355191256830594,
+            "coordinate_system": "percentage"
+          }
+        ],
+        "assertion": {
+          "subject": "urn:rdf2ary:baima:region:image/25/14/foBinZ9l8b",
+          "predicate": "http://purl.org/dc/terms/references",
+          "object": {
+            "kind": "iri",
+            "value": "urn:rdf2ary:baima:line:01"
+          },
+          "subject_label": null,
+          "subject_description": null,
+          "subject_language": null
+        },
+        "provenance": {
+          "tool": "Label Studio",
+          "project_id": "17",
+          "task_id": "25",
+          "source_annotation_id": "14",
+          "annotator": "1",
+          "created_at": "2026-10-04T08:32:10.946824Z"
+        }
+      },
+      "source_locator_matches": true,
+      "saved_graph_record_matches": true
+    },
+    {
+      "case": "第一句视频区域",
+      "source_file": "raw-exports/video-project-19-with-scenes.json",
+      "source_json_pointer": "/0/annotations/0/result/4",
+      "raw_input": {
+        "value": {
+          "framesCount": 2589,
+          "duration": 86.285351,
+          "sequence": [
+            {
+              "frame": 211,
+              "enabled": true,
+              "rotation": 0,
+              "x": 31.5625,
+              "y": 21.11111111111111,
+              "width": 40.15625,
+              "height": 9.444444444444445,
+              "time": 7.033333333333333
+            }
+          ],
+          "labels": [
+            "bm-line-01"
+          ]
+        },
+        "id": "6nbGb-n_ha",
+        "from_name": "scene_box",
+        "to_name": "video",
+        "type": "videorectangle",
+        "origin": "manual"
+      },
+      "interpretation_rule": "Keep rectangle, frame and time together; zero-based frame / 30 agrees with seconds.",
+      "source_derived_expected_selector": {
+        "type": "video_scene",
+        "spatial": {
+          "type": "image_region",
+          "x": 31.5625,
+          "y": 21.11111111111111,
+          "width": 40.15625,
+          "height": 9.444444444444445,
+          "coordinate_system": "percentage"
+        },
+        "temporal": {
+          "type": "temporal_segment",
+          "start_frame": 211,
+          "start_time": 7.033333333333333,
+          "frame_rate": 30.0,
+          "frame_index_base": 0
+        }
+      },
+      "canonical_record": {
+        "annotation_id": "ls-27-16-6nbGb-n_ha-36a2d6e6b3",
+        "source": {
+          "uri": "urn:rdf2ary:baima:resource:video-01",
+          "media_type": "video",
+          "label": "白马篇粤语视频",
+          "language": "yue"
+        },
+        "selectors": [
+          {
+            "type": "video_scene",
+            "spatial": {
+              "type": "image_region",
+              "x": 31.5625,
+              "y": 21.11111111111111,
+              "width": 40.15625,
+              "height": 9.444444444444445,
+              "coordinate_system": "percentage"
+            },
+            "temporal": {
+              "type": "temporal_segment",
+              "start_time": 7.033333333333333,
+              "end_time": null,
+              "original_start_timecode": null,
+              "original_end_timecode": null,
+              "timecode_format": null,
+              "channel_index": null,
+              "start_frame": 211,
+              "end_frame": null,
+              "frame_rate": 30.0,
+              "frame_index_base": 0,
+              "end_frame_inclusive": null,
+              "unit": "second"
+            }
+          }
+        ],
+        "assertion": {
+          "subject": "urn:rdf2ary:baima:region:video-frame/27/16/6nbGb-n_ha",
+          "predicate": "http://purl.org/dc/terms/references",
+          "object": {
+            "kind": "iri",
+            "value": "urn:rdf2ary:baima:line:01"
+          },
+          "subject_label": null,
+          "subject_description": null,
+          "subject_language": null
+        },
+        "provenance": {
+          "tool": "Label Studio",
+          "project_id": 19,
+          "task_id": 27,
+          "source_annotation_id": 16,
+          "annotator": "1",
+          "created_at": "2026-10-04T09:10:43.905902Z"
+        }
+      },
+      "recovered_record": {
+        "annotation_id": "ls-27-16-6nbGb-n_ha-36a2d6e6b3",
+        "source": {
+          "uri": "urn:rdf2ary:baima:resource:video-01",
+          "media_type": "video",
+          "label": "白马篇粤语视频",
+          "language": "yue"
+        },
+        "selectors": [
+          {
+            "type": "video_scene",
+            "spatial": {
+              "type": "image_region",
+              "x": 31.5625,
+              "y": 21.11111111111111,
+              "width": 40.15625,
+              "height": 9.444444444444445,
+              "coordinate_system": "percentage"
+            },
+            "temporal": {
+              "type": "temporal_segment",
+              "start_time": 7.033333333333333,
+              "end_time": null,
+              "original_start_timecode": null,
+              "original_end_timecode": null,
+              "timecode_format": null,
+              "channel_index": null,
+              "start_frame": 211,
+              "end_frame": null,
+              "frame_rate": 30.0,
+              "frame_index_base": 0,
+              "end_frame_inclusive": null,
+              "unit": "second"
+            }
+          }
+        ],
+        "assertion": {
+          "subject": "urn:rdf2ary:baima:region:video-frame/27/16/6nbGb-n_ha",
+          "predicate": "http://purl.org/dc/terms/references",
+          "object": {
+            "kind": "iri",
+            "value": "urn:rdf2ary:baima:line:01"
+          },
+          "subject_label": null,
+          "subject_description": null,
+          "subject_language": null
+        },
+        "provenance": {
+          "tool": "Label Studio",
+          "project_id": "19",
+          "task_id": "27",
+          "source_annotation_id": "16",
+          "annotator": "1",
+          "created_at": "2026-10-04T09:10:43.905902Z"
+        }
+      },
+      "source_locator_matches": true,
+      "saved_graph_record_matches": true
+    },
+    {
+      "case": "“白马”三维点",
+      "source_file": "raw-exports/scene-full.svx.json",
+      "source_json_pointer": "/models/0/annotations/0",
+      "raw_input": {
+        "annotation": {
+          "id": "Dbjzc2xDKRus",
+          "titles": {
+            "EN": "White Horse"
+          },
+          "leads": {
+            "EN": ""
+          },
+          "marker": "White Horse",
+          "position": [
+            28.0470118,
+            83.0050894,
+            -5.0763979
+          ],
+          "direction": [
+            0.0039191,
+            0.0352719,
+            -0.9993701
+          ],
+          "scale": 3.4544837
+        },
+        "scene_unit": "mm",
+        "model_unit": "cm"
+      },
+      "interpretation_rule": "Keep exported world point with scene unit; model-local unit is not applied to this point.",
+      "source_derived_expected_selector": {
+        "type": "spatial_point",
+        "x": 28.0470118,
+        "y": 83.0050894,
+        "z": -5.0763979,
+        "coordinate_system": "world",
+        "unit": "mm"
+      },
+      "canonical_record": {
+        "annotation_id": "voyager-c6ed31e143aa-Dbjzc2xDKRus-8f3e19e72d",
+        "source": {
+          "uri": "urn:rdf2ary:baima:resource:horse-3d-demo",
+          "media_type": "3d",
+          "label": "白马三维示范模型",
+          "language": null
+        },
+        "selectors": [
+          {
+            "type": "spatial_point",
+            "x": 28.0470118,
+            "y": 83.0050894,
+            "z": -5.0763979,
+            "coordinate_system": "world",
+            "unit": "mm"
+          }
+        ],
+        "assertion": {
+          "subject": "urn:rdf2ary:baima:region:3d-point/c6ed31e143aac4ca/Dbjzc2xDKRus",
+          "predicate": "http://purl.org/dc/terms/references",
+          "object": {
+            "kind": "iri",
+            "value": "urn:rdf2ary:baima:concept:white-horse"
+          },
+          "subject_label": "White Horse",
+          "subject_description": null,
+          "subject_language": "EN"
+        },
+        "provenance": {
+          "tool": "Smithsonian Voyager Story",
+          "project_id": null,
+          "task_id": "白马模型.glb",
+          "source_annotation_id": "Dbjzc2xDKRus",
+          "annotator": null,
+          "created_at": null
+        }
+      },
+      "recovered_record": {
+        "annotation_id": "voyager-c6ed31e143aa-Dbjzc2xDKRus-8f3e19e72d",
+        "source": {
+          "uri": "urn:rdf2ary:baima:resource:horse-3d-demo",
+          "media_type": "3d",
+          "label": "白马三维示范模型",
+          "language": null
+        },
+        "selectors": [
+          {
+            "type": "spatial_point",
+            "x": 28.0470118,
+            "y": 83.0050894,
+            "z": -5.0763979,
+            "coordinate_system": "world",
+            "unit": "mm"
+          }
+        ],
+        "assertion": {
+          "subject": "urn:rdf2ary:baima:region:3d-point/c6ed31e143aac4ca/Dbjzc2xDKRus",
+          "predicate": "http://purl.org/dc/terms/references",
+          "object": {
+            "kind": "iri",
+            "value": "urn:rdf2ary:baima:concept:white-horse"
+          },
+          "subject_label": "White Horse",
+          "subject_description": null,
+          "subject_language": "EN"
+        },
+        "provenance": {
+          "tool": "Smithsonian Voyager Story",
+          "project_id": null,
+          "task_id": "白马模型.glb",
+          "source_annotation_id": "Dbjzc2xDKRus",
+          "annotator": null,
+          "created_at": null
+        }
+      },
+      "source_locator_matches": true,
+      "saved_graph_record_matches": true
+    }
+  ]
+}

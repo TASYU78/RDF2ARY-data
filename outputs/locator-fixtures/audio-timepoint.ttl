@@ -1,0 +1,43 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdf2ary: <https://w3id.org/rdf2ary/nary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/rdf2ary/instance/annotation/locator-check-audio-timepoint> a rdf2ary:Annotation ;
+    dcterms:identifier "locator-check-audio-timepoint" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/locator-check-audio-timepoint> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/locator-check-audio-timepoint> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/locator-check-audio-timepoint> .
+
+<https://w3id.org/rdf2ary/instance/agent/1> a prov:Agent ;
+    rdfs:label "1" .
+
+<https://w3id.org/rdf2ary/instance/assertion/locator-check-audio-timepoint> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:concept:white-horse> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:verification:audio-timepoint> .
+
+<https://w3id.org/rdf2ary/instance/provenance/locator-check-audio-timepoint> a prov:Entity ;
+    dcterms:identifier "Label Studio:18:26:15" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T09:03:03.803866+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/selector/locator-check-audio-timepoint/1> a rdf2ary:TemporalSegmentSelector ;
+    rdf2ary:hasCoordinateUnit rdf2ary:SecondUnit ;
+    rdf2ary:startTime 2.0 .
+
+<https://w3id.org/rdf2ary/instance/software/Label%20Studio> a prov:SoftwareAgent ;
+    rdfs:label "Label Studio" .
+
+<https://w3id.org/rdf2ary/instance/target/locator-check-audio-timepoint> a rdf2ary:AnnotationTarget ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/locator-check-audio-timepoint/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:audio-01> .
+
+<urn:rdf2ary:baima:resource:audio-01> a rdf2ary:AudioResource ;
+    rdfs:label "白马篇普通话朗读"@zh-CN .
+
+<urn:rdf2ary:verification:audio-timepoint> dcterms:references <urn:rdf2ary:baima:concept:white-horse> .
+

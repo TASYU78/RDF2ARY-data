@@ -1,0 +1,95 @@
+@prefix rdf2ary: <https://w3id.org/rdf2ary/nary#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/rdf2ary/nary>
+    a owl:Ontology ;
+    dcterms:title "RDF2ARY Core Ontology"@en , "RDF2ARY 核心本体"@zh ;
+    dcterms:description
+        "An MVP ontology for aggregating multimodal resources, locating resource segments, and anchoring semantic assertions."@en ,
+        "用于聚合多模态资源、定位资源局部并锚定语义陈述的 MVP 本体。"@zh ;
+    owl:versionInfo "0.7.1" .
+
+#################################################################
+# Core classes
+#################################################################
+
+rdf2ary:Collection a owl:Class ; rdfs:label "Collection"@en , "资源集合"@zh .
+rdf2ary:MediaResource a owl:Class ; rdfs:label "Media resource"@en , "媒体资源"@zh .
+rdf2ary:TextResource a owl:Class ; rdfs:subClassOf rdf2ary:MediaResource ; rdfs:label "Text resource"@en , "文本资源"@zh .
+rdf2ary:ImageResource a owl:Class ; rdfs:subClassOf rdf2ary:MediaResource ; rdfs:label "Image resource"@en , "图像资源"@zh .
+rdf2ary:AudioResource a owl:Class ; rdfs:subClassOf rdf2ary:MediaResource ; rdfs:label "Audio resource"@en , "音频资源"@zh .
+rdf2ary:VideoResource a owl:Class ; rdfs:subClassOf rdf2ary:MediaResource ; rdfs:label "Video resource"@en , "视频资源"@zh .
+rdf2ary:ThreeDimensionalResource a owl:Class ; rdfs:subClassOf rdf2ary:MediaResource ; rdfs:label "3D resource"@en , "三维资源"@zh .
+
+rdf2ary:Annotation a owl:Class ; rdfs:label "Annotation"@en , "标注"@zh .
+rdf2ary:SemanticAssertion a owl:Class ; rdfs:label "Semantic assertion"@en , "语义陈述"@zh .
+rdf2ary:AnnotationTarget a owl:Class ; rdfs:label "Annotation target"@en , "标注目标"@zh .
+rdf2ary:Selector a owl:Class ; rdfs:label "Selector"@en , "定位器"@zh .
+rdf2ary:WholeResourceSelector a owl:Class ; rdfs:subClassOf rdf2ary:Selector ; rdfs:label "Whole resource selector"@en , "整项资源定位器"@zh .
+rdf2ary:TextPositionSelector a owl:Class ; rdfs:subClassOf rdf2ary:Selector ; rdfs:label "Text position selector"@en , "文本位置定位器"@zh .
+rdf2ary:TextQuoteSelector a owl:Class ; rdfs:subClassOf rdf2ary:Selector ; rdfs:label "Text quote selector"@en , "文本引文定位器"@zh .
+rdf2ary:ImageRegionSelector a owl:Class ; rdfs:subClassOf rdf2ary:Selector ; rdfs:label "Image region selector"@en , "图像区域定位器"@zh .
+rdf2ary:TemporalSegmentSelector a owl:Class ; rdfs:subClassOf rdf2ary:Selector ; rdfs:label "Temporal segment selector"@en , "时段定位器"@zh .
+rdf2ary:VideoSceneSelector a owl:Class ; rdfs:subClassOf rdf2ary:Selector ; rdfs:label "Video scene selector"@en , "视频场景定位器"@zh .
+rdf2ary:SpatialPointSelector a owl:Class ; rdfs:subClassOf rdf2ary:Selector ; rdfs:label "Spatial point selector"@en , "三维空间点定位器"@zh .
+
+#################################################################
+# Object properties
+#################################################################
+
+rdf2ary:hasMember a owl:ObjectProperty ; rdfs:domain rdf2ary:Collection ; rdfs:label "has member"@en , "包含成员"@zh .
+rdf2ary:hasAssertion a owl:ObjectProperty ; rdfs:domain rdf2ary:Annotation ; rdfs:range rdf2ary:SemanticAssertion ; rdfs:label "has assertion"@en , "具有语义陈述"@zh .
+rdf2ary:hasTarget a owl:ObjectProperty ; rdfs:domain rdf2ary:Annotation ; rdfs:range rdf2ary:AnnotationTarget ; rdfs:label "has target"@en , "具有标注目标"@zh .
+rdf2ary:hasSource a owl:ObjectProperty ; rdfs:domain rdf2ary:AnnotationTarget ; rdfs:range rdf2ary:MediaResource ; rdfs:label "has source"@en , "指向来源资源"@zh .
+rdf2ary:hasSelector a owl:ObjectProperty ; rdfs:domain rdf2ary:AnnotationTarget ; rdfs:range rdf2ary:Selector ; rdfs:label "has selector"@en , "具有定位器"@zh .
+rdf2ary:hasSpatialComponent a owl:ObjectProperty ; rdfs:domain rdf2ary:VideoSceneSelector ; rdfs:range rdf2ary:ImageRegionSelector ; rdfs:label "has spatial component"@en , "具有空间分量"@zh .
+rdf2ary:hasTemporalComponent a owl:ObjectProperty ; rdfs:domain rdf2ary:VideoSceneSelector ; rdfs:range rdf2ary:TemporalSegmentSelector ; rdfs:label "has temporal component"@en , "具有时间分量"@zh .
+rdf2ary:hasCoordinateSystem a owl:ObjectProperty ; rdfs:domain rdf2ary:Selector ; rdfs:label "has coordinate system"@en , "采用坐标系"@zh .
+rdf2ary:hasCoordinateUnit a owl:ObjectProperty ; rdfs:domain rdf2ary:Selector ; rdfs:label "has coordinate unit"@en , "采用坐标单位"@zh .
+rdf2ary:hasOffsetUnit a owl:ObjectProperty ; rdfs:domain rdf2ary:TextPositionSelector ; rdfs:label "has offset unit"@en , "采用偏移单位"@zh .
+
+#################################################################
+# Datatype properties
+#################################################################
+
+rdf2ary:startOffset a owl:DatatypeProperty ; rdfs:domain rdf2ary:TextPositionSelector ; rdfs:range xsd:nonNegativeInteger .
+rdf2ary:endOffset a owl:DatatypeProperty ; rdfs:domain rdf2ary:TextPositionSelector ; rdfs:range xsd:nonNegativeInteger .
+rdf2ary:exactText a owl:DatatypeProperty ; rdfs:domain rdf2ary:TextQuoteSelector ; rdfs:range rdf:langString .
+rdf2ary:prefixText a owl:DatatypeProperty ; rdfs:domain rdf2ary:TextQuoteSelector .
+rdf2ary:suffixText a owl:DatatypeProperty ; rdfs:domain rdf2ary:TextQuoteSelector .
+rdf2ary:x a owl:DatatypeProperty ; rdfs:range xsd:decimal .
+rdf2ary:y a owl:DatatypeProperty ; rdfs:range xsd:decimal .
+rdf2ary:z a owl:DatatypeProperty ; rdfs:range xsd:decimal .
+rdf2ary:width a owl:DatatypeProperty ; rdfs:domain rdf2ary:ImageRegionSelector ; rdfs:range xsd:decimal .
+rdf2ary:height a owl:DatatypeProperty ; rdfs:domain rdf2ary:ImageRegionSelector ; rdfs:range xsd:decimal .
+rdf2ary:startTime a owl:DatatypeProperty ; rdfs:domain rdf2ary:TemporalSegmentSelector ; rdfs:range xsd:decimal .
+rdf2ary:endTime a owl:DatatypeProperty ; rdfs:domain rdf2ary:TemporalSegmentSelector ; rdfs:range xsd:decimal .
+rdf2ary:originalStartTimecode a owl:DatatypeProperty ; rdfs:domain rdf2ary:TemporalSegmentSelector ; rdfs:range xsd:string .
+rdf2ary:originalEndTimecode a owl:DatatypeProperty ; rdfs:domain rdf2ary:TemporalSegmentSelector ; rdfs:range xsd:string .
+rdf2ary:timecodeFormat a owl:DatatypeProperty ; rdfs:domain rdf2ary:TemporalSegmentSelector ; rdfs:range xsd:string .
+rdf2ary:channelIndex a owl:DatatypeProperty ; rdfs:domain rdf2ary:TemporalSegmentSelector ; rdfs:range xsd:nonNegativeInteger ; rdfs:label "channel index"@en , "声道编号"@zh .
+rdf2ary:startFrame a owl:DatatypeProperty ; rdfs:domain rdf2ary:TemporalSegmentSelector ; rdfs:range xsd:nonNegativeInteger ; rdfs:label "source start frame"@en , "来源起始帧"@zh .
+rdf2ary:endFrame a owl:DatatypeProperty ; rdfs:domain rdf2ary:TemporalSegmentSelector ; rdfs:range xsd:nonNegativeInteger ; rdfs:label "source end frame"@en , "来源结束帧"@zh .
+rdf2ary:frameRate a owl:DatatypeProperty ; rdfs:domain rdf2ary:TemporalSegmentSelector ; rdfs:range xsd:decimal ; rdfs:label "frame rate"@en , "帧率"@zh .
+rdf2ary:frameIndexBase a owl:DatatypeProperty ; rdfs:domain rdf2ary:TemporalSegmentSelector ; rdfs:range xsd:nonNegativeInteger ; rdfs:label "frame index base"@en , "帧编号基数"@zh .
+rdf2ary:endFrameInclusive a owl:DatatypeProperty ; rdfs:domain rdf2ary:TemporalSegmentSelector ; rdfs:range xsd:boolean ; rdfs:label "inclusive end frame"@en , "结束帧为闭区间"@zh .
+
+#################################################################
+# Coordinate systems and units
+#################################################################
+
+rdf2ary:ImagePixelSpace a owl:NamedIndividual ; rdfs:label "Image pixel coordinate space"@en .
+rdf2ary:ImagePercentageSpace a owl:NamedIndividual ; rdfs:label "Image percentage coordinate space"@en .
+rdf2ary:WorldCoordinateSpace a owl:NamedIndividual ; rdfs:label "World coordinate space"@en .
+rdf2ary:ModelCoordinateSpace a owl:NamedIndividual ; rdfs:label "Model-local coordinate space"@en .
+rdf2ary:PixelCoordinate a owl:NamedIndividual ; rdfs:label "Pixel"@en .
+rdf2ary:PercentageCoordinate a owl:NamedIndividual ; rdfs:label "Percentage"@en .
+rdf2ary:SecondUnit a owl:NamedIndividual ; rdfs:label "Second"@en .
+rdf2ary:CharacterOffset a owl:NamedIndividual ; rdfs:label "Character offset"@en .
+rdf2ary:MillimetreUnit a owl:NamedIndividual ; rdfs:label "Millimetre"@en , "毫米"@zh .
+rdf2ary:CentimetreUnit a owl:NamedIndividual ; rdfs:label "Centimetre"@en , "厘米"@zh .
+rdf2ary:MetreUnit a owl:NamedIndividual ; rdfs:label "Metre"@en , "米"@zh .

@@ -1,0 +1,136 @@
+{
+  "manifest_url": "http://127.0.0.1:8081/manifests/baima-pian.json",
+  "image_service": "http://127.0.0.1:8081/iiif/3/baima-page-01.png",
+  "image_sha256": "695911f2364db92d5428778d158d44c179981d8f8ba1197a906e4bdb3c3c43d9",
+  "image_dimensions": [
+    679,
+    496
+  ],
+  "crop_rounding": "percentage edges converted to pixels with floor(left/top), ceil(right/bottom), clamped to image",
+  "base_triples": 608,
+  "enriched_triples": 620,
+  "shacl_conforms": true,
+  "verified_image_annotations": 5,
+  "checks": [
+    {
+      "annotation_id": "ls-25-14-foBinZ9l8b-36a2d6e6b3",
+      "source_percentage_selector": {
+        "type": "image_region",
+        "x": 84.49130919031204,
+        "y": 3.825467792680907,
+        "width": 3.858669263435189,
+        "height": 45.355191256830594,
+        "coordinate_system": "percentage"
+      },
+      "pixel_xywh": [
+        573,
+        18,
+        27,
+        226
+      ],
+      "crop_url": "http://127.0.0.1:8081/iiif/3/baima-page-01.png/573,18,27,226/max/0/default.jpg",
+      "canvas_fragment": "http://127.0.0.1:8081/manifests/baima-pian/canvas/1#xywh=573,18,27,226",
+      "http_status": 200,
+      "returned_size": [
+        27,
+        226
+      ]
+    },
+    {
+      "annotation_id": "ls-25-14-jdh93sXcPQ-675ff4ad32",
+      "source_percentage_selector": {
+        "type": "image_region",
+        "x": 79.83453648486605,
+        "y": 4.189435336976321,
+        "width": 4.390899506667623,
+        "height": 45.71948998178506,
+        "coordinate_system": "percentage"
+      },
+      "pixel_xywh": [
+        542,
+        20,
+        30,
+        228
+      ],
+      "crop_url": "http://127.0.0.1:8081/iiif/3/baima-page-01.png/542,20,30,228/max/0/default.jpg",
+      "canvas_fragment": "http://127.0.0.1:8081/manifests/baima-pian/canvas/1#xywh=542,20,30,228",
+      "http_status": 200,
+      "returned_size": [
+        30,
+        228
+      ]
+    },
+    {
+      "annotation_id": "ls-25-14-_WdLSMlbxE-fe9a02a33f",
+      "source_percentage_selector": {
+        "type": "image_region",
+        "x": 75.84280966062275,
+        "y": 3.642987249544627,
+        "width": 3.858669263435189,
+        "height": 41.34790528233151,
+        "coordinate_system": "percentage"
+      },
+      "pixel_xywh": [
+        514,
+        18,
+        28,
+        206
+      ],
+      "crop_url": "http://127.0.0.1:8081/iiif/3/baima-page-01.png/514,18,28,206/max/0/default.jpg",
+      "canvas_fragment": "http://127.0.0.1:8081/manifests/baima-pian/canvas/1#xywh=514,18,28,206",
+      "http_status": 200,
+      "returned_size": [
+        28,
+        206
+      ]
+    },
+    {
+      "annotation_id": "ls-25-14-zxvRUh81yk-675ff4ad32",
+      "source_percentage_selector": {
+        "type": "image_region",
+        "x": 79.56842136324983,
+        "y": 91.62112932604735,
+        "width": 3.5925541418189653,
+        "height": 4.553734061930783,
+        "coordinate_system": "percentage"
+      },
+      "pixel_xywh": [
+        540,
+        454,
+        25,
+        24
+      ],
+      "crop_url": "http://127.0.0.1:8081/iiif/3/baima-page-01.png/540,454,25,24/max/0/default.jpg",
+      "canvas_fragment": "http://127.0.0.1:8081/manifests/baima-pian/canvas/1#xywh=540,454,25,24",
+      "http_status": 200,
+      "returned_size": [
+        25,
+        24
+      ]
+    },
+    {
+      "annotation_id": "ls-25-14-68EgssTfcl-8f3e19e72d",
+      "source_percentage_selector": {
+        "type": "image_region",
+        "x": 84.33793011112598,
+        "y": 4.909090909090909,
+        "width": 4.648547328959708,
+        "height": 7.999999999999999,
+        "coordinate_system": "percentage"
+      },
+      "pixel_xywh": [
+        572,
+        24,
+        33,
+        41
+      ],
+      "crop_url": "http://127.0.0.1:8081/iiif/3/baima-page-01.png/572,24,33,41/max/0/default.jpg",
+      "canvas_fragment": "http://127.0.0.1:8081/manifests/baima-pian/canvas/1#xywh=572,24,33,41",
+      "http_status": 200,
+      "returned_size": [
+        33,
+        41
+      ]
+    }
+  ]
+}

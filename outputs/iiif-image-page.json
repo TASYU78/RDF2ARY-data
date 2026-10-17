@@ -1,0 +1,190 @@
+{
+  "@context": [
+    "http://iiif.io/api/presentation/3/context.json",
+    "http://www.w3.org/ns/anno.jsonld",
+    {
+      "rdf2ary": "https://w3id.org/rdf2ary/nary#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "dcterms": "http://purl.org/dc/terms/"
+    }
+  ],
+  "id": "http://127.0.0.1:8081/manifests/standards/iiif-image/page.json",
+  "type": "AnnotationPage",
+  "items": [
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/iiif-image/annotations/ls-25-14-68EgssTfcl-8f3e19e72d.json",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:image/25/14/68EgssTfcl http://purl.org/dc/terms/references urn:rdf2ary:baima:concept:white-horse"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "http://127.0.0.1:8081/manifests/baima-pian/canvas/1",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=572,24,33,41"
+        }
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-25-14-68EgssTfcl-8f3e19e72d"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:image/25/14/68EgssTfcl"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:concept:white-horse"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-25-14-68EgssTfcl-8f3e19e72d\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:concept:white-horse\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:image/25/14/68EgssTfcl\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T08:32:10.946824Z\", \"project_id\": \"17\", \"source_annotation_id\": \"14\", \"task_id\": \"25\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"coordinate_system\": \"percentage\", \"height\": 7.999999999999999, \"type\": \"image_region\", \"width\": 4.648547328959708, \"x\": 84.33793011112598, \"y\": 4.909090909090909}], \"source\": {\"label\": \"白马篇图像\", \"language\": null, \"media_type\": \"image\", \"uri\": \"urn:rdf2ary:baima:resource:image-01\"}}"
+    },
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/iiif-image/annotations/ls-25-14-_WdLSMlbxE-fe9a02a33f.json",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:image/25/14/_WdLSMlbxE http://purl.org/dc/terms/references urn:rdf2ary:baima:line:03"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "http://127.0.0.1:8081/manifests/baima-pian/canvas/1",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=514,18,28,206"
+        }
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-25-14-_WdLSMlbxE-fe9a02a33f"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:image/25/14/_WdLSMlbxE"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:line:03"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-25-14-_WdLSMlbxE-fe9a02a33f\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:line:03\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:image/25/14/_WdLSMlbxE\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T08:32:10.946824Z\", \"project_id\": \"17\", \"source_annotation_id\": \"14\", \"task_id\": \"25\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"coordinate_system\": \"percentage\", \"height\": 41.34790528233151, \"type\": \"image_region\", \"width\": 3.858669263435189, \"x\": 75.84280966062275, \"y\": 3.642987249544627}], \"source\": {\"label\": \"白马篇图像\", \"language\": null, \"media_type\": \"image\", \"uri\": \"urn:rdf2ary:baima:resource:image-01\"}}"
+    },
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/iiif-image/annotations/ls-25-14-foBinZ9l8b-36a2d6e6b3.json",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:image/25/14/foBinZ9l8b http://purl.org/dc/terms/references urn:rdf2ary:baima:line:01"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "http://127.0.0.1:8081/manifests/baima-pian/canvas/1",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=573,18,27,226"
+        }
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-25-14-foBinZ9l8b-36a2d6e6b3"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:image/25/14/foBinZ9l8b"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:line:01"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-25-14-foBinZ9l8b-36a2d6e6b3\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:line:01\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:image/25/14/foBinZ9l8b\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T08:32:10.946824Z\", \"project_id\": \"17\", \"source_annotation_id\": \"14\", \"task_id\": \"25\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"coordinate_system\": \"percentage\", \"height\": 45.355191256830594, \"type\": \"image_region\", \"width\": 3.858669263435189, \"x\": 84.49130919031204, \"y\": 3.825467792680907}], \"source\": {\"label\": \"白马篇图像\", \"language\": null, \"media_type\": \"image\", \"uri\": \"urn:rdf2ary:baima:resource:image-01\"}}"
+    },
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/iiif-image/annotations/ls-25-14-jdh93sXcPQ-675ff4ad32.json",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:image/25/14/jdh93sXcPQ http://purl.org/dc/terms/references urn:rdf2ary:baima:line:02"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "http://127.0.0.1:8081/manifests/baima-pian/canvas/1",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=542,20,30,228"
+        }
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-25-14-jdh93sXcPQ-675ff4ad32"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:image/25/14/jdh93sXcPQ"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:line:02"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-25-14-jdh93sXcPQ-675ff4ad32\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:line:02\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:image/25/14/jdh93sXcPQ\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T08:32:10.946824Z\", \"project_id\": \"17\", \"source_annotation_id\": \"14\", \"task_id\": \"25\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"coordinate_system\": \"percentage\", \"height\": 45.71948998178506, \"type\": \"image_region\", \"width\": 4.390899506667623, \"x\": 79.83453648486605, \"y\": 4.189435336976321}], \"source\": {\"label\": \"白马篇图像\", \"language\": null, \"media_type\": \"image\", \"uri\": \"urn:rdf2ary:baima:resource:image-01\"}}"
+    },
+    {
+      "id": "http://127.0.0.1:8081/manifests/standards/iiif-image/annotations/ls-25-14-zxvRUh81yk-675ff4ad32.json",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "urn:rdf2ary:baima:region:image/25/14/zxvRUh81yk http://purl.org/dc/terms/references urn:rdf2ary:baima:line:02"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "http://127.0.0.1:8081/manifests/baima-pian/canvas/1",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=540,454,25,24"
+        }
+      },
+      "dcterms:source": {
+        "id": "https://w3id.org/rdf2ary/instance/annotation/ls-25-14-zxvRUh81yk-675ff4ad32"
+      },
+      "rdf2ary:assertion": {
+        "type": "rdf:Statement",
+        "rdf:subject": {
+          "id": "urn:rdf2ary:baima:region:image/25/14/zxvRUh81yk"
+        },
+        "rdf:predicate": {
+          "id": "http://purl.org/dc/terms/references"
+        },
+        "rdf:object": {
+          "id": "urn:rdf2ary:baima:line:02"
+        }
+      },
+      "rdf2ary:recordJson": "{\"annotation_id\": \"ls-25-14-zxvRUh81yk-675ff4ad32\", \"assertion\": {\"object\": {\"kind\": \"iri\", \"value\": \"urn:rdf2ary:baima:line:02\"}, \"predicate\": \"http://purl.org/dc/terms/references\", \"subject\": \"urn:rdf2ary:baima:region:image/25/14/zxvRUh81yk\", \"subject_description\": null, \"subject_label\": null, \"subject_language\": null}, \"provenance\": {\"annotator\": \"1\", \"created_at\": \"2026-10-04T08:32:10.946824Z\", \"project_id\": \"17\", \"source_annotation_id\": \"14\", \"task_id\": \"25\", \"tool\": \"Label Studio\"}, \"selectors\": [{\"coordinate_system\": \"percentage\", \"height\": 4.553734061930783, \"type\": \"image_region\", \"width\": 3.5925541418189653, \"x\": 79.56842136324983, \"y\": 91.62112932604735}], \"source\": {\"label\": \"白马篇图像\", \"language\": null, \"media_type\": \"image\", \"uri\": \"urn:rdf2ary:baima:resource:image-01\"}}"
+    }
+  ]
+}

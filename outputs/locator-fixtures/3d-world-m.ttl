@@ -1,0 +1,42 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdf2ary: <https://w3id.org/rdf2ary/nary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/rdf2ary/instance/annotation/locator-check-3d-world-m> a rdf2ary:Annotation ;
+    dcterms:identifier "locator-check-3d-world-m" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/locator-check-3d-world-m> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/locator-check-3d-world-m> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/locator-check-3d-world-m> .
+
+<https://w3id.org/rdf2ary/instance/assertion/locator-check-3d-world-m> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:concept:white-horse> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:verification:3d-world-m> .
+
+<https://w3id.org/rdf2ary/instance/provenance/locator-check-3d-world-m> a prov:Entity ;
+    dcterms:identifier "Smithsonian Voyager Story::白马模型.glb:Dbjzc2xDKRus" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Smithsonian%20Voyager%20Story> .
+
+<https://w3id.org/rdf2ary/instance/selector/locator-check-3d-world-m/1> a rdf2ary:SpatialPointSelector ;
+    rdf2ary:hasCoordinateSystem rdf2ary:WorldCoordinateSpace ;
+    rdf2ary:hasCoordinateUnit rdf2ary:MetreUnit ;
+    rdf2ary:x 1.25 ;
+    rdf2ary:y -2.0 ;
+    rdf2ary:z 3.5 .
+
+<https://w3id.org/rdf2ary/instance/software/Smithsonian%20Voyager%20Story> a prov:SoftwareAgent ;
+    rdfs:label "Smithsonian Voyager Story" .
+
+<https://w3id.org/rdf2ary/instance/target/locator-check-3d-world-m> a rdf2ary:AnnotationTarget ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/locator-check-3d-world-m/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:horse-3d-demo> .
+
+<urn:rdf2ary:baima:resource:horse-3d-demo> a rdf2ary:ThreeDimensionalResource ;
+    rdfs:label "白马三维示范模型" .
+
+<urn:rdf2ary:verification:3d-world-m> rdfs:label "White Horse"@EN ;
+    dcterms:references <urn:rdf2ary:baima:concept:white-horse> .
+

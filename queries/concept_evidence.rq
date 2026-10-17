@@ -1,0 +1,30 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdf2ary: <https://w3id.org/rdf2ary/nary#>
+
+SELECT ?annotationId ?source ?selectorType ?startOffset ?endOffset ?x ?y ?z ?width ?height ?startTime ?endTime ?startFrame ?endFrame ?unit ?frameRate ?frameIndexBase
+WHERE {
+  ?annotation dcterms:identifier ?annotationId ;
+              rdf2ary:hasAssertion ?assertion ;
+              rdf2ary:hasTarget ?target .
+  ?assertion rdf:object <urn:rdf2ary:baima:concept:white-horse> .
+  ?target rdf2ary:hasSource ?source ;
+          rdf2ary:hasSelector ?selector .
+  ?selector rdf:type ?selectorType .
+  FILTER(?selectorType != rdf2ary:TextQuoteSelector)
+  OPTIONAL { ?selector rdf2ary:startOffset ?startOffset ; rdf2ary:endOffset ?endOffset . }
+  OPTIONAL { ?selector rdf2ary:x ?x ; rdf2ary:y ?y . }
+  OPTIONAL { ?selector rdf2ary:z ?z ; rdf2ary:hasCoordinateUnit ?unit . }
+  OPTIONAL { ?selector rdf2ary:width ?width ; rdf2ary:height ?height . }
+  OPTIONAL { ?selector rdf2ary:startTime ?startTime ; rdf2ary:endTime ?endTime . }
+  OPTIONAL { ?selector rdf2ary:startFrame ?startFrame ; rdf2ary:endFrame ?endFrame . }
+  OPTIONAL {
+    ?selector rdf2ary:hasSpatialComponent ?spatial ; rdf2ary:hasTemporalComponent ?temporal .
+    ?spatial rdf2ary:x ?x ; rdf2ary:y ?y ; rdf2ary:width ?width ; rdf2ary:height ?height .
+    ?temporal rdf2ary:startTime ?startTime ; rdf2ary:startFrame ?startFrame ;
+              rdf2ary:frameRate ?frameRate ; rdf2ary:frameIndexBase ?frameIndexBase .
+    OPTIONAL { ?temporal rdf2ary:endTime ?endTime . }
+    OPTIONAL { ?temporal rdf2ary:endFrame ?endFrame . }
+  }
+}
+ORDER BY ?source ?annotationId

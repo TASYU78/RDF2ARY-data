@@ -1,0 +1,24 @@
+{
+  "text_and_page_edition": {
+    "citation_key": "xiao1977wenxuan",
+    "title": "Wen xuan",
+    "compiler": "Xiao Tong",
+    "annotator": "Li Shan",
+    "publisher": "Zhonghua Shuju",
+    "publication_place": "Beijing",
+    "edition": "First edition, November 1977",
+    "base_text_location": "juan 27, p. 392",
+    "page_image_edition_status": "Same edition, confirmed by the author on 17 October 2026; image page number not independently checked."
+  },
+  "video": {
+    "url": "https://www.youtube.com/watch?v=rNDRx9xrFVc",
+    "creator_and_title": "Not yet verified",
+    "redistribution_permission": "Not yet documented"
+  },
+  "model": {
+    "generator_in_glb_asset_metadata": "Tripo",
+    "candidate_url_from_project_notes": "https://studio.tripo3d.ai/3d-model/7f7ad5d5-2c9c-4d08-a9c7-1fc4100d3e27",
+    "creator_and_license": "Not yet verified"
+  },
+  "excluded_media": "Book-page image, audio recording, video recording, GLB model and media-derived figures/screenshots are not included."
+}

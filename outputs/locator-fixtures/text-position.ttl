@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdf2ary: <https://w3id.org/rdf2ary/nary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/rdf2ary/instance/annotation/locator-check-text-position> a rdf2ary:Annotation ;
+    dcterms:identifier "locator-check-text-position" ;
+    prov:wasDerivedFrom <https://w3id.org/rdf2ary/instance/provenance/locator-check-text-position> ;
+    rdf2ary:hasAssertion <https://w3id.org/rdf2ary/instance/assertion/locator-check-text-position> ;
+    rdf2ary:hasTarget <https://w3id.org/rdf2ary/instance/target/locator-check-text-position> .
+
+<https://w3id.org/rdf2ary/instance/agent/1> a prov:Agent ;
+    rdfs:label "1" .
+
+<https://w3id.org/rdf2ary/instance/assertion/locator-check-text-position> a rdf2ary:SemanticAssertion ;
+    rdf:object <urn:rdf2ary:baima:line:03> ;
+    rdf:predicate dcterms:references ;
+    rdf:subject <urn:rdf2ary:verification:text-position> .
+
+<https://w3id.org/rdf2ary/instance/provenance/locator-check-text-position> a prov:Entity ;
+    dcterms:identifier "Label Studio:13:12:13" ;
+    dcterms:source <https://w3id.org/rdf2ary/instance/software/Label%20Studio> ;
+    prov:generatedAtTime "2026-10-04T08:27:48.411607+00:00"^^xsd:dateTime ;
+    prov:wasAttributedTo <https://w3id.org/rdf2ary/instance/agent/1> .
+
+<https://w3id.org/rdf2ary/instance/selector/locator-check-text-position/1> a rdf2ary:TextPositionSelector ;
+    rdf2ary:endOffset "2"^^xsd:nonNegativeInteger ;
+    rdf2ary:hasOffsetUnit rdf2ary:CharacterOffset ;
+    rdf2ary:startOffset "0"^^xsd:nonNegativeInteger .
+
+<https://w3id.org/rdf2ary/instance/software/Label%20Studio> a prov:SoftwareAgent ;
+    rdfs:label "Label Studio" .
+
+<https://w3id.org/rdf2ary/instance/target/locator-check-text-position> a rdf2ary:AnnotationTarget ;
+    rdf2ary:hasSelector <https://w3id.org/rdf2ary/instance/selector/locator-check-text-position/1> ;
+    rdf2ary:hasSource <urn:rdf2ary:baima:resource:text-view> .
+
+<urn:rdf2ary:baima:resource:text-view> a rdf2ary:TextResource ;
+    rdfs:label "白马篇固定纯文本视图"@zh-Hans .
+
+<urn:rdf2ary:verification:text-position> dcterms:references <urn:rdf2ary:baima:line:03> .
+
