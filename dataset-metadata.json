@@ -1,6 +1,6 @@
 {
   "title": "RDF2ARY: Multimodal Annotation Data, RDF Graphs and Validation Results for a Classical Chinese Poetry Case",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "creators": [
     "Yanjie Huang",
     "Tao Chen"
@@ -14,5 +14,6 @@
   "record_count": 22,
   "base_graph_triples": 608,
   "annotation_core_triples": 606,
-  "access_enriched_graph_triples": 630
+  "access_enriched_graph_triples": 630,
+  "version_note": "Resource attribution update only; annotation records, graphs, mappings, queries and experimental results unchanged."
 }

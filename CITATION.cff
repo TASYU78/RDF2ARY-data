@@ -7,7 +7,7 @@ authors:
     given-names: Yanjie
   - family-names: Chen
     given-names: Tao
-version: 1.0.0
+version: 1.0.1
 url: "https://github.com/TASYU78/RDF2ARY-data"
 keywords:
   - multimodal annotation

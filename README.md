@@ -5,7 +5,7 @@ for Multimodal Annotations: A Case Study of Classical Chinese Poetry**.
 
 **Authors:** Yanjie Huang and Tao Chen.  
 **Correspondence:** chent283@mail.sysu.edu.cn  
-**Dataset version:** 1.0.0
+**Dataset version:** 1.0.1
 
 This dataset records the 22-annotation *Baima Pian* case used to examine
 normalization, RDF storage, canonical-record reconstruction, cross-modal
@@ -66,7 +66,13 @@ The original book-page image, audio recording, video recording and 3D model
 are not redistributed here. Their references, technical metadata and annotation
 locators are provided where available. The text and page image use the cited
 1977 Zhonghua Shuju edition of *Wen xuan*, as confirmed by the author. The
-video creator/title and model creator/license are not yet fully documented.
+video is published by 粤音古文 (`@read-acw-in-Cantonese`), and its use in
+the study was authorized by the creator, as confirmed by the manuscript author.
+The horse model is shared by Tripo Studio user `antonia.evans` and is available
+for download. A specific open reuse license for the model has not been
+established. See [SOURCE-ATTRIBUTION.md](SOURCE-ATTRIBUTION.md) for the verified
+page information and the distinction between research-use permission and
+redistribution.
 
 The saved HTTP and Mirador reports describe local tests. `localhost` and
 `127.0.0.1` URLs are historical service bindings, not public endpoints. This

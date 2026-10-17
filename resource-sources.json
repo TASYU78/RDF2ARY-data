@@ -12,13 +12,31 @@
   },
   "video": {
     "url": "https://www.youtube.com/watch?v=rNDRx9xrFVc",
-    "creator_and_title": "Not yet verified",
-    "redistribution_permission": "Not yet documented"
+    "title": "曹植 · 白馬篇《昭明文選 》 卷二十七",
+    "channel_display_name": "粤音古文",
+    "channel_handle": "@read-acw-in-Cantonese",
+    "channel_url": "https://www.youtube.com/@read-acw-in-Cantonese",
+    "published_date": "2025-12-15",
+    "metadata_verified": "Rendered YouTube video page and expanded description, 17 October 2026",
+    "permission_for_use_in_this_study": {
+      "status": "Obtained from the creator, confirmed by the manuscript author",
+      "confirmation_date": "2026-10-17",
+      "scope_recorded": "Use in this research; permission to redistribute the original video in the data repository is not asserted",
+      "permission_date_and_document": "Not supplied in this conversation"
+    }
   },
   "model": {
+    "url": "https://studio.tripo3d.ai/3d-model/7f7ad5d5-2c9c-4d08-a9c7-1fc4100d3e27",
+    "asset_id": "7f7ad5d5-2c9c-4d08-a9c7-1fc4100d3e27",
+    "page_heading": "creatures & animals 3d printing 3D Model",
+    "attributed_user": "antonia.evans",
+    "creator_profile_url": "https://studio.tripo3d.ai/profile/uzoukx0seryp2venx9t8",
     "generator_in_glb_asset_metadata": "Tripo",
-    "candidate_url_from_project_notes": "https://studio.tripo3d.ai/3d-model/7f7ad5d5-2c9c-4d08-a9c7-1fc4100d3e27",
-    "creator_and_license": "Not yet verified"
+    "generation_information_observed": "The model page shows an input image for 3D model generation and Tripo H2.5.",
+    "metadata_verified": "Rendered model page and the linked profile; the profile lists the same asset identifier, 17 October 2026",
+    "download_availability": "Publicly downloadable, confirmed by the manuscript author; the model page displays an Export control",
+    "specific_reuse_license": "Not established by the supplied information; public download availability is not recorded as an open reuse license",
+    "case_role": "Illustrative horse model, not a documented historical artifact or reconstruction"
   },
   "excluded_media": "Book-page image, audio recording, video recording, GLB model and media-derived figures/screenshots are not included."
 }
